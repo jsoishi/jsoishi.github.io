@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Bates Fluid Dynamics Group</title>
-    <link>http://bates.edu/project/index.xml</link>
+    <link>https://jsoishi.github.io/project/index.xml</link>
     <description>Recent content in Projects on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
     <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://bates.edu/project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jsoishi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Complex Fluids Toolkit for Dedalus</title>
-      <link>http://bates.edu/project/complex_fluids_toolkit/</link>
+      <link>https://jsoishi.github.io/project/complex_fluids_toolkit/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/project/complex_fluids_toolkit/</guid>
+      <guid>https://jsoishi.github.io/project/complex_fluids_toolkit/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Direct Statistical Simulation for unsteady flows</title>
-      <link>http://bates.edu/project/busseannulus/</link>
+      <link>https://jsoishi.github.io/project/busseannulus/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/project/busseannulus/</guid>
+      <guid>https://jsoishi.github.io/project/busseannulus/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -58,7 +58,7 @@
 
 &lt;p&gt;We are interested in studying a series of instabilities that lead to anisotropic flows. Our prototype problem is the &lt;em&gt;Busse Annulus&lt;/em&gt;, a simple model for convection in a rapidly rotating annulus. The annulus considers the duct on the right, a cross section cut from between the two concentric cylinders on the left,&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://bates.edu/img/busse_diagram.png&#34; width=500px&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/busse_diagram.png&#34; width=500px&gt;&lt;/p&gt;
 
 &lt;p&gt;In order to consier non-axisymmetric effects in the rapidly rotating domain (with rotation rate Ω about z), a small part of the azimuthal direction is retained, while we integrate down the z direction. This leaves us with a two dimensional, Cartesian domain in x and y, representing a small piece of the radial and azimuthal directions, respectively.&lt;/p&gt;
 
@@ -82,10 +82,10 @@
     
     <item>
       <title>Barotropic Jet Formation on the 2-Sphere using Spin Spherical Harmonics</title>
-      <link>http://bates.edu/project/barotropicjets/</link>
+      <link>https://jsoishi.github.io/project/barotropicjets/</link>
       <pubDate>Sun, 29 Oct 2017 16:10:22 +0200</pubDate>
       
-      <guid>http://bates.edu/project/barotropicjets/</guid>
+      <guid>https://jsoishi.github.io/project/barotropicjets/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -98,10 +98,10 @@
     
     <item>
       <title>Magnetohydrodynamics on the Equatorial Beta Plane</title>
-      <link>http://bates.edu/project/mhdbetaplane/</link>
+      <link>https://jsoishi.github.io/project/mhdbetaplane/</link>
       <pubDate>Tue, 12 Jul 2016 16:10:22 +0200</pubDate>
       
-      <guid>http://bates.edu/project/mhdbetaplane/</guid>
+      <guid>https://jsoishi.github.io/project/mhdbetaplane/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;

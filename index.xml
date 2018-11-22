@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bates Fluid Dynamics Group</title>
-    <link>http://bates.edu/index.xml</link>
+    <link>https://jsoishi.github.io/index.xml</link>
     <description>Recent content on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
     <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://bates.edu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Complex Fluids Toolkit for Dedalus</title>
-      <link>http://bates.edu/project/complex_fluids_toolkit/</link>
+      <link>https://jsoishi.github.io/project/complex_fluids_toolkit/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/project/complex_fluids_toolkit/</guid>
+      <guid>https://jsoishi.github.io/project/complex_fluids_toolkit/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Direct Statistical Simulation for unsteady flows</title>
-      <link>http://bates.edu/project/busseannulus/</link>
+      <link>https://jsoishi.github.io/project/busseannulus/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/project/busseannulus/</guid>
+      <guid>https://jsoishi.github.io/project/busseannulus/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -58,7 +58,7 @@
 
 &lt;p&gt;We are interested in studying a series of instabilities that lead to anisotropic flows. Our prototype problem is the &lt;em&gt;Busse Annulus&lt;/em&gt;, a simple model for convection in a rapidly rotating annulus. The annulus considers the duct on the right, a cross section cut from between the two concentric cylinders on the left,&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://bates.edu/img/busse_diagram.png&#34; width=500px&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/busse_diagram.png&#34; width=500px&gt;&lt;/p&gt;
 
 &lt;p&gt;In order to consier non-axisymmetric effects in the rapidly rotating domain (with rotation rate Ω about z), a small part of the azimuthal direction is retained, while we integrate down the z direction. This leaves us with a two dimensional, Cartesian domain in x and y, representing a small piece of the radial and azimuthal directions, respectively.&lt;/p&gt;
 
@@ -82,20 +82,20 @@
     
     <item>
       <title>New website!</title>
-      <link>http://bates.edu/post/post1/</link>
+      <link>https://jsoishi.github.io/post/post1/</link>
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/post/post1/</guid>
+      <guid>https://jsoishi.github.io/post/post1/</guid>
       <description>&lt;p&gt;So we built a website!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Barotropic Jet Formation on the 2-Sphere using Spin Spherical Harmonics</title>
-      <link>http://bates.edu/project/barotropicjets/</link>
+      <link>https://jsoishi.github.io/project/barotropicjets/</link>
       <pubDate>Sun, 29 Oct 2017 16:10:22 +0200</pubDate>
       
-      <guid>http://bates.edu/project/barotropicjets/</guid>
+      <guid>https://jsoishi.github.io/project/barotropicjets/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -108,37 +108,37 @@
     
     <item>
       <title>Hybrid Adaptive Ray-Moment Method (HARM^2): A highly parallel method for radiation hydrodynamics on adaptive grids</title>
-      <link>http://bates.edu/publication/2017JCoPh.330..924R/</link>
+      <link>https://jsoishi.github.io/publication/2017JCoPh.330..924R/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/publication/2017JCoPh.330..924R/</guid>
+      <guid>https://jsoishi.github.io/publication/2017JCoPh.330..924R/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Weakly Nonlinear Magnetorotational Instability in a Global, Cylindrical Taylor─Couette Flow</title>
-      <link>http://bates.edu/publication/2017ApJ...841....2C/</link>
+      <link>https://jsoishi.github.io/publication/2017ApJ...841....2C/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/publication/2017ApJ...841....2C/</guid>
+      <guid>https://jsoishi.github.io/publication/2017ApJ...841....2C/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Weakly Nonlinear Magnetorotational Instability in a Local Geometry</title>
-      <link>http://bates.edu/publication/2017ApJ...841....1C/</link>
+      <link>https://jsoishi.github.io/publication/2017ApJ...841....1C/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/publication/2017ApJ...841....1C/</guid>
+      <guid>https://jsoishi.github.io/publication/2017ApJ...841....1C/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Magnetohydrodynamics on the Equatorial Beta Plane</title>
-      <link>http://bates.edu/project/mhdbetaplane/</link>
+      <link>https://jsoishi.github.io/project/mhdbetaplane/</link>
       <pubDate>Tue, 12 Jul 2016 16:10:22 +0200</pubDate>
       
-      <guid>http://bates.edu/project/mhdbetaplane/</guid>
+      <guid>https://jsoishi.github.io/project/mhdbetaplane/</guid>
       <description>
 
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
@@ -149,10 +149,10 @@
     
     <item>
       <title>Deveena Banerjee</title>
-      <link>http://bates.edu/member/dbanerje/</link>
+      <link>https://jsoishi.github.io/member/dbanerje/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
-      <guid>http://bates.edu/member/dbanerje/</guid>
+      <guid>https://jsoishi.github.io/member/dbanerje/</guid>
       <description>
 
 &lt;p&gt;Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.&lt;/p&gt;
@@ -163,10 +163,10 @@
     
     <item>
       <title>Jeff Oishi</title>
-      <link>http://bates.edu/member/jeff_oishi/</link>
+      <link>https://jsoishi.github.io/member/jeff_oishi/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
-      <guid>http://bates.edu/member/jeff_oishi/</guid>
+      <guid>https://jsoishi.github.io/member/jeff_oishi/</guid>
       <description>
 
 &lt;p&gt;Jeff grew up in Virginia, just outside Washington, D. C.&lt;/p&gt;
@@ -179,10 +179,10 @@
     
     <item>
       <title>Matt Goldberg</title>
-      <link>http://bates.edu/member/mgoldbe2/</link>
+      <link>https://jsoishi.github.io/member/mgoldbe2/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
-      <guid>http://bates.edu/member/mgoldbe2/</guid>
+      <guid>https://jsoishi.github.io/member/mgoldbe2/</guid>
       <description>
 
 &lt;p&gt;Matt&amp;rsquo;s from Cambridge, MA.&lt;/p&gt;
@@ -195,10 +195,10 @@
     
     <item>
       <title>Mike Bancroft</title>
-      <link>http://bates.edu/member/mbancroft/</link>
+      <link>https://jsoishi.github.io/member/mbancroft/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
-      <guid>http://bates.edu/member/mbancroft/</guid>
+      <guid>https://jsoishi.github.io/member/mbancroft/</guid>
       <description>
 
 &lt;p&gt;Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.&lt;/p&gt;
@@ -211,10 +211,10 @@
     
     <item>
       <title>Morgan Baxter</title>
-      <link>http://bates.edu/member/mbaxter/</link>
+      <link>https://jsoishi.github.io/member/mbaxter/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
-      <guid>http://bates.edu/member/mbaxter/</guid>
+      <guid>https://jsoishi.github.io/member/mbaxter/</guid>
       <description>
 
 &lt;p&gt;Morgan will be joining the group in Winter 2019.&lt;/p&gt;
@@ -225,10 +225,10 @@
     
     <item>
       <title>Nick Osborn</title>
-      <link>http://bates.edu/member/nosborn/</link>
+      <link>https://jsoishi.github.io/member/nosborn/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
-      <guid>http://bates.edu/member/nosborn/</guid>
+      <guid>https://jsoishi.github.io/member/nosborn/</guid>
       <description>
 
 &lt;p&gt;Nick is interested in machine learning. He will be joining the group to write a senior thesis in Winter 2019.&lt;/p&gt;
@@ -239,10 +239,10 @@
     
     <item>
       <title>A validated non-linear Kelvin-Helmholtz benchmark for numerical hydrodynamics</title>
-      <link>http://bates.edu/publication/2016MNRAS.455.4274L/</link>
+      <link>https://jsoishi.github.io/publication/2016MNRAS.455.4274L/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bates.edu/publication/2016MNRAS.455.4274L/</guid>
+      <guid>https://jsoishi.github.io/publication/2016MNRAS.455.4274L/</guid>
       <description></description>
     </item>
     
