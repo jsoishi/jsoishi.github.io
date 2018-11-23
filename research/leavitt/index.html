@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic-group">
+
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://jsoishi.github.io//js/hugo-academic-group.js"></script>
+
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/bootstrap.min.css">
+    <script src="https://jsoishi.github.io//js/bootstrap.min.js"></script>  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+    
+    
+    <script src="https://jsoishi.github.io//js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/academicons.min.css">
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/biaslab-font.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700|Merriweather:100,400,700|Roboto+Mono">
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/hugo-academic-group.css">
+
+    
+
+
+    <link rel="shortcut icon" href="https://jsoishi.github.io//img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://jsoishi.github.io/research/leavitt/">
+
+    <title>Using Leavitt | Bates Fluid Dynamics Group</title>
+
+</head>
+
+<body>
+<div class="home-anchor" id="home"></div>
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="navbar-brand">
+                
+                
+            </div>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#top">Home</a></li>
+                    
+                
+                        
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              
+                                <li><a href="https://jsoishi.github.io//research/getting_started">Getting Started</a></li>
+                              
+                                <li><a href="https://jsoishi.github.io//research/overview">Overview</a></li>
+                              
+                                <li><a href="https://jsoishi.github.io/#publications">Publications</a></li>
+                              
+                                <li><a href="https://jsoishi.github.io/#projects">Projects</a></li>
+                              
+                            </ul>
+                          </li>
+                    
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#posts">Blog</a></li>
+                    
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#members">Members</a></li>
+                    
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#vacancies">Join Us!</a></li>
+                    
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#contact">Contact</a></li>
+                    
+                
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+
+    <article class="article" itemscope itemtype="http://schema.org/Article">
+        
+
+        <h1 itemprop="name">Using Leavitt</h1>
+
+        <div class="row">
+            <div class="col-xs-6 article-published-at">
+                <i>Published on:</i> <p>Nov 22, 2018</p>
+            </div>
+            <div class="col-xs-6 article-authors">
+                <i>Authors:</i>
+                
+<div itemprop="author">
+        
+            
+                
+                    <a href="https://jsoishi.github.io/member/jeff_oishi">Jeff Oishi</a>
+                
+            
+        
+</div>
+
+            </div>
+        </div>
+
+        <div class="article-style" itemprop="articleBody">
+            
+
+<h1 id="basics">Basics</h1>
+
+<p>When you log in to leavitt via <code>ssh</code>, you will be on the &ldquo;head node&rdquo;. This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. <strong>DO NOT RUN DEDALUS ON THE HEAD NODE</strong>. Instead, use a job script to submit runs to the compute nodes.</p>
+
+<h1 id="modules-system">Modules System</h1>
+
+<p>Leavitt uses modules to manage various software packages. A quick intro to using modules on Leavitt is on the main <a href="https://www.bates.edu/research-resources/leavitt-hpc-cluster/running-jobs/">Leavitt documentation page</a> You should add</p>
+
+<pre><code>module load slurm intel-mpi hdf5 ffmpeg
+
+export PATH=$PATH:/home/joishi/build/bin
+
+# PNG encoding with ffmpeg
+# Example use: png2mp4 “frames/*&quot; frames.mp4 30
+
+# Options:
+#   -y                  Overwrite output
+#   -f image2pipe       Input format
+#   -vcodec png         Input codec
+#   -r $3               Frame rate
+#   -i -                Input files from cat command
+#   -f mp4              Output format
+#   -vcodec libx264     Output codec
+#   -pix_fmt yuv420p    Output pixel format
+#   -preset slower      Prefer slower encoding / better results
+#   -crf 20             Constant rate factor (lower for better quality)
+#   -vf &quot;scale...&quot;      Round to even size
+#   $2                  Output file
+function png2mp4(){
+    cat $1 | ffmpeg \
+        -y \
+        -f image2pipe \
+        -vcodec png \
+        -r $3 \
+        -i - \
+        -f mp4 \
+        -vcodec libx264 \
+        -pix_fmt yuv420p \
+        -preset slower \
+        -crf 20 \
+        -vf &quot;scale=trunc(in_w/2)*2:trunc(in_h/2)*2&quot; \
+        $2
+}
+</code></pre>
+
+<p>to your <code>.bashrc</code> file. The <code>export PATH=</code> line you only need if you want to use software I&rsquo;ve installed. You don&rsquo;t need it if we haven&rsquo;t talked about it. The last part gives you a little function called <code>png2mp4</code> which you can use to make movies from the <code>.png</code> frames we make with our visualization scripts. The example usage is right up there in the comments.</p>
+
+<h1 id="sample-dedalus-run-script">Sample Dedalus Run Script</h1>
+
+<p>Run scripts are lists of commands to run on the nodes with some metadata stored in comments at the top of the file. These scripts are done using In order to run a job, you submit a script to a queue, by doing</p>
+
+<pre><code>$ sbatch run_growth_11.sh
+</code></pre>
+
+<p>where <code>run_growth_11.sh</code> is a bash script that contains this:</p>
+
+<pre><code>#!/usr/bin/bash
+#SBATCH --partition=defq
+#SBATCH --time=5-0
+#SBATCH --nodes=3
+
+source /home/joishi/build/dedalus_intel_mpi/bin/activate
+
+date
+mpirun -np 64 python3 bioflow.py runs/growth_11.cfg
+date
+</code></pre>
+
+<p>All of the lines at the top starting with <code>#SBATCH</code> are commands to SLURM. The first, <code>--partition=defq</code>, sets the partition, which is the queue you are submitting your job. Each partition has certain time limits and numbers of nodes you can submit to. You may not be able to use all of the partitions. The default, called <code>defq</code>, allows you to run on up to 15 nodes (at the moment; there are actually 17 nodes but as of today, two are down) for up to 5 days. If this isn&rsquo;t enough time, email me. If this isn&rsquo;t enough nodes, we&rsquo;ll have to move to bigger compute resources.</p>
+
+<p>You can see all the partitions by running <code>sinfo</code>.</p>
+
+<pre><code>$ sinfo
+PARTITION   AVAIL  TIMELIMIT  NODES  STATE NODELIST
+defq*          up 5-00:00:00     15   idle node[001-007,009-016]
+contributor    up   infinite     15   idle node[001-007,009-016]
+faculty        up 15-00:00:0     15   idle node[001-007,009-016]
+phi            up   infinite      1  down* node017
+</code></pre>
+
+<p>The next SLURM command, <code>--time=5-0</code>, says this will run for five days, zero hours. The <a href="https://slurm.schedmd.com/sbatch.html">SLURM manual</a> gives the following date formats you can use:</p>
+
+<blockquote>
+<p>Acceptable time formats include &ldquo;minutes&rdquo;, &ldquo;minutes:seconds&rdquo;, &ldquo;hours:minutes:seconds&rdquo;, &ldquo;days-hours&rdquo;, &ldquo;days-hours:minutes&rdquo; and &ldquo;days-hours:minutes:seconds&rdquo;.</p>
+</blockquote>
+
+<p>Finally, there&rsquo;s the number of nodes, <code>--nodes=3</code>. Each node on Leavitt currently has 28 cores. <strong>You are responsible for making sure the number of cores you want is less than 28 times this number</strong></p>
+
+<p>After the comments at the top, the batch script is just a regular bash script with a list of commands. You should always use the <code>source /home/joishi/build/dedalus_intel_mpi/bin/activate</code> as is, unless you have your own install of Dedalus on Leavitt. This activates the Dedalus environment.</p>
+
+<p>The last 3 commands are the <code>mpirun</code> sandwiched in between two calls to date. This just allows us to get a quick feel for how long the code ran. <code>mpirun</code> is the command that launches Dedalus on <code>-np X</code> number of cores. <code>X</code> here is 64, and <sup>64</sup>&frasl;<sub>28</sub> ~ 2.3, which is greater than 2, so we need 3 nodes.</p>
+
+        </div>
+
+
+
+    </article>
+
+    <nav>
+    <ul class="pager">
+        
+        <li class="previous">
+            <a href="https://jsoishi.github.io/research/overview/">
+                <span aria-hidden="true" class="darknav">&larr;&nbsp;Previous research:</span>
+                Research Overview
+            </a>
+        </li>
+        
+
+        
+        <li class="next">
+            <a href="https://jsoishi.github.io/research/getting_started/">
+                <span class="darknav">&nbsp;Next research:</span>
+                Guide to Getting Started 
+                <span aria-hidden="true" class="darknav">&rarr;</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            &copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran &middot; 
+
+            Partially powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#home" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+
+
+
+
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+</script>
+
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+
+</body>
+</html>
+
