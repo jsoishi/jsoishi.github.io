@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jsoishi.github.io/post/gql-busse-paper/</loc>
+    <lastmod>2018-12-05T17:23:48+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jsoishi.github.io/research/getting_started/</loc>
     <lastmod>2018-11-22T00:00:00+00:00</lastmod>
   </url>
@@ -292,24 +297,12 @@
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jsoishi.github.io/approach/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jsoishi.github.io/mission/</loc>
-  </url>
-  
-  <url>
     <loc>https://jsoishi.github.io/vacancy/vacancy1/</loc>
   </url>
   
   <url>
     <loc>https://jsoishi.github.io/</loc>
-    <lastmod>2018-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-05T17:23:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -321,7 +314,7 @@
   
   <url>
     <loc>https://jsoishi.github.io/post/</loc>
-    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-12-05T17:23:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   

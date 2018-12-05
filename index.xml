@@ -6,8 +6,18 @@
     <description>Recent content on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Thu, 22 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Dec 2018 17:23:48 +0000</lastBuildDate>
     <atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GQL Busse Annulus paper published</title>
+      <link>https://jsoishi.github.io/post/gql-busse-paper/</link>
+      <pubDate>Wed, 05 Dec 2018 17:23:48 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/gql-busse-paper/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rspa.2018.0422&#34;&gt;Our paper&lt;/a&gt; on the Generalized Quasi-linear Approximation for the Busse Annulus problem was published in Proceedings of the Royal Society A!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Guide to Getting Started </title>
@@ -408,22 +418,6 @@ phi            up   infinite      1  down* node017
 &lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
 
 &lt;p&gt;Ultimate!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mike Bancroft</title>
-      <link>https://jsoishi.github.io/member/mbancroft/</link>
-      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
-      
-      <guid>https://jsoishi.github.io/member/mbancroft/</guid>
-      <description>
-
-&lt;p&gt;Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-
-&lt;p&gt;skiing&lt;/p&gt;
 </description>
     </item>
     
