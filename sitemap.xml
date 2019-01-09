@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://jsoishi.github.io/post/gql-busse-paper/</loc>
@@ -42,17 +43,17 @@
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2017JCoPh.330..924R/</loc>
+    <loc>https://jsoishi.github.io/publication/2017jcoph.330..924r/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2017ApJ...841....2C/</loc>
+    <loc>https://jsoishi.github.io/publication/2017apj...841....2c/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2017ApJ...841....1C/</loc>
+    <loc>https://jsoishi.github.io/publication/2017apj...841....1c/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -92,207 +93,207 @@
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2016MNRAS.455.4274L/</loc>
+    <loc>https://jsoishi.github.io/publication/2016mnras.455.4274l/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2016AGUFM.P31D..04B/</loc>
+    <loc>https://jsoishi.github.io/publication/2016agufm.p31d..04b/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2016SPD....47.0713B/</loc>
+    <loc>https://jsoishi.github.io/publication/2016spd....47.0713b/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2016JCoPh.325...53V/</loc>
+    <loc>https://jsoishi.github.io/publication/2016jcoph.325...53v/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2016ApJ...832...71L/</loc>
+    <loc>https://jsoishi.github.io/publication/2016apj...832...71l/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2015AGUFM.P41A2036L/</loc>
+    <loc>https://jsoishi.github.io/publication/2015agufm.p41a2036l/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2015AAS...22513304O/</loc>
+    <loc>https://jsoishi.github.io/publication/2015aas...22513304o/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2015PhRvE..91f3016L/</loc>
+    <loc>https://jsoishi.github.io/publication/2015phrve..91f3016l/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2015AAS...22513815B/</loc>
+    <loc>https://jsoishi.github.io/publication/2015aas...22513815b/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2014ApJS..211...19B/</loc>
+    <loc>https://jsoishi.github.io/publication/2014apjs..211...19b/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2014arXiv1405.3991H/</loc>
+    <loc>https://jsoishi.github.io/publication/2014arxiv1405.3991h/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2014AAS...22311805O/</loc>
+    <loc>https://jsoishi.github.io/publication/2014aas...22311805o/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2013EPJWC..4606001O/</loc>
+    <loc>https://jsoishi.github.io/publication/2013epjwc..4606001o/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2012M&amp;PSA..75.5387E/</loc>
+    <loc>https://jsoishi.github.io/publication/2012mpsa..75.5387e/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2012IAUS..282..517D/</loc>
+    <loc>https://jsoishi.github.io/publication/2012iaus..282..517d/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2012AIPC.1480...77T/</loc>
+    <loc>https://jsoishi.github.io/publication/2012aipc.1480...77t/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2012M&amp;PSA..75.5395H/</loc>
+    <loc>https://jsoishi.github.io/publication/2012mpsa..75.5395h/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2012ApJ...744...52P/</loc>
+    <loc>https://jsoishi.github.io/publication/2012apj...744...52p/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2012AIPC.1480...87O/</loc>
+    <loc>https://jsoishi.github.io/publication/2012aipc.1480...87o/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2011AAS...21714418P/</loc>
+    <loc>https://jsoishi.github.io/publication/2011aas...21714418p/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2011AIPC.1366..122O/</loc>
+    <loc>https://jsoishi.github.io/publication/2011aipc.1366..122o/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2011ApJ...740...18O/</loc>
+    <loc>https://jsoishi.github.io/publication/2011apj...740...18o/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2011ApJ...738...46T/</loc>
+    <loc>https://jsoishi.github.io/publication/2011apj...738...46t/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2011ASPC..447..107P/</loc>
+    <loc>https://jsoishi.github.io/publication/2011aspc..447..107p/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2011gafo.confE..89A/</loc>
+    <loc>https://jsoishi.github.io/publication/2011gafo.confe..89a/</loc>
     <lastmod>2011-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2010AIPC.1294..270O/</loc>
+    <loc>https://jsoishi.github.io/publication/2010aipc.1294..270o/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2010ApJ...721.1593C/</loc>
+    <loc>https://jsoishi.github.io/publication/2010apj...721.1593c/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2009ApJ...704.1239O/</loc>
+    <loc>https://jsoishi.github.io/publication/2009apj...704.1239o/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2009ATel.1955....1C/</loc>
+    <loc>https://jsoishi.github.io/publication/2009atel.1955....1c/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2008ApJ...677..520M/</loc>
+    <loc>https://jsoishi.github.io/publication/2008apj...677..520m/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2007ApJ...668..980M/</loc>
+    <loc>https://jsoishi.github.io/publication/2007apj...668..980m/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2007PhDT.........4O/</loc>
+    <loc>https://jsoishi.github.io/publication/2007phdt.........4o/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2007Natur.448.1022J/</loc>
+    <loc>https://jsoishi.github.io/publication/2007natur.448.1022j/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2007ApJ...670..805O/</loc>
+    <loc>https://jsoishi.github.io/publication/2007apj...670..805o/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2006ApJ...638..281O/</loc>
+    <loc>https://jsoishi.github.io/publication/2006apj...638..281o/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2006AAS...20917903O/</loc>
+    <loc>https://jsoishi.github.io/publication/2006aas...20917903o/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2005prpl.conf.8439O/</loc>
+    <loc>https://jsoishi.github.io/publication/2005prpl.conf.8439o/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2004AAS...205.5907O/</loc>
+    <loc>https://jsoishi.github.io/publication/2004aas...205.5907o/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2004ASPC..317..283M/</loc>
+    <loc>https://jsoishi.github.io/publication/2004aspc..317..283m/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2004AAS...20513908M/</loc>
+    <loc>https://jsoishi.github.io/publication/2004aas...20513908m/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/publication/2003ApJ...593L..23C/</loc>
+    <loc>https://jsoishi.github.io/publication/2003apj...593l..23c/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -303,6 +304,11 @@
   <url>
     <loc>https://jsoishi.github.io/</loc>
     <lastmod>2018-12-05T17:23:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
@@ -333,6 +339,11 @@
   <url>
     <loc>https://jsoishi.github.io/research/</loc>
     <lastmod>2018-11-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   

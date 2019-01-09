@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Members on Bates Fluid Dynamics Group</title>
-    <link>https://jsoishi.github.io/member/index.xml</link>
+    <link>https://jsoishi.github.io/member/</link>
     <description>Recent content in Members on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
     <lastBuildDate>Tue, 12 Jul 2016 15:52:22 +0200</lastBuildDate>
-    <atom:link href="https://jsoishi.github.io/member/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://jsoishi.github.io/member/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Deveena Banerjee</title>
@@ -15,12 +17,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/dbanerje/</guid>
-      <description>
-
-&lt;p&gt;Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description> Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.
+Hobbies </description>
     </item>
     
     <item>
@@ -29,14 +27,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/jeff_oishi/</guid>
-      <description>
-
-&lt;p&gt;Jeff grew up in Virginia, just outside Washington, D. C.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-
-&lt;p&gt;Loud music, synthesizers, bicycles, cats.&lt;/p&gt;
-</description>
+      <description>Jeff grew up in Virginia, just outside Washington, D. C.
+Hobbies Loud music, synthesizers, bicycles, cats.</description>
     </item>
     
     <item>
@@ -45,14 +37,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mgoldbe2/</guid>
-      <description>
-
-&lt;p&gt;Matt&amp;rsquo;s from Cambridge, MA.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-
-&lt;p&gt;Ultimate!&lt;/p&gt;
-</description>
+      <description>Matt&amp;rsquo;s from Cambridge, MA.
+Hobbies Ultimate!</description>
     </item>
     
     <item>
@@ -61,14 +47,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mbancroft/</guid>
-      <description>
-
-&lt;p&gt;Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-
-&lt;p&gt;skiing&lt;/p&gt;
-</description>
+      <description>Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.
+Hobbies skiing</description>
     </item>
     
     <item>
@@ -77,12 +57,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mbaxter/</guid>
-      <description>
-
-&lt;p&gt;Morgan will be joining the group in Winter 2019.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description> Morgan will be joining the group in Winter 2019.
+Hobbies </description>
     </item>
     
     <item>
@@ -91,12 +67,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/nosborn/</guid>
-      <description>
-
-&lt;p&gt;Nick is interested in machine learning. He will be joining the group to write a senior thesis in Winter 2019.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description> Nick is interested in machine learning. He will be joining the group to write a senior thesis in Winter 2019.
+Hobbies </description>
     </item>
     
   </channel>
