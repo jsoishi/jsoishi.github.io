@@ -206,7 +206,7 @@ function png2mp4(){
 #SBATCH --time=5-0
 #SBATCH --nodes=3
 
-source /home/joishi/build/dedalus_intel_mpi/bin/activate
+conda activate dedalus
 
 date
 mpirun -np 64 python3 bioflow.py runs/growth_11.cfg

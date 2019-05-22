@@ -3,13 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jsoishi.github.io/</loc>
+    <lastmod>2018-12-05T17:23:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jsoishi.github.io/post/gql-busse-paper/</loc>
     <lastmod>2018-12-05T17:23:48+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://jsoishi.github.io/post/</loc>
+    <lastmod>2018-12-05T17:23:48+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jsoishi.github.io/research/getting_started/</loc>
     <lastmod>2018-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/research/</loc>
+    <lastmod>2018-11-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -20,6 +38,12 @@
   <url>
     <loc>https://jsoishi.github.io/project/complex_fluids_toolkit/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/project/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -45,6 +69,12 @@
   <url>
     <loc>https://jsoishi.github.io/publication/2017jcoph.330..924r/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/publication/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -75,6 +105,12 @@
   <url>
     <loc>https://jsoishi.github.io/member/mgoldbe2/</loc>
     <lastmod>2016-07-12T15:52:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/member/</loc>
+    <lastmod>2016-07-12T15:52:22+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -302,43 +338,7 @@
   </url>
   
   <url>
-    <loc>https://jsoishi.github.io/</loc>
-    <lastmod>2018-12-05T17:23:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jsoishi.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jsoishi.github.io/member/</loc>
-    <lastmod>2016-07-12T15:52:22+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jsoishi.github.io/post/</loc>
-    <lastmod>2018-12-05T17:23:48+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jsoishi.github.io/project/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jsoishi.github.io/publication/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jsoishi.github.io/research/</loc>
-    <lastmod>2018-11-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
