@@ -2,408 +2,145 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Bates Fluid Dynamics Group</title>
-    <link>https://jsoishi.github.io/publication/</link>
+    <link>https://jsoishi.github.io/publication/index.xml</link>
     <description>Recent content in Publications on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://jsoishi.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://jsoishi.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hybrid Adaptive Ray-Moment Method (HARM^2): A highly parallel method for radiation hydrodynamics on adaptive grids</title>
-      <link>https://jsoishi.github.io/publication/2017jcoph.330..924r/</link>
+      <link>https://jsoishi.github.io/publication/2017JCoPh.330..924R/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2017jcoph.330..924r/</guid>
+      <guid>https://jsoishi.github.io/publication/2017JCoPh.330..924R/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Weakly Nonlinear Magnetorotational Instability in a Global, Cylindrical Taylor─Couette Flow</title>
-      <link>https://jsoishi.github.io/publication/2017apj...841....2c/</link>
+      <link>https://jsoishi.github.io/publication/2017ApJ...841....2C/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2017apj...841....2c/</guid>
+      <guid>https://jsoishi.github.io/publication/2017ApJ...841....2C/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Weakly Nonlinear Magnetorotational Instability in a Local Geometry</title>
-      <link>https://jsoishi.github.io/publication/2017apj...841....1c/</link>
+      <link>https://jsoishi.github.io/publication/2017ApJ...841....1C/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2017apj...841....1c/</guid>
+      <guid>https://jsoishi.github.io/publication/2017ApJ...841....1C/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A validated non-linear Kelvin-Helmholtz benchmark for numerical hydrodynamics</title>
-      <link>https://jsoishi.github.io/publication/2016mnras.455.4274l/</link>
+      <link>https://jsoishi.github.io/publication/2016MNRAS.455.4274L/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2016mnras.455.4274l/</guid>
+      <guid>https://jsoishi.github.io/publication/2016MNRAS.455.4274L/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamics and Chemistry in Jovian Atmospheres: 2D Hydrodynamical Simulations</title>
-      <link>https://jsoishi.github.io/publication/2016agufm.p31d..04b/</link>
+      <link>https://jsoishi.github.io/publication/2016AGUFM.P31D..04B/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2016agufm.p31d..04b/</guid>
+      <guid>https://jsoishi.github.io/publication/2016AGUFM.P31D..04B/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tachocline dynamics: convective overshoot at stiff interfaces</title>
-      <link>https://jsoishi.github.io/publication/2016spd....47.0713b/</link>
+      <link>https://jsoishi.github.io/publication/2016SPD....47.0713B/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2016spd....47.0713b/</guid>
+      <guid>https://jsoishi.github.io/publication/2016SPD....47.0713B/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tensor calculus in polar coordinates using Jacobi polynomials</title>
-      <link>https://jsoishi.github.io/publication/2016jcoph.325...53v/</link>
+      <link>https://jsoishi.github.io/publication/2016JCoPh.325...53V/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2016jcoph.325...53v/</guid>
+      <guid>https://jsoishi.github.io/publication/2016JCoPh.325...53V/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Turbulent Chemical Diffusion in Convectively Bounded Carbon Flames</title>
-      <link>https://jsoishi.github.io/publication/2016apj...832...71l/</link>
+      <link>https://jsoishi.github.io/publication/2016ApJ...832...71L/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2016apj...832...71l/</guid>
+      <guid>https://jsoishi.github.io/publication/2016ApJ...832...71L/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Wave Generation by Turbulent Convection</title>
-      <link>https://jsoishi.github.io/publication/2015agufm.p41a2036l/</link>
+      <link>https://jsoishi.github.io/publication/2015AGUFM.P41A2036L/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2015agufm.p41a2036l/</guid>
+      <guid>https://jsoishi.github.io/publication/2015AGUFM.P41A2036L/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Magnetorotational instability in the presence of composition gradients</title>
-      <link>https://jsoishi.github.io/publication/2015aas...22513304o/</link>
+      <link>https://jsoishi.github.io/publication/2015AAS...22513304O/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2015aas...22513304o/</guid>
+      <guid>https://jsoishi.github.io/publication/2015AAS...22513304O/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Numerical simulations of internal wave generation by convection in water</title>
-      <link>https://jsoishi.github.io/publication/2015phrve..91f3016l/</link>
+      <link>https://jsoishi.github.io/publication/2015PhRvE..91f3016L/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2015phrve..91f3016l/</guid>
+      <guid>https://jsoishi.github.io/publication/2015PhRvE..91f3016L/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stratified Convection in Stellar Interiors</title>
-      <link>https://jsoishi.github.io/publication/2015aas...22513815b/</link>
+      <link>https://jsoishi.github.io/publication/2015AAS...22513815B/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2015aas...22513815b/</guid>
+      <guid>https://jsoishi.github.io/publication/2015AAS...22513815B/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ENZO: An Adaptive Mesh Refinement Code for Astrophysics</title>
-      <link>https://jsoishi.github.io/publication/2014apjs..211...19b/</link>
+      <link>https://jsoishi.github.io/publication/2014ApJS..211...19B/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2014apjs..211...19b/</guid>
+      <guid>https://jsoishi.github.io/publication/2014ApJS..211...19B/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Radial Stresses and Energy Transport in Accretion Disks</title>
-      <link>https://jsoishi.github.io/publication/2014arxiv1405.3991h/</link>
+      <link>https://jsoishi.github.io/publication/2014arXiv1405.3991H/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2014arxiv1405.3991h/</guid>
+      <guid>https://jsoishi.github.io/publication/2014arXiv1405.3991H/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-generated Three Dimensional Turbulence in Magnetic Reconnection Layers Sharply Increases Reconnection Rates</title>
-      <link>https://jsoishi.github.io/publication/2014aas...22311805o/</link>
+      <link>https://jsoishi.github.io/publication/2014AAS...22311805O/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2014aas...22311805o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Methods for Simulating the Heavy Core Instability</title>
-      <link>https://jsoishi.github.io/publication/2013epjwc..4606001o/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2013epjwc..4606001o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chondrule Formation, Complementarity, and Pervasive, Highly Local Heating by Current Sheets</title>
-      <link>https://jsoishi.github.io/publication/2012mpsa..75.5387e/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012mpsa..75.5387e/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How Common Envelope Interactions Change the Lives of Stars and Planets</title>
-      <link>https://jsoishi.github.io/publication/2012iaus..282..517d/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012iaus..282..517d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magnetic fields and angular momentum in population III star formation</title>
-      <link>https://jsoishi.github.io/publication/2012aipc.1480...77t/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012aipc.1480...77t/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Short Circuits in Magnetic Reconnection: A Route to Chondrule Formation</title>
-      <link>https://jsoishi.github.io/publication/2012mpsa..75.5395h/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012mpsa..75.5395h/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simulating the Common Envelope Phase of a Red Giant Using Smoothed-particle Hydrodynamics and Uniform-grid Codes</title>
-      <link>https://jsoishi.github.io/publication/2012apj...744...52p/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012apj...744...52p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Turbulence and small scale dynamo action in population III star formation</title>
-      <link>https://jsoishi.github.io/publication/2012aipc.1480...87o/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012aipc.1480...87o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Comparisons Between SPH and Grid-Based Simulations of the Common Envelope Phase</title>
-      <link>https://jsoishi.github.io/publication/2011aas...21714418p/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011aas...21714418p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magnetic Helicity and Astrophysical Disk Dynamos</title>
-      <link>https://jsoishi.github.io/publication/2011aipc.1366..122o/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011aipc.1366..122o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magnetorotational Turbulence Transports Angular Momentum in Stratified Disks with Low Magnetic Prandtl Number but Magnetic Reynolds Number above a Critical Value</title>
-      <link>https://jsoishi.github.io/publication/2011apj...740...18o/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011apj...740...18o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Molecular Clouds in the Trifid Nebula M20: Possible Evidence for a Cloud-Cloud Collision in Triggering the Formation of the First Generation Stars</title>
-      <link>https://jsoishi.github.io/publication/2011apj...738...46t/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011apj...738...46t/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simulations of the Common Envelope Interaction Between a Red Giant Branch Star and Low-Mass Companions</title>
-      <link>https://jsoishi.github.io/publication/2011aspc..447..107p/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011aspc..447..107p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The first stars and black holes</title>
-      <link>https://jsoishi.github.io/publication/2011gafo.confe..89a/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011gafo.confe..89a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Numerical Methods for Radiative Feedback from the First Stars: Ionization in Adaptive Mesh Refinement Simulations</title>
-      <link>https://jsoishi.github.io/publication/2010aipc.1294..270o/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2010aipc.1294..270o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On the Stability of Dust-laden Protoplanetary Vortices</title>
-      <link>https://jsoishi.github.io/publication/2010apj...721.1593c/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2010apj...721.1593c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On Hydrodynamic Motions in Dead Zones</title>
-      <link>https://jsoishi.github.io/publication/2009apj...704.1239o/</link>
-      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2009apj...704.1239o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SDSS J1536&#43;0441: An Extreme &#34;Double-peaked Emitter,&#34; Not a Binary Black Hole</title>
-      <link>https://jsoishi.github.io/publication/2009atel.1955....1c/</link>
-      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2009atel.1955....1c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Constrained-Transport Magnetohydrodynamics Algorithm with Near-Spectral Resolution</title>
-      <link>https://jsoishi.github.io/publication/2008apj...677..520m/</link>
-      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2008apj...677..520m/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dynamical Expansion of H II Regions from Ultracompact to Compact Sizes in Turbulent, Self-gravitating Molecular Clouds</title>
-      <link>https://jsoishi.github.io/publication/2007apj...668..980m/</link>
-      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2007apj...668..980m/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non-ideal magnetohydrodynamics in star and planet formation</title>
-      <link>https://jsoishi.github.io/publication/2007phdt.........4o/</link>
-      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2007phdt.........4o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rapid planetesimal formation in turbulent circumstellar disks</title>
-      <link>https://jsoishi.github.io/publication/2007natur.448.1022j/</link>
-      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2007natur.448.1022j/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Turbulent Torques on Protoplanets in a Dead Zone</title>
-      <link>https://jsoishi.github.io/publication/2007apj...670..805o/</link>
-      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2007apj...670..805o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Inability of Ambipolar Diffusion to Set a Characteristic Mass Scale in Molecular Clouds</title>
-      <link>https://jsoishi.github.io/publication/2006apj...638..281o/</link>
-      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2006apj...638..281o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Turbulent Torques on Protoplanets in a Dead Zone</title>
-      <link>https://jsoishi.github.io/publication/2006aas...20917903o/</link>
-      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2006aas...20917903o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protoplanetary Migration in Layered, Magnetized Disks: First Results</title>
-      <link>https://jsoishi.github.io/publication/2005prpl.conf.8439o/</link>
-      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2005prpl.conf.8439o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Inability of Ambipolar Diffusion to Set the Inner Scale of Density and Energy in Molecular Clouds</title>
-      <link>https://jsoishi.github.io/publication/2004aas...205.5907o/</link>
-      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2004aas...205.5907o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tracing Galactic Metallicity Gradients With the 2MASS Point Source Catalog</title>
-      <link>https://jsoishi.github.io/publication/2004aspc..317..283m/</link>
-      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2004aspc..317..283m/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ultracompact H II Regions Formed by Gravitational Collapse in Expanding Shells of Larger H II Regions</title>
-      <link>https://jsoishi.github.io/publication/2004aas...20513908m/</link>
-      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2004aas...20513908m/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cassiopeia A and Its Clumpy Presupernova Wind</title>
-      <link>https://jsoishi.github.io/publication/2003apj...593l..23c/</link>
-      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2003apj...593l..23c/</guid>
+      <guid>https://jsoishi.github.io/publication/2014AAS...22311805O/</guid>
       <description></description>
     </item>
     

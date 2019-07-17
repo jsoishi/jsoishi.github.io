@@ -35,15 +35,14 @@
 
 
     <link rel="shortcut icon" href="https://jsoishi.github.io//img/favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="https://jsoishi.github.io/publication/2009ATel.1955....1C/">
+    <link rel="canonical" href="https://jsoishi.github.io/research/dedalus_tutorials/">
 
-    <title>SDSS J1536&#43;0441: An Extreme &#34;Double-peaked Emitter,&#34; Not a Binary Black Hole | Bates Fluid Dynamics Group</title>
+    <title>Dedalus Tutorials | Bates Fluid Dynamics Group</title>
 
 </head>
 
 <body>
 <div class="home-anchor" id="home"></div>
-
 
 
 <nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
@@ -118,147 +117,76 @@
 </nav>
 
 
-
 <div class="container">
 
-    <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
-        <div class="pub-title">
-            <h1 itemprop="name">SDSS J1536&#43;0441: An Extreme &#34;Double-peaked Emitter,&#34; Not a Binary Black Hole</h1>
-            <span class="pub-authors" itemprop="author">
+    <article class="article" itemscope itemtype="http://schema.org/Article">
+        
+
+        <h1 itemprop="name">Dedalus Tutorials</h1>
+
+        <div class="row">
+            <div class="col-xs-6 article-published-at">
+                <i>Published on:</i> <p>Jul 17, 2019</p>
+            </div>
+            <div class="col-xs-6 article-authors">
+                <i>Authors:</i>
                 
 <div itemprop="author">
         
             
                 
-                    <a href="https://jsoishi.github.io/member">Chornock, R.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Bloom, J. S.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Cenko, S. B.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Silverman, J. M.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Filippenko, A. V.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Hicks, M. D.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Lawrence, K. J.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Chang, P.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Comerford, J. M.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">George, M. R.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Modjaz, M.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Oishi, J. S.</a>,
-                
-            
-                
-                    <a href="https://jsoishi.github.io/member">Quataert, E.</a>,
-                
-            
-            
-                
-                    <a href="https://jsoishi.github.io/member">Strubbe, L. E.</a>
+                    <a href="https://jsoishi.github.io/member/jeff_oishi">Jeff Oishi</a>
                 
             
         
 </div>
 
-            </span>
-            <span class="pull-right">
-                
-
-            </span>
-        </div>
-
-        
-
-        <h3>Abstract</h3>
-        <p class="pub-abstract" itemprop="text">We report on optical spectra of the unusual quasar SDSS J153636.22&#43;044127.0, obtained on 2009 March 7.52 UT with the Double Spectrograph on the Palomar 200-inch telescope. This object was recently suggested as a candidate sub-parsec supermassive black hole system by Boroson &amp; Lauer (2009, Nature, 458, 53), based primarily on the existence of two components of the broad Balmer emission lines seen in the SDSS spectrum of the source.</p>
-
-        <div class="row">
-            <div class="col-sm-10">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-                    <div class="col-xs-12 col-sm-9">The Astronomer&rsquo;s Telegram</div>
-                </div>
-            </div>
-        </div>
-        <div class="visible-xs space-below"></div>
-
-        
-
-        <div class="row">
-            <div class="col-sm-10">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
-                    <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-                        
-                        January, 2009
-                    </div>
-                </div>
             </div>
         </div>
 
-        <div class="visible-xs space-below"></div>
+        <div class="article-style" itemprop="articleBody">
+            
 
-        <div class="row" style="padding-top: 10px">
-            <div class="col-sm-10">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
-                    <div class="col-xs-12 col-sm-9">
+<h1 id="double-diffusive-convection">Double Diffusive Convection</h1>
 
-                        
+<p>In order to run this, you can find the code at <a href="https://github.com/jsoishi/double_diffusive_examples" title="Double Diffusive Convection Examples">Github</a>.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="visible-xs space-below"></div>
-
-        <div class="space-below"></div>
-
-        <div class="article-style"></div>
-
+<p>First, we have the so-called &ldquo;fingering&rdquo; regime of DDC, which you can run with <a href="https://github.com/jsoishi/double_diffusive_examples/blob/master/python/fingering_convection/fingering.py" title="link to Dedalus fingering script">this script</a>
+<div class="video-wrapper">
+    <div class="embed video-player">
+        <iframe class="youtube-player" type="text/html" src="https://www.youtube.com/embed/MecobQAN7to" allowfullscreen frameborder="0">
+        </iframe>
     </div>
+</div></p>
+
+<p>Next, we have &ldquo;overstable&rdquo; DDC, which you can run with <a href="https://github.com/jsoishi/double_diffusive_examples/blob/master/python/ODDC/oddc.py" title="link to Dedalus ODDC script">this script</a>
+<div class="video-wrapper">
+    <div class="embed video-player">
+        <iframe class="youtube-player" type="text/html" src="https://www.youtube.com/embed/pvLBy446LFk" allowfullscreen frameborder="0">
+        </iframe>
+    </div>
+</div></p>
+
+        </div>
+
+
+
+    </article>
+
+    <nav>
+    <ul class="pager">
+        
+        <li class="previous">
+            <a href="https://jsoishi.github.io/research/getting_started/">
+                <span aria-hidden="true" class="darknav">&larr;&nbsp;Previous research:</span>
+                Guide to Getting Started 
+            </a>
+        </li>
+        
+
+        
+    </ul>
+</nav>
 
 
 </div>

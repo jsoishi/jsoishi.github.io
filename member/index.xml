@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Members on Bates Fluid Dynamics Group</title>
-    <link>https://jsoishi.github.io/member/</link>
+    <link>https://jsoishi.github.io/member/index.xml</link>
     <description>Recent content in Members on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
     <lastBuildDate>Tue, 12 Jul 2016 15:52:22 +0200</lastBuildDate>
-    
-	<atom:link href="https://jsoishi.github.io/member/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="https://jsoishi.github.io/member/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Deveena Banerjee</title>
@@ -17,8 +15,12 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/dbanerje/</guid>
-      <description> Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.
-Hobbies </description>
+      <description>
+
+&lt;p&gt;Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
     </item>
     
     <item>
@@ -27,8 +29,14 @@ Hobbies </description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/jeff_oishi/</guid>
-      <description>Jeff grew up in Virginia, just outside Washington, D. C.
-Hobbies Loud music, synthesizers, bicycles, cats.</description>
+      <description>
+
+&lt;p&gt;Jeff grew up in Virginia, just outside Washington, D. C.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+
+&lt;p&gt;Loud music, synthesizers, bicycles, cats.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -37,8 +45,14 @@ Hobbies Loud music, synthesizers, bicycles, cats.</description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mgoldbe2/</guid>
-      <description>Matt&amp;rsquo;s from Cambridge, MA.
-Hobbies Ultimate!</description>
+      <description>
+
+&lt;p&gt;Matt&amp;rsquo;s from Cambridge, MA.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+
+&lt;p&gt;Ultimate!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -47,8 +61,14 @@ Hobbies Ultimate!</description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mbancroft/</guid>
-      <description>Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.
-Hobbies skiing</description>
+      <description>
+
+&lt;p&gt;Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+
+&lt;p&gt;skiing&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -57,18 +77,40 @@ Hobbies skiing</description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mbaxter/</guid>
-      <description> Morgan will be joining the group in Winter 2019.
-Hobbies </description>
+      <description>
+
+&lt;p&gt;Morgan is working on eigenvalue analysis of the 3D magnetorotational instability.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
     </item>
     
     <item>
-      <title>Nick Osborn</title>
-      <link>https://jsoishi.github.io/member/nosborn/</link>
+      <title>Reed Feldman</title>
+      <link>https://jsoishi.github.io/member/reed_feldman/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
-      <guid>https://jsoishi.github.io/member/nosborn/</guid>
-      <description> Nick is interested in machine learning. He will be joining the group to write a senior thesis in Winter 2019.
-Hobbies </description>
+      <guid>https://jsoishi.github.io/member/reed_feldman/</guid>
+      <description>
+
+&lt;p&gt;Reed developed a web framework for managing and creating Dedalus jobs from simulation parameter design documents.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sam Huebschmann</title>
+      <link>https://jsoishi.github.io/member/sam_huebschmann/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/sam_huebschmann/</guid>
+      <description>
+
+&lt;p&gt;Sam completed his senior thesis by building a Raspberry pi &amp;ldquo;supercomputer.&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
     </item>
     
   </channel>
