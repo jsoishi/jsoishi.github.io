@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jsoishi.github.io/post/new-year-2019-2020/</loc>
+    <lastmod>2019-09-14T15:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jsoishi.github.io/research/dedalus_tutorials/</loc>
     <lastmod>2019-07-17T08:50:58+02:00</lastmod>
   </url>
@@ -67,7 +72,32 @@
   </url>
   
   <url>
+    <loc>https://jsoishi.github.io/member/xjiang/</loc>
+    <lastmod>2016-07-12T15:52:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/member/abrachne/</loc>
+    <lastmod>2016-07-12T15:52:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/member/rminsley/</loc>
+    <lastmod>2016-07-12T15:52:22+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jsoishi.github.io/member/dbanerje/</loc>
+    <lastmod>2016-07-12T15:52:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/member/fkhan/</loc>
+    <lastmod>2016-07-12T15:52:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jsoishi.github.io/member/hbeams/</loc>
     <lastmod>2016-07-12T15:52:22+02:00</lastmod>
   </url>
   
@@ -312,7 +342,7 @@
   
   <url>
     <loc>https://jsoishi.github.io/</loc>
-    <lastmod>2019-07-17T08:50:58+02:00</lastmod>
+    <lastmod>2019-09-14T15:01:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -324,7 +354,7 @@
   
   <url>
     <loc>https://jsoishi.github.io/post/</loc>
-    <lastmod>2018-12-05T17:23:48+00:00</lastmod>
+    <lastmod>2019-09-14T15:01:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

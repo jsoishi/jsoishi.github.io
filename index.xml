@@ -6,8 +6,24 @@
     <description>Recent content on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Wed, 17 Jul 2019 08:50:58 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2019 15:01:00 +0000</lastBuildDate>
     <atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Welcome back!</title>
+      <link>https://jsoishi.github.io/post/new-year-2019-2020/</link>
+      <pubDate>Sat, 14 Sep 2019 15:01:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/new-year-2019-2020/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s the start of a new year, and we have several new members in the group. Welcome to senior thesis students Fahim Khan and Avi Brach-Neufeld, juniors Hannah Beams, Becca Minsley, and Alex Jiang! Morgan Baxter is returning from a successful summer project to start his senior thesis as well.&lt;/p&gt;
+
+&lt;p&gt;Fahim is going to be focusing on some interesting infrastructure, trying to figure out how to streamline the management of supercomputer simulations. Avi will be investiating the non-linear Goldreich-Schubert-Fricke instability. Morgan Baxter will be continuing on to applying GQL to &lt;a href=&#34;https://dedalus-project.readthedocs.io/en/latest/notebooks/TaylorCouetteFlow.html&#34;&gt;Taylor-Couette flows&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Becca and Alex are starting a new project to find exact non-linear states for &lt;a href=&#34;https://en.wikipedia.org/wiki/Active_matter&#34;&gt;active matter&lt;/a&gt;. Meanwhile, Hannah is going to lead the charge to apply Dedalus to stochastic PDEs, with an investigation of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation&#34;&gt;KPZ equation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was a busy and productive summer, with Morgan&amp;rsquo;s summer research project on the magnetorotational instability leading to his first paper, which will be submitted this week. Look for more details very soon.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Dedalus Tutorials</title>
@@ -418,32 +434,16 @@ phi            up   infinite      1  down* node017
     </item>
     
     <item>
-      <title>Deveena Banerjee</title>
-      <link>https://jsoishi.github.io/member/dbanerje/</link>
+      <title>Alex Jiang</title>
+      <link>https://jsoishi.github.io/member/xjiang/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
-      <guid>https://jsoishi.github.io/member/dbanerje/</guid>
+      <guid>https://jsoishi.github.io/member/xjiang/</guid>
       <description>
 
-&lt;p&gt;Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.&lt;/p&gt;
+&lt;p&gt;Alex is just getting started in the group. He&amp;rsquo;s going to work with Becca on Active Matter.&lt;/p&gt;
 
 &lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Jeff Oishi</title>
-      <link>https://jsoishi.github.io/member/jeff_oishi/</link>
-      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
-      
-      <guid>https://jsoishi.github.io/member/jeff_oishi/</guid>
-      <description>
-
-&lt;p&gt;Jeff grew up in Virginia, just outside Washington, D. C.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-
-&lt;p&gt;Loud music, synthesizers, bicycles, cats.&lt;/p&gt;
 </description>
     </item>
     

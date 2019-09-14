@@ -10,6 +10,48 @@
     <atom:link href="https://jsoishi.github.io/member/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Alex Jiang</title>
+      <link>https://jsoishi.github.io/member/xjiang/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/xjiang/</guid>
+      <description>
+
+&lt;p&gt;Alex is just getting started in the group. He&amp;rsquo;s going to work with Becca on Active Matter.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Avi Brach-Neufeld</title>
+      <link>https://jsoishi.github.io/member/abrachne/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/abrachne/</guid>
+      <description>
+
+&lt;p&gt;Avi is writing his senior thesis on the Goldreich-Schubert-Fricke instability.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Becca Minsley</title>
+      <link>https://jsoishi.github.io/member/rminsley/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/rminsley/</guid>
+      <description>
+
+&lt;p&gt;Becca is just joining the group. She&amp;rsquo;s going to work with Alex on Active Matter.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Deveena Banerjee</title>
       <link>https://jsoishi.github.io/member/dbanerje/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
@@ -18,6 +60,34 @@
       <description>
 
 &lt;p&gt;Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fahim Khan</title>
+      <link>https://jsoishi.github.io/member/fkhan/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/fkhan/</guid>
+      <description>
+
+&lt;p&gt;Fahim is developing a dashboard for managing supercomputer simulations.&lt;/p&gt;
+
+&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hannah Beams</title>
+      <link>https://jsoishi.github.io/member/hbeams/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/hbeams/</guid>
+      <description>
+
+&lt;p&gt;Hannah is just joining the group. She&amp;rsquo;s starting a project to simulate the KPZ equation in Dedalus.&lt;/p&gt;
 
 &lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
 </description>
@@ -79,7 +149,7 @@
       <guid>https://jsoishi.github.io/member/mbaxter/</guid>
       <description>
 
-&lt;p&gt;Morgan is working on eigenvalue analysis of the 3D magnetorotational instability.&lt;/p&gt;
+&lt;p&gt;Morgan just completed an eigenvalue analysis of the 3D magnetorotational instability, and he&amp;rsquo;s moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows.&lt;/p&gt;
 
 &lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
 </description>
