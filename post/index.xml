@@ -10,6 +10,26 @@
     <atom:link href="https://jsoishi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Papers published!</title>
+      <link>https://jsoishi.github.io/post/spheres-papers/</link>
+      <pubDate>Sat, 14 Sep 2019 15:01:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/spheres-papers/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m excited to annouce that our two papers on spin-weighted spherical harmonics are finally published in the Journal of Computational Physics X. The &lt;a href=&#34;https://doi.org/10.1016/j.jcpx.2019.100013&#34;&gt;first paper&lt;/a&gt; covers the mathematical formalism, while the &lt;a href=&#34;https://doi.org/10.1016/j.jcpx.2019.100012&#34;&gt;second paper&lt;/a&gt; demonstrates its performance in a number of test problems, including a fully convective, rotating dynamo problem:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/1-s2.0-S2590055219300289-gr010.jpg&#34; alt=&#34;spherical dynamo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the right is the radial velocity while the left shows magnetic field lines, visualized using Vapor.&lt;/p&gt;
+
+&lt;p&gt;The most significant part of this research, aside from the fact that we have sparse, efficient spectrally accurate spherical basis functions in Dedalus, is that by using spin-weighted spherical harmonics, one can implement equations on the sphere directly in vector form:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/2019-09-29-204108_1325x457_scrot.png&#34; alt=&#34;equations&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Previously, one would have to write equations in poloidal-toridal form in order to expand them in spherical harmonics. By constructing spectrally accurate solutions for vector partial differential equations on the sphere, we can now get ready for a lot of exciting research on the sphere!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Welcome back!</title>
       <link>https://jsoishi.github.io/post/new-year-2019-2020/</link>
       <pubDate>Sat, 14 Sep 2019 15:01:00 +0000</pubDate>

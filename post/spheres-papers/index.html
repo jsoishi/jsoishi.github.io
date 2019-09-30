@@ -35,9 +35,9 @@
 
 
     <link rel="shortcut icon" href="https://jsoishi.github.io//img/favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="https://jsoishi.github.io/post/new-year-2019-2020/">
+    <link rel="canonical" href="https://jsoishi.github.io/post/spheres-papers/">
 
-    <title>Welcome back! | Bates Fluid Dynamics Group</title>
+    <title>Papers published! | Bates Fluid Dynamics Group</title>
 
 </head>
 
@@ -122,7 +122,7 @@
     <article class="article" itemscope itemtype="http://schema.org/Article">
         
 
-        <h1 itemprop="name">Welcome back!</h1>
+        <h1 itemprop="name">Papers published!</h1>
 
         <div class="row">
             <div class="col-xs-6 article-published-at">
@@ -145,13 +145,17 @@
         </div>
 
         <div class="article-style" itemprop="articleBody">
-            <p>It&rsquo;s the start of a new year, and we have several new members in the group. Welcome to senior thesis students Fahim Khan and Avi Brach-Neufeld, juniors Hannah Beams, Becca Minsley, and Alex Jiang! Morgan Baxter is returning from a successful summer project to start his senior thesis as well.</p>
+            <p>I&rsquo;m excited to annouce that our two papers on spin-weighted spherical harmonics are finally published in the Journal of Computational Physics X. The <a href="https://doi.org/10.1016/j.jcpx.2019.100013">first paper</a> covers the mathematical formalism, while the <a href="https://doi.org/10.1016/j.jcpx.2019.100012">second paper</a> demonstrates its performance in a number of test problems, including a fully convective, rotating dynamo problem:</p>
 
-<p>Fahim is going to be focusing on some interesting infrastructure, trying to figure out how to streamline the management of supercomputer simulations. Avi will be investiating the non-linear Goldreich-Schubert-Fricke instability. Morgan Baxter will be continuing on to applying GQL to <a href="https://dedalus-project.readthedocs.io/en/latest/notebooks/TaylorCouetteFlow.html">Taylor-Couette flows</a>.</p>
+<p><img src="https://jsoishi.github.io/img/1-s2.0-S2590055219300289-gr010.jpg" alt="spherical dynamo" /></p>
 
-<p>Becca and Alex are starting a new project to find exact non-linear states for <a href="https://en.wikipedia.org/wiki/Active_matter">active matter</a>. Meanwhile, Hannah is going to lead the charge to apply Dedalus to stochastic PDEs, with an investigation of the <a href="https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation">KPZ equation</a>.</p>
+<p>On the right is the radial velocity while the left shows magnetic field lines, visualized using Vapor.</p>
 
-<p>It was a busy and productive summer, with Morgan&rsquo;s summer research project on the magnetorotational instability leading to his first paper, which will be submitted this week. Look for more details very soon.</p>
+<p>The most significant part of this research, aside from the fact that we have sparse, efficient spectrally accurate spherical basis functions in Dedalus, is that by using spin-weighted spherical harmonics, one can implement equations on the sphere directly in vector form:</p>
+
+<p><img src="https://jsoishi.github.io/img/2019-09-29-204108_1325x457_scrot.png" alt="equations" /></p>
+
+<p>Previously, one would have to write equations in poloidal-toridal form in order to expand them in spherical harmonics. By constructing spectrally accurate solutions for vector partial differential equations on the sphere, we can now get ready for a lot of exciting research on the sphere!</p>
 
         </div>
 
@@ -163,21 +167,13 @@
     <ul class="pager">
         
         <li class="previous">
-            <a href="https://jsoishi.github.io/post/gql-busse-paper/">
+            <a href="https://jsoishi.github.io/post/new-year-2019-2020/">
                 <span aria-hidden="true" class="darknav">&larr;&nbsp;Previous post:</span>
-                GQL Busse Annulus paper published
+                Welcome back!
             </a>
         </li>
         
 
-        
-        <li class="next">
-            <a href="https://jsoishi.github.io/post/spheres-papers/">
-                <span class="darknav">&nbsp;Next post:</span>
-                Papers published!
-                <span aria-hidden="true" class="darknav">&rarr;</span>
-            </a>
-        </li>
         
     </ul>
 </nav>
