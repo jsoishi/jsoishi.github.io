@@ -6,13 +6,13 @@
     <description>Recent content on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Sat, 14 Sep 2019 15:01:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 15:01:00 +0000</lastBuildDate>
     <atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Papers published!</title>
       <link>https://jsoishi.github.io/post/spheres-papers/</link>
-      <pubDate>Sat, 14 Sep 2019 15:01:00 +0000</pubDate>
+      <pubDate>Sun, 29 Sep 2019 15:01:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/spheres-papers/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m excited to annouce that our two papers on spin-weighted spherical harmonics are finally published in the Journal of Computational Physics X. The &lt;a href=&#34;https://doi.org/10.1016/j.jcpx.2019.100013&#34;&gt;first paper&lt;/a&gt; covers the mathematical formalism, while the &lt;a href=&#34;https://doi.org/10.1016/j.jcpx.2019.100012&#34;&gt;second paper&lt;/a&gt; demonstrates its performance in a number of test problems, including a fully convective, rotating dynamo problem:&lt;/p&gt;
