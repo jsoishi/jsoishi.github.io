@@ -5,9 +5,46 @@
     <link>https://jsoishi.github.io/post/index.xml</link>
     <description>Recent content in Posts on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Sun, 29 Sep 2019 15:01:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
+    <lastBuildDate>Tue, 03 Dec 2019 15:54:00 +0000</lastBuildDate>
     <atom:link href="https://jsoishi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A busy semester winds down</title>
+      <link>https://jsoishi.github.io/post/three-new-papers/</link>
+      <pubDate>Tue, 03 Dec 2019 15:54:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/three-new-papers/</guid>
+      <description>&lt;p&gt;The snow is falling, the semester is winding down, and everyone&amp;rsquo;s looking forward to a break.
+It&amp;rsquo;s been a very busy year for the Bates Fluids group, and I&amp;rsquo;m excited to announce that in the past few weeks, we&amp;rsquo;ve had three (!!) papers accepted, including one featuring group member &lt;a href=&#34;https://jsoishi.github.io/member/mbaxter&#34;&gt;Morgan Baxter (Bates &amp;lsquo;20)&lt;/a&gt;.
+The vast range of topics these papers cover, from biofilm growth to the stability of rotating plasmas to the flexible numerical methods we work on, speaks to the extremely broad applicability of fluid dynamics! These applications range from scales of microns to megameters and everything in between.&lt;/p&gt;
+
+&lt;p&gt;First, our first biophysics paper has been accepted to &lt;em&gt;Physical Review Letters&lt;/em&gt; (a &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/627208v2&#34;&gt;preprint is available at BiorXiv&lt;/a&gt;). In this work, we constructed a multi-scale model for biofilms growing in shear flows. Biofilms are ubiquitous assemblages of microorganisms stuck together by an extracellular matrix, often growing on a surface. They are found in pipelines, in medical devices, and in human organs. In nearly all of these environments, biofilms grow in the presence of strong shear flows. Using experimental data from &lt;a href=&#34;https://drescherlab.org/&#34;&gt;our collaborators in Marburg&lt;/a&gt;, we developed a continuum (e.g. fluid) model for a fluid with growth-induced activity. While on leave last fall at &lt;a href=&#34;https://math.mit.edu&#34;&gt;MIT Mathematics&lt;/a&gt;, &lt;a href=&#34;https://jsoishi.github.io/member/jeff_oishi&#34;&gt;I&lt;/a&gt; helped develop an active phase-field model and implement it in &lt;a href=&#34;http://dedalus-project.org&#34;&gt;Dedalus&lt;/a&gt; with &lt;a href=&#34;https://scholar.harvard.edu/ppearce/home&#34;&gt;Phil Pearce&lt;/a&gt; and &lt;a href=&#34;https://math.mit.edu/directory/profile.php?pid=2038&#34;&gt;Dominic Skinner&lt;/a&gt;.
+We were able to successfully match experimental data using a model in which the shape of the biofilm is initially determined by deformation of individual cells by the flow but evolves into a configuration in which the vertical growth of cells in center of the film determines the overall shape at later times.  In the figure below, you can see a &amp;ldquo;wave&amp;rdquo; of verticalization, driven by the fact that the cells in the center of the biofilm are shielded from the flow and &amp;ldquo;buckle&amp;rdquo; upwards when they try to grow on the surface.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/biofilm_image.png&#34; alt=&#34;Verticalization wave in a biofilm&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our paper on the three-dimensional magnetorotational instability accepted to &lt;em&gt;Proceedings of the Royal Society A&lt;/em&gt; (the &lt;a href=&#34;https://arxiv.org/abs/1912.00972&#34;&gt;preprint is available on arxiv&lt;/a&gt;). In this work, &lt;a href=&#34;https://jsoishi.github.io/member/mbaxter&#34;&gt;Morgan Baxter (Bates &amp;lsquo;20)&lt;/a&gt; performed dozens of linear stability calculations of the magnetorotational instability (MRI), an extremely important process in astrophysics. The MRI occurs when a rotating, electrically conducting fluid has angular velocity decreasing with distance from the center of rotation in the presence of a weak magnetic field. Such a setup triggers a violent instability that can transport angular momentum outwards, which makes it very important in the theory of accretion disks, where material falls inwards into a central object. However, we are interested in the potential for the MRI to act in a &lt;em&gt;very&lt;/em&gt; different context: in the outer layers of the Sun and in liquid metal experiments on Earth. In both of these contexts, the MRI is not driven strongly but is weakly unstable. In this regime, it turns out that the most unstable structures are three dimensional, rather than two-dimensional, as had previously been thought. This is very important, because it raises the possibility that such weakly unstable (technically called &amp;ldquo;weakly nonlinear systems&amp;rdquo;) may be able to amplify magnetic fields. Systems that dynamically generate their own magnetic field, rather than relying on a field that was implanted in the object by an external process, are called &lt;em&gt;dynamos&lt;/em&gt;. The Sun and Earth are both famous examples of dynamos; in the case of the Sun, the field regenerates itself on an 11 year cycle. This paper lays the groundwork for a new theory of solar dynamos in which the weakly non-linear MRI generates the field. One of the most exciting parts of this paper was the very nice agreement between the numerical computations Morgan performed and the analytic theory work by Geoff Vasil and me, which can be seen in panel the figure below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/mri_paper.png&#34; alt=&#34;Growth rates of the 3D MRI&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, I&amp;rsquo;m extremely excited to announce that the long-awaited paper describing the Dedalus Project has finally been accepted in the brand-new journal &lt;em&gt;Physical Review Research&lt;/em&gt; (the &lt;a href=&#34;https://arxiv.org/abs/1905.10388&#34;&gt;preprint is up on arxiv&lt;/a&gt;). This paper, which is a mere 37 pages long in its preprint version, details nearly every aspect of the code, including its mathematical underpinnings, its custom computer algebra system that turns text equations into maximally sparse matrices, and much more. One of the most exciting parts, particularly if you&amp;rsquo;re not interested in the details of sparse, parallel, pseudospectral numerical methods, is the extensive gallery of example problems, ranging from classic Kelvin-Helmholtz instabilities to the diamagnetic levitation of frogs (yes, really). Best of all, we have posted &lt;a href=&#34;https://github.com/DedalusProject/methods_paper_examples&#34;&gt;all the code for every example&lt;/a&gt;, including plot scripts. This way, you can get started on your own problems by hacking the example nearest to your area of interest! Congratulations especially to &lt;a href=&#34;http://keaton-burns.com/&#34;&gt;Keaton Burns&lt;/a&gt;, who started working on Dedalus as an undergraduate with me back in 2011, continued all through his graduate work at Cambridge and MIT, and continues to be the project leader as an Instructor in the MIT Math department. You can find a feature on the early days of the Dedalus Collaboration on page 4 of the Fall issue of &lt;a href=&#34;https://www.kitp.ucsb.edu/sites/default/files/newsletter/KITP-Fall-2019-Newsletter.pdf&#34;&gt;Kavli Institute for Theoretical Physics Newsletter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s looking forward to a 2020 filled with many more exciting projects!&lt;/p&gt;
+
+&lt;!--  LocalWords:  Oishi jeff oishi mbaxter biofilm megameters multi
+ --&gt;
+
+&lt;!--  LocalWords:  preprint biofilms extracellular verticalization
+ --&gt;
+
+&lt;!--  LocalWords:  img png magnetorotational Geoff Vasil mri Dedalus
+ --&gt;
+
+&lt;!--  LocalWords:  pseudospectral diamagnetic Kavli
+ --&gt;
+</description>
+    </item>
     
     <item>
       <title>Papers published!</title>
