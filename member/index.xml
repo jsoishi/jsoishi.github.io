@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Members on Bates Fluid Dynamics Group</title>
-    <link>https://jsoishi.github.io/member/index.xml</link>
+    <link>https://jsoishi.github.io/member/</link>
     <description>Recent content in Members on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
     <lastBuildDate>Tue, 12 Jul 2016 15:52:22 +0200</lastBuildDate>
-    <atom:link href="https://jsoishi.github.io/member/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://jsoishi.github.io/member/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Alex Jiang</title>
@@ -15,12 +17,18 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/xjiang/</guid>
-      <description>
-
-&lt;p&gt;Alex is just getting started in the group. He&amp;rsquo;s going to work with Becca on Active Matter.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Alex is just getting started in the group. He&amp;rsquo;s going to work with Becca on Active Matter.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Anthony Okonkwo</title>
+      <link>https://jsoishi.github.io/member/aokonkwo/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/aokonkwo/</guid>
+      <description>Anthony is a senior thesis student working on fluid-structure interactions using immersed boundary methods in Dedalus.
+Hobbies </description>
     </item>
     
     <item>
@@ -29,12 +37,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/abrachne/</guid>
-      <description>
-
-&lt;p&gt;Avi is writing his senior thesis on the Goldreich-Schubert-Fricke instability.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Avi is writing his senior thesis on the Goldreich-Schubert-Fricke instability.
+Hobbies </description>
     </item>
     
     <item>
@@ -43,12 +47,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/rminsley/</guid>
-      <description>
-
-&lt;p&gt;Becca is just joining the group. She&amp;rsquo;s going to work with Alex on Active Matter.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Becca is just joining the group. She&amp;rsquo;s going to work with Alex on Active Matter.
+Hobbies </description>
     </item>
     
     <item>
@@ -57,12 +57,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/dbanerje/</guid>
-      <description>
-
-&lt;p&gt;Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.
+Hobbies </description>
     </item>
     
     <item>
@@ -71,12 +67,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/fkhan/</guid>
-      <description>
-
-&lt;p&gt;Fahim is developing a dashboard for managing supercomputer simulations.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Fahim is developing a dashboard for managing supercomputer simulations.
+Hobbies </description>
     </item>
     
     <item>
@@ -85,12 +77,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/hbeams/</guid>
-      <description>
-
-&lt;p&gt;Hannah is just joining the group. She&amp;rsquo;s starting a project to simulate the KPZ equation in Dedalus.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Hannah is just joining the group. She&amp;rsquo;s starting a project to simulate the KPZ equation in Dedalus.
+Hobbies </description>
     </item>
     
     <item>
@@ -99,14 +87,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/jeff_oishi/</guid>
-      <description>
-
-&lt;p&gt;Jeff grew up in Virginia, just outside Washington, D. C.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-
-&lt;p&gt;Loud music, synthesizers, bicycles, cats.&lt;/p&gt;
-</description>
+      <description>Jeff grew up in Virginia, just outside Washington, D. C.
+Hobbies Loud music, synthesizers, bicycles, cats.</description>
     </item>
     
     <item>
@@ -115,14 +97,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mgoldbe2/</guid>
-      <description>
-
-&lt;p&gt;Matt&amp;rsquo;s from Cambridge, MA.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-
-&lt;p&gt;Ultimate!&lt;/p&gt;
-</description>
+      <description>Matt&amp;rsquo;s from Cambridge, MA.
+Hobbies Ultimate!</description>
     </item>
     
     <item>
@@ -131,14 +107,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mbancroft/</guid>
-      <description>
-
-&lt;p&gt;Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-
-&lt;p&gt;skiing&lt;/p&gt;
-</description>
+      <description>Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.
+Hobbies skiing</description>
     </item>
     
     <item>
@@ -147,12 +117,18 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mbaxter/</guid>
-      <description>
-
-&lt;p&gt;Morgan just completed an eigenvalue analysis of the 3D magnetorotational instability, and he&amp;rsquo;s moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Morgan just completed an eigenvalue analysis of the 3D magnetorotational instability, and he&amp;rsquo;s moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Muhammad Abdullah</title>
+      <link>https://jsoishi.github.io/member/mabdulla/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/mabdulla/</guid>
+      <description>Abdullah has just started in the group working on stability analyses for lab experiments.
+Hobbies </description>
     </item>
     
     <item>
@@ -161,12 +137,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/reed_feldman/</guid>
-      <description>
-
-&lt;p&gt;Reed developed a web framework for managing and creating Dedalus jobs from simulation parameter design documents.&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Reed developed a web framework for managing and creating Dedalus jobs from simulation parameter design documents.
+Hobbies </description>
     </item>
     
     <item>
@@ -175,12 +147,8 @@
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/sam_huebschmann/</guid>
-      <description>
-
-&lt;p&gt;Sam completed his senior thesis by building a Raspberry pi &amp;ldquo;supercomputer.&amp;rdquo;&lt;/p&gt;
-
-&lt;h3 id=&#34;hobbies&#34;&gt;Hobbies&lt;/h3&gt;
-</description>
+      <description>Sam completed his senior thesis by building a Raspberry pi &amp;ldquo;supercomputer.&amp;rdquo;
+Hobbies </description>
     </item>
     
   </channel>

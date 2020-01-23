@@ -1,13 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bates Fluid Dynamics Group</title>
-    <link>https://jsoishi.github.io/post/index.xml</link>
+    <link>https://jsoishi.github.io/post/</link>
     <description>Recent content in Posts on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Tue, 03 Dec 2019 15:54:00 +0000</lastBuildDate>
-    <atom:link href="https://jsoishi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jan 2020 15:41:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jsoishi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome new members!</title>
+      <link>https://jsoishi.github.io/post/winter-2020/</link>
+      <pubDate>Thu, 23 Jan 2020 15:41:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/winter-2020/</guid>
+      <description>As we start the winter term, we welcome two new members to our ranks. First, Anthony Okonkwo (Bates &amp;lsquo;20) joins the group as a senior thesis student working on fluid-structure interaction and modelling Taylor&amp;rsquo;s swimming sheet using immersed boundary methods in Dedalus. Anthony is majoring in physics and engineering and is particularly interested in mechanical engineering. Second, Muhammad Abdullah (Bates &amp;lsquo;22) is joining the group as a research student. He&amp;rsquo;s just getting started on instability theory, with an eye on helping to design a Goldreich-Schubert-Fricke lab experiment.</description>
+    </item>
     
     <item>
       <title>A busy semester winds down</title>
@@ -15,35 +26,7 @@
       <pubDate>Tue, 03 Dec 2019 15:54:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/three-new-papers/</guid>
-      <description>&lt;p&gt;The snow is falling, the semester is winding down, and everyone&amp;rsquo;s looking forward to a break.
-It&amp;rsquo;s been a very busy year for the Bates Fluids group, and I&amp;rsquo;m excited to announce that in the past few weeks, we&amp;rsquo;ve had three (!!) papers accepted, including one featuring group member &lt;a href=&#34;https://jsoishi.github.io/member/mbaxter&#34;&gt;Morgan Baxter (Bates &amp;lsquo;20)&lt;/a&gt;.
-The vast range of topics these papers cover, from biofilm growth to the stability of rotating plasmas to the flexible numerical methods we work on, speaks to the extremely broad applicability of fluid dynamics! These applications range from scales of microns to megameters and everything in between.&lt;/p&gt;
-
-&lt;p&gt;First, our first biophysics paper has been accepted to &lt;em&gt;Physical Review Letters&lt;/em&gt; (a &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/627208v2&#34;&gt;preprint is available at BiorXiv&lt;/a&gt;). In this work, we constructed a multi-scale model for biofilms growing in shear flows. Biofilms are ubiquitous assemblages of microorganisms stuck together by an extracellular matrix, often growing on a surface. They are found in pipelines, in medical devices, and in human organs. In nearly all of these environments, biofilms grow in the presence of strong shear flows. Using experimental data from &lt;a href=&#34;https://drescherlab.org/&#34;&gt;our collaborators in Marburg&lt;/a&gt;, we developed a continuum (e.g. fluid) model for a fluid with growth-induced activity. While on leave last fall at &lt;a href=&#34;https://math.mit.edu&#34;&gt;MIT Mathematics&lt;/a&gt;, &lt;a href=&#34;https://jsoishi.github.io/member/jeff_oishi&#34;&gt;I&lt;/a&gt; helped develop an active phase-field model and implement it in &lt;a href=&#34;http://dedalus-project.org&#34;&gt;Dedalus&lt;/a&gt; with &lt;a href=&#34;https://scholar.harvard.edu/ppearce/home&#34;&gt;Phil Pearce&lt;/a&gt; and &lt;a href=&#34;https://math.mit.edu/directory/profile.php?pid=2038&#34;&gt;Dominic Skinner&lt;/a&gt;.
-We were able to successfully match experimental data using a model in which the shape of the biofilm is initially determined by deformation of individual cells by the flow but evolves into a configuration in which the vertical growth of cells in center of the film determines the overall shape at later times.  In the figure below, you can see a &amp;ldquo;wave&amp;rdquo; of verticalization, driven by the fact that the cells in the center of the biofilm are shielded from the flow and &amp;ldquo;buckle&amp;rdquo; upwards when they try to grow on the surface.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/biofilm_image.png&#34; alt=&#34;Verticalization wave in a biofilm&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Our paper on the three-dimensional magnetorotational instability accepted to &lt;em&gt;Proceedings of the Royal Society A&lt;/em&gt; (the &lt;a href=&#34;https://arxiv.org/abs/1912.00972&#34;&gt;preprint is available on arxiv&lt;/a&gt;). In this work, &lt;a href=&#34;https://jsoishi.github.io/member/mbaxter&#34;&gt;Morgan Baxter (Bates &amp;lsquo;20)&lt;/a&gt; performed dozens of linear stability calculations of the magnetorotational instability (MRI), an extremely important process in astrophysics. The MRI occurs when a rotating, electrically conducting fluid has angular velocity decreasing with distance from the center of rotation in the presence of a weak magnetic field. Such a setup triggers a violent instability that can transport angular momentum outwards, which makes it very important in the theory of accretion disks, where material falls inwards into a central object. However, we are interested in the potential for the MRI to act in a &lt;em&gt;very&lt;/em&gt; different context: in the outer layers of the Sun and in liquid metal experiments on Earth. In both of these contexts, the MRI is not driven strongly but is weakly unstable. In this regime, it turns out that the most unstable structures are three dimensional, rather than two-dimensional, as had previously been thought. This is very important, because it raises the possibility that such weakly unstable (technically called &amp;ldquo;weakly nonlinear systems&amp;rdquo;) may be able to amplify magnetic fields. Systems that dynamically generate their own magnetic field, rather than relying on a field that was implanted in the object by an external process, are called &lt;em&gt;dynamos&lt;/em&gt;. The Sun and Earth are both famous examples of dynamos; in the case of the Sun, the field regenerates itself on an 11 year cycle. This paper lays the groundwork for a new theory of solar dynamos in which the weakly non-linear MRI generates the field. One of the most exciting parts of this paper was the very nice agreement between the numerical computations Morgan performed and the analytic theory work by Geoff Vasil and me, which can be seen in panel the figure below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/mri_paper.png&#34; alt=&#34;Growth rates of the 3D MRI&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, I&amp;rsquo;m extremely excited to announce that the long-awaited paper describing the Dedalus Project has finally been accepted in the brand-new journal &lt;em&gt;Physical Review Research&lt;/em&gt; (the &lt;a href=&#34;https://arxiv.org/abs/1905.10388&#34;&gt;preprint is up on arxiv&lt;/a&gt;). This paper, which is a mere 37 pages long in its preprint version, details nearly every aspect of the code, including its mathematical underpinnings, its custom computer algebra system that turns text equations into maximally sparse matrices, and much more. One of the most exciting parts, particularly if you&amp;rsquo;re not interested in the details of sparse, parallel, pseudospectral numerical methods, is the extensive gallery of example problems, ranging from classic Kelvin-Helmholtz instabilities to the diamagnetic levitation of frogs (yes, really). Best of all, we have posted &lt;a href=&#34;https://github.com/DedalusProject/methods_paper_examples&#34;&gt;all the code for every example&lt;/a&gt;, including plot scripts. This way, you can get started on your own problems by hacking the example nearest to your area of interest! Congratulations especially to &lt;a href=&#34;http://keaton-burns.com/&#34;&gt;Keaton Burns&lt;/a&gt;, who started working on Dedalus as an undergraduate with me back in 2011, continued all through his graduate work at Cambridge and MIT, and continues to be the project leader as an Instructor in the MIT Math department. You can find a feature on the early days of the Dedalus Collaboration on page 4 of the Fall issue of &lt;a href=&#34;https://www.kitp.ucsb.edu/sites/default/files/newsletter/KITP-Fall-2019-Newsletter.pdf&#34;&gt;Kavli Institute for Theoretical Physics Newsletter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s looking forward to a 2020 filled with many more exciting projects!&lt;/p&gt;
-
-&lt;!--  LocalWords:  Oishi jeff oishi mbaxter biofilm megameters multi
- --&gt;
-
-&lt;!--  LocalWords:  preprint biofilms extracellular verticalization
- --&gt;
-
-&lt;!--  LocalWords:  img png magnetorotational Geoff Vasil mri Dedalus
- --&gt;
-
-&lt;!--  LocalWords:  pseudospectral diamagnetic Kavli
- --&gt;
-</description>
+      <description>The snow is falling, the semester is winding down, and everyone&amp;rsquo;s looking forward to a break. It&amp;rsquo;s been a very busy year for the Bates Fluids group, and I&amp;rsquo;m excited to announce that in the past few weeks, we&amp;rsquo;ve had three (!!) papers accepted, including one featuring group member Morgan Baxter (Bates &amp;lsquo;20). The vast range of topics these papers cover, from biofilm growth to the stability of rotating plasmas to the flexible numerical methods we work on, speaks to the extremely broad applicability of fluid dynamics!</description>
     </item>
     
     <item>
@@ -52,18 +35,9 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Sun, 29 Sep 2019 15:01:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/spheres-papers/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m excited to annouce that our two papers on spin-weighted spherical harmonics are finally published in the Journal of Computational Physics X. The &lt;a href=&#34;https://doi.org/10.1016/j.jcpx.2019.100013&#34;&gt;first paper&lt;/a&gt; covers the mathematical formalism, while the &lt;a href=&#34;https://doi.org/10.1016/j.jcpx.2019.100012&#34;&gt;second paper&lt;/a&gt; demonstrates its performance in a number of test problems, including a fully convective, rotating dynamo problem:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/1-s2.0-S2590055219300289-gr010.jpg&#34; alt=&#34;spherical dynamo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;On the right is the radial velocity while the left shows magnetic field lines, visualized using Vapor.&lt;/p&gt;
-
-&lt;p&gt;The most significant part of this research, aside from the fact that we have sparse, efficient spectrally accurate spherical basis functions in Dedalus, is that by using spin-weighted spherical harmonics, one can implement equations on the sphere directly in vector form:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/2019-09-29-204108_1325x457_scrot.png&#34; alt=&#34;equations&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Previously, one would have to write equations in poloidal-toridal form in order to expand them in spherical harmonics. By constructing spectrally accurate solutions for vector partial differential equations on the sphere, we can now get ready for a lot of exciting research on the sphere!&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m excited to annouce that our two papers on spin-weighted spherical harmonics are finally published in the Journal of Computational Physics X. The first paper covers the mathematical formalism, while the second paper demonstrates its performance in a number of test problems, including a fully convective, rotating dynamo problem:
+On the right is the radial velocity while the left shows magnetic field lines, visualized using Vapor.
+The most significant part of this research, aside from the fact that we have sparse, efficient spectrally accurate spherical basis functions in Dedalus, is that by using spin-weighted spherical harmonics, one can implement equations on the sphere directly in vector form:</description>
     </item>
     
     <item>
@@ -72,14 +46,8 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Sat, 14 Sep 2019 15:01:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/new-year-2019-2020/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s the start of a new year, and we have several new members in the group. Welcome to senior thesis students Fahim Khan and Avi Brach-Neufeld, juniors Hannah Beams, Becca Minsley, and Alex Jiang! Morgan Baxter is returning from a successful summer project to start his senior thesis as well.&lt;/p&gt;
-
-&lt;p&gt;Fahim is going to be focusing on some interesting infrastructure, trying to figure out how to streamline the management of supercomputer simulations. Avi will be investiating the non-linear Goldreich-Schubert-Fricke instability. Morgan Baxter will be continuing on to applying GQL to &lt;a href=&#34;https://dedalus-project.readthedocs.io/en/latest/notebooks/TaylorCouetteFlow.html&#34;&gt;Taylor-Couette flows&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Becca and Alex are starting a new project to find exact non-linear states for &lt;a href=&#34;https://en.wikipedia.org/wiki/Active_matter&#34;&gt;active matter&lt;/a&gt;. Meanwhile, Hannah is going to lead the charge to apply Dedalus to stochastic PDEs, with an investigation of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation&#34;&gt;KPZ equation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It was a busy and productive summer, with Morgan&amp;rsquo;s summer research project on the magnetorotational instability leading to his first paper, which will be submitted this week. Look for more details very soon.&lt;/p&gt;
-</description>
+      <description>It&amp;rsquo;s the start of a new year, and we have several new members in the group. Welcome to senior thesis students Fahim Khan and Avi Brach-Neufeld, juniors Hannah Beams, Becca Minsley, and Alex Jiang! Morgan Baxter is returning from a successful summer project to start his senior thesis as well.
+Fahim is going to be focusing on some interesting infrastructure, trying to figure out how to streamline the management of supercomputer simulations.</description>
     </item>
     
     <item>
@@ -88,8 +56,7 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Wed, 05 Dec 2018 17:23:48 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/gql-busse-paper/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rspa.2018.0422&#34;&gt;Our paper&lt;/a&gt; on the Generalized Quasi-linear Approximation for the Busse Annulus problem was published in Proceedings of the Royal Society A!&lt;/p&gt;
-</description>
+      <description>Our paper on the Generalized Quasi-linear Approximation for the Busse Annulus problem was published in Proceedings of the Royal Society A!</description>
     </item>
     
     <item>
@@ -98,8 +65,7 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/post1/</guid>
-      <description>&lt;p&gt;So we built a website!&lt;/p&gt;
-</description>
+      <description>So we built a website!</description>
     </item>
     
   </channel>

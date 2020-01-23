@@ -19,7 +19,7 @@ html {
 }
 
 header{
-    background-image: url("/img/header.jpg");
+    background-image: url("../img/header.jpg");
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -98,6 +98,10 @@ body {
     position: relative;
     top: -71px;
     visibility: hidden;
+}
+
+li p {
+    margin: 0 0 0 0;
 }
 
 h1,

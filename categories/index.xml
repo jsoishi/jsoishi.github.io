@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bates Fluid Dynamics Group</title>
     <link>https://jsoishi.github.io/categories/</link>
     <description>Recent content in Categories on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; Jeffrey S. Oishi, 2018; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
+    <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
     
 	<atom:link href="https://jsoishi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     

@@ -1,13 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bates Fluid Dynamics Group</title>
-    <link>https://jsoishi.github.io/index.xml</link>
+    <link>https://jsoishi.github.io/</link>
     <description>Recent content on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Tue, 03 Dec 2019 15:54:00 +0000</lastBuildDate>
-    <atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jan 2020 15:41:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome new members!</title>
+      <link>https://jsoishi.github.io/post/winter-2020/</link>
+      <pubDate>Thu, 23 Jan 2020 15:41:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/winter-2020/</guid>
+      <description>As we start the winter term, we welcome two new members to our ranks. First, Anthony Okonkwo (Bates &amp;lsquo;20) joins the group as a senior thesis student working on fluid-structure interaction and modelling Taylor&amp;rsquo;s swimming sheet using immersed boundary methods in Dedalus. Anthony is majoring in physics and engineering and is particularly interested in mechanical engineering. Second, Muhammad Abdullah (Bates &amp;lsquo;22) is joining the group as a research student. He&amp;rsquo;s just getting started on instability theory, with an eye on helping to design a Goldreich-Schubert-Fricke lab experiment.</description>
+    </item>
     
     <item>
       <title>A busy semester winds down</title>
@@ -15,35 +26,7 @@
       <pubDate>Tue, 03 Dec 2019 15:54:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/three-new-papers/</guid>
-      <description>&lt;p&gt;The snow is falling, the semester is winding down, and everyone&amp;rsquo;s looking forward to a break.
-It&amp;rsquo;s been a very busy year for the Bates Fluids group, and I&amp;rsquo;m excited to announce that in the past few weeks, we&amp;rsquo;ve had three (!!) papers accepted, including one featuring group member &lt;a href=&#34;https://jsoishi.github.io/member/mbaxter&#34;&gt;Morgan Baxter (Bates &amp;lsquo;20)&lt;/a&gt;.
-The vast range of topics these papers cover, from biofilm growth to the stability of rotating plasmas to the flexible numerical methods we work on, speaks to the extremely broad applicability of fluid dynamics! These applications range from scales of microns to megameters and everything in between.&lt;/p&gt;
-
-&lt;p&gt;First, our first biophysics paper has been accepted to &lt;em&gt;Physical Review Letters&lt;/em&gt; (a &lt;a href=&#34;https://www.biorxiv.org/content/10.1101/627208v2&#34;&gt;preprint is available at BiorXiv&lt;/a&gt;). In this work, we constructed a multi-scale model for biofilms growing in shear flows. Biofilms are ubiquitous assemblages of microorganisms stuck together by an extracellular matrix, often growing on a surface. They are found in pipelines, in medical devices, and in human organs. In nearly all of these environments, biofilms grow in the presence of strong shear flows. Using experimental data from &lt;a href=&#34;https://drescherlab.org/&#34;&gt;our collaborators in Marburg&lt;/a&gt;, we developed a continuum (e.g. fluid) model for a fluid with growth-induced activity. While on leave last fall at &lt;a href=&#34;https://math.mit.edu&#34;&gt;MIT Mathematics&lt;/a&gt;, &lt;a href=&#34;https://jsoishi.github.io/member/jeff_oishi&#34;&gt;I&lt;/a&gt; helped develop an active phase-field model and implement it in &lt;a href=&#34;http://dedalus-project.org&#34;&gt;Dedalus&lt;/a&gt; with &lt;a href=&#34;https://scholar.harvard.edu/ppearce/home&#34;&gt;Phil Pearce&lt;/a&gt; and &lt;a href=&#34;https://math.mit.edu/directory/profile.php?pid=2038&#34;&gt;Dominic Skinner&lt;/a&gt;.
-We were able to successfully match experimental data using a model in which the shape of the biofilm is initially determined by deformation of individual cells by the flow but evolves into a configuration in which the vertical growth of cells in center of the film determines the overall shape at later times.  In the figure below, you can see a &amp;ldquo;wave&amp;rdquo; of verticalization, driven by the fact that the cells in the center of the biofilm are shielded from the flow and &amp;ldquo;buckle&amp;rdquo; upwards when they try to grow on the surface.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/biofilm_image.png&#34; alt=&#34;Verticalization wave in a biofilm&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Our paper on the three-dimensional magnetorotational instability accepted to &lt;em&gt;Proceedings of the Royal Society A&lt;/em&gt; (the &lt;a href=&#34;https://arxiv.org/abs/1912.00972&#34;&gt;preprint is available on arxiv&lt;/a&gt;). In this work, &lt;a href=&#34;https://jsoishi.github.io/member/mbaxter&#34;&gt;Morgan Baxter (Bates &amp;lsquo;20)&lt;/a&gt; performed dozens of linear stability calculations of the magnetorotational instability (MRI), an extremely important process in astrophysics. The MRI occurs when a rotating, electrically conducting fluid has angular velocity decreasing with distance from the center of rotation in the presence of a weak magnetic field. Such a setup triggers a violent instability that can transport angular momentum outwards, which makes it very important in the theory of accretion disks, where material falls inwards into a central object. However, we are interested in the potential for the MRI to act in a &lt;em&gt;very&lt;/em&gt; different context: in the outer layers of the Sun and in liquid metal experiments on Earth. In both of these contexts, the MRI is not driven strongly but is weakly unstable. In this regime, it turns out that the most unstable structures are three dimensional, rather than two-dimensional, as had previously been thought. This is very important, because it raises the possibility that such weakly unstable (technically called &amp;ldquo;weakly nonlinear systems&amp;rdquo;) may be able to amplify magnetic fields. Systems that dynamically generate their own magnetic field, rather than relying on a field that was implanted in the object by an external process, are called &lt;em&gt;dynamos&lt;/em&gt;. The Sun and Earth are both famous examples of dynamos; in the case of the Sun, the field regenerates itself on an 11 year cycle. This paper lays the groundwork for a new theory of solar dynamos in which the weakly non-linear MRI generates the field. One of the most exciting parts of this paper was the very nice agreement between the numerical computations Morgan performed and the analytic theory work by Geoff Vasil and me, which can be seen in panel the figure below.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/mri_paper.png&#34; alt=&#34;Growth rates of the 3D MRI&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally, I&amp;rsquo;m extremely excited to announce that the long-awaited paper describing the Dedalus Project has finally been accepted in the brand-new journal &lt;em&gt;Physical Review Research&lt;/em&gt; (the &lt;a href=&#34;https://arxiv.org/abs/1905.10388&#34;&gt;preprint is up on arxiv&lt;/a&gt;). This paper, which is a mere 37 pages long in its preprint version, details nearly every aspect of the code, including its mathematical underpinnings, its custom computer algebra system that turns text equations into maximally sparse matrices, and much more. One of the most exciting parts, particularly if you&amp;rsquo;re not interested in the details of sparse, parallel, pseudospectral numerical methods, is the extensive gallery of example problems, ranging from classic Kelvin-Helmholtz instabilities to the diamagnetic levitation of frogs (yes, really). Best of all, we have posted &lt;a href=&#34;https://github.com/DedalusProject/methods_paper_examples&#34;&gt;all the code for every example&lt;/a&gt;, including plot scripts. This way, you can get started on your own problems by hacking the example nearest to your area of interest! Congratulations especially to &lt;a href=&#34;http://keaton-burns.com/&#34;&gt;Keaton Burns&lt;/a&gt;, who started working on Dedalus as an undergraduate with me back in 2011, continued all through his graduate work at Cambridge and MIT, and continues to be the project leader as an Instructor in the MIT Math department. You can find a feature on the early days of the Dedalus Collaboration on page 4 of the Fall issue of &lt;a href=&#34;https://www.kitp.ucsb.edu/sites/default/files/newsletter/KITP-Fall-2019-Newsletter.pdf&#34;&gt;Kavli Institute for Theoretical Physics Newsletter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s looking forward to a 2020 filled with many more exciting projects!&lt;/p&gt;
-
-&lt;!--  LocalWords:  Oishi jeff oishi mbaxter biofilm megameters multi
- --&gt;
-
-&lt;!--  LocalWords:  preprint biofilms extracellular verticalization
- --&gt;
-
-&lt;!--  LocalWords:  img png magnetorotational Geoff Vasil mri Dedalus
- --&gt;
-
-&lt;!--  LocalWords:  pseudospectral diamagnetic Kavli
- --&gt;
-</description>
+      <description>The snow is falling, the semester is winding down, and everyone&amp;rsquo;s looking forward to a break. It&amp;rsquo;s been a very busy year for the Bates Fluids group, and I&amp;rsquo;m excited to announce that in the past few weeks, we&amp;rsquo;ve had three (!!) papers accepted, including one featuring group member Morgan Baxter (Bates &amp;lsquo;20). The vast range of topics these papers cover, from biofilm growth to the stability of rotating plasmas to the flexible numerical methods we work on, speaks to the extremely broad applicability of fluid dynamics!</description>
     </item>
     
     <item>
@@ -52,18 +35,9 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Sun, 29 Sep 2019 15:01:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/spheres-papers/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m excited to annouce that our two papers on spin-weighted spherical harmonics are finally published in the Journal of Computational Physics X. The &lt;a href=&#34;https://doi.org/10.1016/j.jcpx.2019.100013&#34;&gt;first paper&lt;/a&gt; covers the mathematical formalism, while the &lt;a href=&#34;https://doi.org/10.1016/j.jcpx.2019.100012&#34;&gt;second paper&lt;/a&gt; demonstrates its performance in a number of test problems, including a fully convective, rotating dynamo problem:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/1-s2.0-S2590055219300289-gr010.jpg&#34; alt=&#34;spherical dynamo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;On the right is the radial velocity while the left shows magnetic field lines, visualized using Vapor.&lt;/p&gt;
-
-&lt;p&gt;The most significant part of this research, aside from the fact that we have sparse, efficient spectrally accurate spherical basis functions in Dedalus, is that by using spin-weighted spherical harmonics, one can implement equations on the sphere directly in vector form:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jsoishi.github.io/img/2019-09-29-204108_1325x457_scrot.png&#34; alt=&#34;equations&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Previously, one would have to write equations in poloidal-toridal form in order to expand them in spherical harmonics. By constructing spectrally accurate solutions for vector partial differential equations on the sphere, we can now get ready for a lot of exciting research on the sphere!&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m excited to annouce that our two papers on spin-weighted spherical harmonics are finally published in the Journal of Computational Physics X. The first paper covers the mathematical formalism, while the second paper demonstrates its performance in a number of test problems, including a fully convective, rotating dynamo problem:
+On the right is the radial velocity while the left shows magnetic field lines, visualized using Vapor.
+The most significant part of this research, aside from the fact that we have sparse, efficient spectrally accurate spherical basis functions in Dedalus, is that by using spin-weighted spherical harmonics, one can implement equations on the sphere directly in vector form:</description>
     </item>
     
     <item>
@@ -72,14 +46,8 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Sat, 14 Sep 2019 15:01:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/new-year-2019-2020/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s the start of a new year, and we have several new members in the group. Welcome to senior thesis students Fahim Khan and Avi Brach-Neufeld, juniors Hannah Beams, Becca Minsley, and Alex Jiang! Morgan Baxter is returning from a successful summer project to start his senior thesis as well.&lt;/p&gt;
-
-&lt;p&gt;Fahim is going to be focusing on some interesting infrastructure, trying to figure out how to streamline the management of supercomputer simulations. Avi will be investiating the non-linear Goldreich-Schubert-Fricke instability. Morgan Baxter will be continuing on to applying GQL to &lt;a href=&#34;https://dedalus-project.readthedocs.io/en/latest/notebooks/TaylorCouetteFlow.html&#34;&gt;Taylor-Couette flows&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Becca and Alex are starting a new project to find exact non-linear states for &lt;a href=&#34;https://en.wikipedia.org/wiki/Active_matter&#34;&gt;active matter&lt;/a&gt;. Meanwhile, Hannah is going to lead the charge to apply Dedalus to stochastic PDEs, with an investigation of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation&#34;&gt;KPZ equation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It was a busy and productive summer, with Morgan&amp;rsquo;s summer research project on the magnetorotational instability leading to his first paper, which will be submitted this week. Look for more details very soon.&lt;/p&gt;
-</description>
+      <description>It&amp;rsquo;s the start of a new year, and we have several new members in the group. Welcome to senior thesis students Fahim Khan and Avi Brach-Neufeld, juniors Hannah Beams, Becca Minsley, and Alex Jiang! Morgan Baxter is returning from a successful summer project to start his senior thesis as well.
+Fahim is going to be focusing on some interesting infrastructure, trying to figure out how to streamline the management of supercomputer simulations.</description>
     </item>
     
     <item>
@@ -88,81 +56,62 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Wed, 17 Jul 2019 08:50:58 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/research/dedalus_tutorials/</guid>
-      <description>
-
-&lt;h1 id=&#34;double-diffusive-convection&#34;&gt;Double Diffusive Convection&lt;/h1&gt;
-
-&lt;p&gt;In order to run this, you can find the code at &lt;a href=&#34;https://github.com/jsoishi/double_diffusive_examples&#34; title=&#34;Double Diffusive Convection Examples&#34;&gt;Github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;First, we have the so-called &amp;ldquo;fingering&amp;rdquo; regime of DDC, which you can run with &lt;a href=&#34;https://github.com/jsoishi/double_diffusive_examples/blob/master/python/fingering_convection/fingering.py&#34; title=&#34;link to Dedalus fingering script&#34;&gt;this script&lt;/a&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;div class=&#34;embed video-player&#34;&gt;
-        &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; src=&#34;https://www.youtube.com/embed/MecobQAN7to&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
-        &lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Next, we have &amp;ldquo;overstable&amp;rdquo; DDC, which you can run with &lt;a href=&#34;https://github.com/jsoishi/double_diffusive_examples/blob/master/python/ODDC/oddc.py&#34; title=&#34;link to Dedalus ODDC script&#34;&gt;this script&lt;/a&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;div class=&#34;embed video-player&#34;&gt;
-        &lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; src=&#34;https://www.youtube.com/embed/pvLBy446LFk&#34; allowfullscreen frameborder=&#34;0&#34;&gt;
-        &lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>Double Diffusive Convection In order to run this, you can find the code at Github.
+First, we have the so-called &amp;ldquo;fingering&amp;rdquo; regime of DDC, which you can run with this script   
+Next, we have &amp;ldquo;overstable&amp;rdquo; DDC, which you can run with this script</description>
     </item>
     
     <item>
       <title>Dedalus: A Flexible Framework for Numerical Simulations with Spectral Methods</title>
-      <link>https://jsoishi.github.io/publication/2019arXiv190510388B/</link>
+      <link>https://jsoishi.github.io/publication/2019arxiv190510388b/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2019arXiv190510388B/</guid>
+      <guid>https://jsoishi.github.io/publication/2019arxiv190510388b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Breezing through the Space Environment of Barnard’s Star b</title>
-      <link>https://jsoishi.github.io/publication/2019ApJ...875L..12A/</link>
+      <link>https://jsoishi.github.io/publication/2019apj...875l..12a/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2019ApJ...875L..12A/</guid>
+      <guid>https://jsoishi.github.io/publication/2019apj...875l..12a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tensor calculus in spherical coordinates using Jacobi polynomials, Part-II: Implementation and Examples</title>
-      <link>https://jsoishi.github.io/publication/2018arXiv180409283L/</link>
+      <link>https://jsoishi.github.io/publication/2018arxiv180409283l/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2018arXiv180409283L/</guid>
+      <guid>https://jsoishi.github.io/publication/2018arxiv180409283l/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tensor calculus in spherical coordinates using Jacobi polynomials. Part-I: Mathematical analysis and derivations</title>
-      <link>https://jsoishi.github.io/publication/2018arXiv180410320V/</link>
+      <link>https://jsoishi.github.io/publication/2018arxiv180410320v/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2018arXiv180410320V/</guid>
+      <guid>https://jsoishi.github.io/publication/2018arxiv180410320v/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The &#34;Sphered Cube&#34;: A New Method for the Solution of Partial Differential Equations in Cubical Geometry</title>
-      <link>https://jsoishi.github.io/publication/2019arXiv190312642B/</link>
+      <link>https://jsoishi.github.io/publication/2019arxiv190312642b/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2019arXiv190312642B/</guid>
+      <guid>https://jsoishi.github.io/publication/2019arxiv190312642b/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predicting the Rossby Number in Convective Experiments</title>
-      <link>https://jsoishi.github.io/publication/2019ApJ...872..138A/</link>
+      <link>https://jsoishi.github.io/publication/2019apj...872..138a/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2019ApJ...872..138A/</guid>
+      <guid>https://jsoishi.github.io/publication/2019apj...872..138a/</guid>
       <description></description>
     </item>
     
@@ -172,8 +121,7 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Wed, 05 Dec 2018 17:23:48 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/gql-busse-paper/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://royalsocietypublishing.org/doi/10.1098/rspa.2018.0422&#34;&gt;Our paper&lt;/a&gt; on the Generalized Quasi-linear Approximation for the Busse Annulus problem was published in Proceedings of the Royal Society A!&lt;/p&gt;
-</description>
+      <description>Our paper on the Generalized Quasi-linear Approximation for the Busse Annulus problem was published in Proceedings of the Royal Society A!</description>
     </item>
     
     <item>
@@ -182,86 +130,8 @@ We were able to successfully match experimental data using a model in which the 
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/research/getting_started/</guid>
-      <description>
-
-&lt;p&gt;Welcome to the Bates Fluid Dynamics Group! Most of our work involves solving partial differential equations by computer. Typically, this means running simulations on supercomputers, most often the Leavitt cluster here at Bates.&lt;/p&gt;
-
-&lt;h1 id=&#34;using-linux&#34;&gt;Using Linux&lt;/h1&gt;
-
-&lt;p&gt;All of the group&amp;rsquo;s software runs on Linux. You need to be familiar with the command line, and it helps to know a bit of bash shell scripting. We use the &lt;code&gt;git&lt;/code&gt; version control system. Nearly all of our code, including our main simulation workhorse, &lt;a href=&#34;http://dedalus-project.org/&#34;&gt;Dedalus&lt;/a&gt;, is written in Python.&lt;/p&gt;
-
-&lt;p&gt;For writing theses, papers, and notes, we use the LaTeX typesetting system.&lt;/p&gt;
-
-&lt;p&gt;All of this is taught in PHYS s10, but if you haven&amp;rsquo;t taken it, don&amp;rsquo;t fear! Here are some resources.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://snugug.github.io/Intro-Command-Line&#34;&gt;Intro to command line&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Template:Unix_commands&#34;&gt;wikipedia&lt;/a&gt; command line programs list. I still make reference to this on a regular basis.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://try.github.io/&#34;&gt;Resources to learn git&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/tutorial/index.html&#34;&gt;The official python tutorial&lt;/a&gt;. If you&amp;rsquo;re starting from zero programming, come see me first. If you know enough to be dangerous in another language, this is a good startingplace.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://faculty.math.illinois.edu/~hildebr/tex/latex-start.html&#34;&gt;Getting Started with LaTeX&lt;/a&gt;. This is a pretty comprehensive resource.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html&#34;&gt;Creating ssh keys&lt;/a&gt; ssh keys are essential to secure access to many of the group&amp;rsquo;s resource. They also allow you to do awesome stuff like caching your password so you don&amp;rsquo;t have to type it everytime you want to access remote data on Leavitt.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh&#34;&gt;sshfs tutorial&lt;/a&gt; Once you have an ssh key, you can use sshfs to &amp;ldquo;mount&amp;rdquo; your directory on Leavitt like it&amp;rsquo;s a local disk on your Mac, Windows, or Linux laptop. Then you can edit scripts using whatever text editor you&amp;rsquo;re most comfortable with.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You&amp;rsquo;ll be doing a lot of text editing. This is like word processing, but without formatting. It&amp;rsquo;s really important to get familiar with a text editor. There are many, and I&amp;rsquo;d ask around to see what your friends are using. Here&amp;rsquo;s a few.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;emacs&lt;/a&gt; the greatest editor ever. Also, somewhat hard to use.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://atom.io/&#34;&gt;atom&lt;/a&gt; has a lot of buzz. It seems pretty cool, is free and open-source.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.sublimetext.com/&#34;&gt;sublime text&lt;/a&gt; A widely used and much liked editor. It is proprietary and costs money, so I don&amp;rsquo;t fully recommend it.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;dedalus&#34;&gt;Dedalus&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://groups.google.com/dedalus-users/&#34;&gt;Dedalus Users Group&lt;/a&gt;.
-A great place to start. Search the questions first! Often your question has already been answered. If you don&amp;rsquo;t find an answer, send a message. There&amp;rsquo;s over a hundred Dedalus users reading and mailing that list, so chances are someone will know the answer.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dedalus-project.readthedocs.io/en/latest/getting_started.html#tutorial-notebooks&#34;&gt;Dedalus Tutorial Notebooks&lt;/a&gt; These tutorials go over the basics of how Dedalus works from the ground up.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;local-bates-computing-resources&#34;&gt;Local Bates Computing Resources&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://jsoishi.github.io/research/leavitt/&#34;&gt;Leavitt&lt;/a&gt; is our 476 core, 17 node compute cluster. Managed by the Bates High Performance Computing Center, it&amp;rsquo;s where we do most of our smaller runs.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;a23637.bates.edu&lt;/code&gt; is our group workstation. It&amp;rsquo;s available via ssh from on campus, and has 256 GB of memory for big data analysis and small runs. If you need an account on it, just ask Jeff.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;fluid-dynamics&#34;&gt;Fluid Dynamics&lt;/h1&gt;
-
-&lt;p&gt;I&amp;rsquo;ll fill this section out over time, but for now, here are a few resources I&amp;rsquo;ve made use of in the past.&lt;/p&gt;
-
-&lt;h2 id=&#34;general-overviews&#34;&gt;General Overviews&lt;/h2&gt;
-
-&lt;p&gt;The first three are all available from the Bates Library for free as pdfs.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://cbbcat.net/record=b5188293&#34;&gt;An Introduction to Fluid Dynamics&lt;/a&gt;, G. K. Batchelor. This is probably the most classic fluid dynamics textbook in English. It&amp;rsquo;s not easy going, but well worth the effort.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://farside.ph.utexas.edu/teaching/336L/Fluidhtml/Fluidhtml.html&#34;&gt;Fluid Mechanics&lt;/a&gt;, a free textbook by University of Texas, Austin physics professor Richard Fitzpatrick.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cbbcat.net/record=b5185188~S19&#34;&gt;Fluid Dynamics for Physicists&lt;/a&gt;, T. E. Faber. The first chapter of this book does a very nice job of covering the flavor.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://fyfluiddynamics.com/&#34;&gt;FYFD&lt;/a&gt; will give you tons of inspiration!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://cbbcat.net/record=b1816114~S19&#34;&gt;Physical Fluid Dynamics&lt;/a&gt;, D. J. Tritton. This is only available in print at the Bates library. This was one of my favorites when I was a student.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;instability&#34;&gt;Instability&lt;/h2&gt;
-
-&lt;p&gt;Understanding how fluid flows become unstable is a key part of our work.  Here are a few references on instability.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The &lt;a href=&#34;https://youtu.be/yutbmcO5g2o&#34;&gt;National Committee for Fluid Mechanics Films on Flow Instability&lt;/a&gt; is a good place to start. It lays out what an instability is with several experimental examples.&lt;/li&gt;
-&lt;li&gt;Prof. V. Shankar&amp;rsquo;s &amp;ldquo;Introduction to Hydordynamic Stability&amp;rdquo; course (&lt;a href=&#34;http://home.iitk.ac.in/~vshankar/files/VShankar_Stability_Intro.pdf&#34;&gt;lecture notes&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=2BafIxhj3F0&#34;&gt;video&lt;/a&gt;) is a good overview.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cbbcat.net/record=b5188328~S19&#34;&gt;An Introduction to Hydrodynamic Stability&lt;/a&gt;, P.G. Drazin. This is a very good book to get started with, though it presumes a bit of hydrodynamic knowledge. It is available as a PDF to download from the Bates Library.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;learning-mpi&#34;&gt;Learning MPI&lt;/h1&gt;
-
-&lt;p&gt;Dedalus is parallelized using the message passing interface (MPI) via the mpi4py python library. Here are a few resources on learning MPI&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://mpitutorial.com/&#34;&gt;MPI tutorial&lt;/a&gt; This is a very thorough introduction to MPI using C.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PL06051AE8DCFAF4F9&#34;&gt;Parallel Programming with MPI using Python and mpi4py&lt;/a&gt; by Jeremy Bejarano. A video series teaching basic MPI concepts using mpi4py.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Welcome to the Bates Fluid Dynamics Group! Most of our work involves solving partial differential equations by computer. Typically, this means running simulations on supercomputers, most often the Leavitt cluster here at Bates.
+Using Linux  All of the group&amp;rsquo;s software runs on Linux. You need to be familiar with the command line, and it helps to know a bit of bash shell scripting. We use the git version control system.</description>
     </item>
     
     <item>
@@ -270,108 +140,16 @@ A great place to start. Search the questions first! Often your question has alre
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/research/leavitt/</guid>
-      <description>
-
-&lt;h1 id=&#34;basics&#34;&gt;Basics&lt;/h1&gt;
-
-&lt;p&gt;When you log in to leavitt via &lt;code&gt;ssh&lt;/code&gt;, you will be on the &amp;ldquo;head node&amp;rdquo;. This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. &lt;strong&gt;DO NOT RUN DEDALUS ON THE HEAD NODE&lt;/strong&gt;. Instead, use a job script to submit runs to the compute nodes.&lt;/p&gt;
-
-&lt;h1 id=&#34;modules-system&#34;&gt;Modules System&lt;/h1&gt;
-
-&lt;p&gt;Leavitt uses modules to manage various software packages. A quick intro to using modules on Leavitt is on the main &lt;a href=&#34;https://www.bates.edu/research-resources/leavitt-hpc-cluster/running-jobs/&#34;&gt;Leavitt documentation page&lt;/a&gt; You should add&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;module load slurm intel-mpi hdf5 ffmpeg
-
-export PATH=$PATH:/home/joishi/build/bin
-
-# PNG encoding with ffmpeg
-# Example use: png2mp4 “frames/*&amp;quot; frames.mp4 30
-
-# Options:
-#   -y                  Overwrite output
-#   -f image2pipe       Input format
-#   -vcodec png         Input codec
-#   -r $3               Frame rate
-#   -i -                Input files from cat command
-#   -f mp4              Output format
-#   -vcodec libx264     Output codec
-#   -pix_fmt yuv420p    Output pixel format
-#   -preset slower      Prefer slower encoding / better results
-#   -crf 20             Constant rate factor (lower for better quality)
-#   -vf &amp;quot;scale...&amp;quot;      Round to even size
-#   $2                  Output file
-function png2mp4(){
-    cat $1 | ffmpeg \
-        -y \
-        -f image2pipe \
-        -vcodec png \
-        -r $3 \
-        -i - \
-        -f mp4 \
-        -vcodec libx264 \
-        -pix_fmt yuv420p \
-        -preset slower \
-        -crf 20 \
-        -vf &amp;quot;scale=trunc(in_w/2)*2:trunc(in_h/2)*2&amp;quot; \
-        $2
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;to your &lt;code&gt;.bashrc&lt;/code&gt; file. The &lt;code&gt;export PATH=&lt;/code&gt; line you only need if you want to use software I&amp;rsquo;ve installed. You don&amp;rsquo;t need it if we haven&amp;rsquo;t talked about it. The last part gives you a little function called &lt;code&gt;png2mp4&lt;/code&gt; which you can use to make movies from the &lt;code&gt;.png&lt;/code&gt; frames we make with our visualization scripts. The example usage is right up there in the comments.&lt;/p&gt;
-
-&lt;h1 id=&#34;sample-dedalus-run-script&#34;&gt;Sample Dedalus Run Script&lt;/h1&gt;
-
-&lt;p&gt;Run scripts are lists of commands to run on the nodes with some metadata stored in comments at the top of the file. These scripts are done using In order to run a job, you submit a script to a queue, by doing&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ sbatch run_growth_11.sh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;where &lt;code&gt;run_growth_11.sh&lt;/code&gt; is a bash script that contains this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;#!/usr/bin/bash
-#SBATCH --partition=defq
-#SBATCH --time=5-0
-#SBATCH --nodes=3
-
-conda activate dedalus
-
-date
-mpirun -np 64 python3 bioflow.py runs/growth_11.cfg
-date
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;All of the lines at the top starting with &lt;code&gt;#SBATCH&lt;/code&gt; are commands to SLURM. The first, &lt;code&gt;--partition=defq&lt;/code&gt;, sets the partition, which is the queue you are submitting your job. Each partition has certain time limits and numbers of nodes you can submit to. You may not be able to use all of the partitions. The default, called &lt;code&gt;defq&lt;/code&gt;, allows you to run on up to 15 nodes (at the moment; there are actually 17 nodes but as of today, two are down) for up to 5 days. If this isn&amp;rsquo;t enough time, email me. If this isn&amp;rsquo;t enough nodes, we&amp;rsquo;ll have to move to bigger compute resources.&lt;/p&gt;
-
-&lt;p&gt;You can see all the partitions by running &lt;code&gt;sinfo&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ sinfo
-PARTITION   AVAIL  TIMELIMIT  NODES  STATE NODELIST
-defq*          up 5-00:00:00     15   idle node[001-007,009-016]
-contributor    up   infinite     15   idle node[001-007,009-016]
-faculty        up 15-00:00:0     15   idle node[001-007,009-016]
-phi            up   infinite      1  down* node017
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The next SLURM command, &lt;code&gt;--time=5-0&lt;/code&gt;, says this will run for five days, zero hours. The &lt;a href=&#34;https://slurm.schedmd.com/sbatch.html&#34;&gt;SLURM manual&lt;/a&gt; gives the following date formats you can use:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Acceptable time formats include &amp;ldquo;minutes&amp;rdquo;, &amp;ldquo;minutes:seconds&amp;rdquo;, &amp;ldquo;hours:minutes:seconds&amp;rdquo;, &amp;ldquo;days-hours&amp;rdquo;, &amp;ldquo;days-hours:minutes&amp;rdquo; and &amp;ldquo;days-hours:minutes:seconds&amp;rdquo;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Finally, there&amp;rsquo;s the number of nodes, &lt;code&gt;--nodes=3&lt;/code&gt;. Each node on Leavitt currently has 28 cores. &lt;strong&gt;You are responsible for making sure the number of cores you want is less than 28 times this number&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;After the comments at the top, the batch script is just a regular bash script with a list of commands. You should always use the &lt;code&gt;source /home/joishi/build/dedalus_intel_mpi/bin/activate&lt;/code&gt; as is, unless you have your own install of Dedalus on Leavitt. This activates the Dedalus environment.&lt;/p&gt;
-
-&lt;p&gt;The last 3 commands are the &lt;code&gt;mpirun&lt;/code&gt; sandwiched in between two calls to date. This just allows us to get a quick feel for how long the code ran. &lt;code&gt;mpirun&lt;/code&gt; is the command that launches Dedalus on &lt;code&gt;-np X&lt;/code&gt; number of cores. &lt;code&gt;X&lt;/code&gt; here is 64, and &lt;sup&gt;64&lt;/sup&gt;&amp;frasl;&lt;sub&gt;28&lt;/sub&gt; ~ 2.3, which is greater than 2, so we need 3 nodes.&lt;/p&gt;
-</description>
+      <description>Basics When you log in to leavitt via ssh, you will be on the &amp;ldquo;head node&amp;rdquo;. This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. DO NOT RUN DEDALUS ON THE HEAD NODE. Instead, use a job script to submit runs to the compute nodes.
+Modules System Leavitt uses modules to manage various software packages.</description>
     </item>
     
     <item>
       <title>Generalized quasilinear approximation of the interaction of convection and mean flows in a thermal annulus</title>
-      <link>https://jsoishi.github.io/publication/2018RSPSA.47480422T/</link>
+      <link>https://jsoishi.github.io/publication/2018rspsa.47480422t/</link>
       <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://jsoishi.github.io/publication/2018RSPSA.47480422T/</guid>
+      <guid>https://jsoishi.github.io/publication/2018rspsa.47480422t/</guid>
       <description></description>
     </item>
     
@@ -381,31 +159,608 @@ phi            up   infinite      1  down* node017
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/project/complex_fluids_toolkit/</guid>
-      <description>
-
-&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-
-&lt;p&gt;Complex fluids, including liquid crystals and those with non-Newtonian rheologies, are extremely important in a wide variety of disciplines, from biological to industrial. We are developing a series of tools to extend the &lt;a href=&#34;http://dedalus-project.org&#34;&gt;Dedalus&lt;/a&gt; to include multiphase flows with varying rheologies.&lt;/p&gt;
-
-&lt;h2 id=&#34;methods&#34;&gt;Methods&lt;/h2&gt;
-
-&lt;p&gt;We make extensive use of the phase field method to simulate two fluids on the same grid. This idea, sometimes also called the &amp;ldquo;diffusive interface model&amp;rdquo;, assumes that we resolve the interface between the two fluids. By minimizing a properly constructed free energy, the phase field φ includes surface tension and allows us to specify two different fluids with different material properties on the same grid.&lt;/p&gt;
-
-&lt;p&gt;We have developed techniques for viscoelastic Oldroyd-B fluids as well as liquid crystals.&lt;/p&gt;
-
-&lt;h2 id=&#34;project-repository&#34;&gt;Project Repository&lt;/h2&gt;
-
-&lt;p&gt;Coming soon!&lt;/p&gt;
-
-&lt;h2 id=&#34;external-collaborators&#34;&gt;External Collaborators&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Jörn Dunkel, MIT&lt;/li&gt;
-&lt;li&gt;Phil Pearce, MIT&lt;/li&gt;
-&lt;li&gt;Dominic Skinner, MIT&lt;/li&gt;
-&lt;li&gt;Knut Drescher, Max Planck Institute for Terrestrial Microbiology&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Motivation Complex fluids, including liquid crystals and those with non-Newtonian rheologies, are extremely important in a wide variety of disciplines, from biological to industrial. We are developing a series of tools to extend the Dedalus to include multiphase flows with varying rheologies.
+Methods We make extensive use of the phase field method to simulate two fluids on the same grid. This idea, sometimes also called the &amp;ldquo;diffusive interface model&amp;rdquo;, assumes that we resolve the interface between the two fluids.</description>
+    </item>
+    
+    <item>
+      <title>Accelerated evolution of convective simulations</title>
+      <link>https://jsoishi.github.io/publication/2018phrvf...3h3502a/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2018phrvf...3h3502a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Overview</title>
+      <link>https://jsoishi.github.io/research/overview/</link>
+      <pubDate>Thu, 19 Jul 2018 08:50:58 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/research/overview/</guid>
+      <description>Mission The Bates Fluid Dynamics Group study fluid dynamics at scales ranging from global models of planets and stars to the swimming and growth of bacteria with theoretical and computational tools. We are particularly interested in what we call &amp;ldquo;complicated&amp;rdquo; fluid dynamics: problems involving turbulence, phase changes, traditional &amp;ldquo;complex&amp;rdquo; non-Newtonian fluids, or some combination of them all. We make extensive use of the Dedalus Project, a flexible framework for solving partial differential equations.</description>
+    </item>
+    
+    <item>
+      <title>Direct Statistical Simulation for unsteady flows</title>
+      <link>https://jsoishi.github.io/project/busseannulus/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/project/busseannulus/</guid>
+      <description>Motivation Direct Statistical Simulation is a relatively new and very promising technique for understanding the long-term statistical properties of highly turbulent, anisotropic flow. Anisotropic flow occurs in astrophysical and geophysical contexts in a number of guises: the zonal jets found on Jupiter and Saturn, the mean dynamo-generated magnetic fields on solar-type and fully convective M-dwarfs, and the quasi-biennial oscillation on Earth. DSS has been extensively verified and tested against many problems in atmospheric science \citep{2008JAtS&amp;hellip;65.</description>
+    </item>
+    
+    <item>
+      <title>Convective Dynamics and Disequilibrium Chemistry in the Atmospheres of Giant Planets and Brown Dwarfs</title>
+      <link>https://jsoishi.github.io/publication/2018apj...854....8b/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2018apj...854....8b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perspectives on Reproducibility and Sustainability of Open-Source Scientific Software from Seven Years of the Dedalus Project</title>
+      <link>https://jsoishi.github.io/publication/2018arxiv180108200o/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2018arxiv180108200o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New website!</title>
+      <link>https://jsoishi.github.io/post/post1/</link>
+      <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/post1/</guid>
+      <description>So we built a website!</description>
+    </item>
+    
+    <item>
+      <title>Barotropic Jet Formation on the 2-Sphere using Spin Spherical Harmonics</title>
+      <link>https://jsoishi.github.io/project/barotropicjets/</link>
+      <pubDate>Sun, 29 Oct 2017 16:10:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/project/barotropicjets/</guid>
+      <description>Motivation The Dedalus Collaboration has developed a sparse discretization of vector fields in spherical geometry. Key to this process is the understanding that vector components, as opposed to scalars, do not have the same regularities as the standard spherical harmonics. However, by using a basis that does have the right regularity, we can construct a sparse matrix solution to differential equations in curvilinear geometries. This basis is the spin-weighted spherical harmonics, constructed from Jacobi polynomials.</description>
+    </item>
+    
+    <item>
+      <title>Convective overshoot at the solar tachocline</title>
+      <link>https://jsoishi.github.io/publication/2017spd....4840305b/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2017spd....4840305b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Weakly Nonlinear Magnetorotational Instability in a Global, Cylindrical Taylor-Couette Flow</title>
+      <link>https://jsoishi.github.io/publication/2017apj...841....2c/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2017apj...841....2c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Weakly Nonlinear Magnetorotational Instability in a Local Geometry</title>
+      <link>https://jsoishi.github.io/publication/2017apj...841....1c/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2017apj...841....1c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hybrid Adaptive Ray-Moment Method (HARM&lt;SUP&gt;2&lt;/SUP&gt;): A highly parallel method for radiation hydrodynamics on adaptive grids</title>
+      <link>https://jsoishi.github.io/publication/2017jcoph.330..924r/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2017jcoph.330..924r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamics and Chemistry in Jovian Atmospheres: 2D Hydrodynamical Simulations</title>
+      <link>https://jsoishi.github.io/publication/2016agufm.p31d..04b/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2016agufm.p31d..04b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensor calculus in polar coordinates using Jacobi polynomials</title>
+      <link>https://jsoishi.github.io/publication/2016jcoph.325...53v/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2016jcoph.325...53v/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turbulent Chemical Diffusion in Convectively Bounded Carbon Flames</title>
+      <link>https://jsoishi.github.io/publication/2016apj...832...71l/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2016apj...832...71l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magnetohydrodynamics on the Equatorial Beta Plane</title>
+      <link>https://jsoishi.github.io/project/mhdbetaplane/</link>
+      <pubDate>Tue, 12 Jul 2016 16:10:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/project/mhdbetaplane/</guid>
+      <description>Motivation Motivated by the discovery of active nests of convection in rapidly rotating stellar simulations, we are interested in constructing a local model that can reproduce the phenomena. In order to do this, we&amp;rsquo;re investigating the use of the equatorial beta plane.</description>
+    </item>
+    
+    <item>
+      <title>Alex Jiang</title>
+      <link>https://jsoishi.github.io/member/xjiang/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/xjiang/</guid>
+      <description>Alex is just getting started in the group. He&amp;rsquo;s going to work with Becca on Active Matter.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Anthony Okonkwo</title>
+      <link>https://jsoishi.github.io/member/aokonkwo/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/aokonkwo/</guid>
+      <description>Anthony is a senior thesis student working on fluid-structure interactions using immersed boundary methods in Dedalus.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Avi Brach-Neufeld</title>
+      <link>https://jsoishi.github.io/member/abrachne/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/abrachne/</guid>
+      <description>Avi is writing his senior thesis on the Goldreich-Schubert-Fricke instability.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Becca Minsley</title>
+      <link>https://jsoishi.github.io/member/rminsley/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/rminsley/</guid>
+      <description>Becca is just joining the group. She&amp;rsquo;s going to work with Alex on Active Matter.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Deveena Banerjee</title>
+      <link>https://jsoishi.github.io/member/dbanerje/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/dbanerje/</guid>
+      <description>Deveena hails from Sacramento, CA. She&amp;rsquo;s interested in magnetohydrodynamic simulations.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Fahim Khan</title>
+      <link>https://jsoishi.github.io/member/fkhan/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/fkhan/</guid>
+      <description>Fahim is developing a dashboard for managing supercomputer simulations.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Hannah Beams</title>
+      <link>https://jsoishi.github.io/member/hbeams/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/hbeams/</guid>
+      <description>Hannah is just joining the group. She&amp;rsquo;s starting a project to simulate the KPZ equation in Dedalus.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Jeff Oishi</title>
+      <link>https://jsoishi.github.io/member/jeff_oishi/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/jeff_oishi/</guid>
+      <description>Jeff grew up in Virginia, just outside Washington, D. C.
+Hobbies Loud music, synthesizers, bicycles, cats.</description>
+    </item>
+    
+    <item>
+      <title>Matt Goldberg</title>
+      <link>https://jsoishi.github.io/member/mgoldbe2/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/mgoldbe2/</guid>
+      <description>Matt&amp;rsquo;s from Cambridge, MA.
+Hobbies Ultimate!</description>
+    </item>
+    
+    <item>
+      <title>Mike Bancroft</title>
+      <link>https://jsoishi.github.io/member/mbancroft/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/mbancroft/</guid>
+      <description>Mike hails from New Hampsire. He&amp;rsquo;s now working at Dartmouth College.
+Hobbies skiing</description>
+    </item>
+    
+    <item>
+      <title>Morgan Baxter</title>
+      <link>https://jsoishi.github.io/member/mbaxter/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/mbaxter/</guid>
+      <description>Morgan just completed an eigenvalue analysis of the 3D magnetorotational instability, and he&amp;rsquo;s moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Muhammad Abdullah</title>
+      <link>https://jsoishi.github.io/member/mabdulla/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/mabdulla/</guid>
+      <description>Abdullah has just started in the group working on stability analyses for lab experiments.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Reed Feldman</title>
+      <link>https://jsoishi.github.io/member/reed_feldman/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/reed_feldman/</guid>
+      <description>Reed developed a web framework for managing and creating Dedalus jobs from simulation parameter design documents.
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Sam Huebschmann</title>
+      <link>https://jsoishi.github.io/member/sam_huebschmann/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/sam_huebschmann/</guid>
+      <description>Sam completed his senior thesis by building a Raspberry pi &amp;ldquo;supercomputer.&amp;rdquo;
+Hobbies </description>
+    </item>
+    
+    <item>
+      <title>Tachocline dynamics: convective overshoot at stiff interfaces</title>
+      <link>https://jsoishi.github.io/publication/2016spd....47.0713b/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2016spd....47.0713b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dedalus: Flexible framework for spectrally solving differential equations</title>
+      <link>https://jsoishi.github.io/publication/2016ascl.soft03015b/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2016ascl.soft03015b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A validated non-linear Kelvin-Helmholtz benchmark for numerical hydrodynamics</title>
+      <link>https://jsoishi.github.io/publication/2016mnras.455.4274l/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2016mnras.455.4274l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internal Wave Generation by Turbulent Convection</title>
+      <link>https://jsoishi.github.io/publication/2015agufm.p41a2036l/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2015agufm.p41a2036l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical simulations of internal wave generation by convection in water</title>
+      <link>https://jsoishi.github.io/publication/2015phrve..91f3016l/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2015phrve..91f3016l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-generated Turbulence in Magnetic Reconnection</title>
+      <link>https://jsoishi.github.io/publication/2015apj...806l..12o/</link>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2015apj...806l..12o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conduction in Low Mach Number Flows. I. Linear and Weakly Nonlinear Regimes</title>
+      <link>https://jsoishi.github.io/publication/2014apj...797...94l/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2014apj...797...94l/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ENZO: An Adaptive Mesh Refinement Code for Astrophysics</title>
+      <link>https://jsoishi.github.io/publication/2014apjs..211...19b/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2014apjs..211...19b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods for Simulating the Heavy Core Instability</title>
+      <link>https://jsoishi.github.io/publication/2013epjwc..4606001o/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2013epjwc..4606001o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magnetic fields and angular momentum in population III star formation</title>
+      <link>https://jsoishi.github.io/publication/2012aipc.1480...77t/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2012aipc.1480...77t/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Common Envelope Interactions Change the Lives of Stars and Planets</title>
+      <link>https://jsoishi.github.io/publication/2012iaus..282..517d/</link>
+      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2012iaus..282..517d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magnetic Fields in Population III Star Formation</title>
+      <link>https://jsoishi.github.io/publication/2012apj...745..154t/</link>
+      <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2012apj...745..154t/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chondrule Formation, Complementarity, and Pervasive, Highly Local Heating by Current Sheets</title>
+      <link>https://jsoishi.github.io/publication/2012mpsa..75.5387e/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2012mpsa..75.5387e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Short Circuits in Magnetic Reconnection: A Route to Chondrule Formation</title>
+      <link>https://jsoishi.github.io/publication/2012mpsa..75.5395h/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2012mpsa..75.5395h/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating the Common Envelope Phase of a Red Giant Using Smoothed-particle Hydrodynamics and Uniform-grid Codes</title>
+      <link>https://jsoishi.github.io/publication/2012apj...744...52p/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2012apj...744...52p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turbulence and small scale dynamo action in population III star formation</title>
+      <link>https://jsoishi.github.io/publication/2012aipc.1480...87o/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2012aipc.1480...87o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magnetorotational Turbulence Transports Angular Momentum in Stratified Disks with Low Magnetic Prandtl Number but Magnetic Reynolds Number above a Critical Value</title>
+      <link>https://jsoishi.github.io/publication/2011apj...740...18o/</link>
+      <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2011apj...740...18o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulations of the Common Envelope Interaction Between a Red Giant Branch Star and Low-Mass Companions</title>
+      <link>https://jsoishi.github.io/publication/2011aspc..447..107p/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2011aspc..447..107p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magnetic Helicity and Astrophysical Disk Dynamos</title>
+      <link>https://jsoishi.github.io/publication/2011aipc.1366..122o/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2011aipc.1366..122o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The first stars and black holes</title>
+      <link>https://jsoishi.github.io/publication/2011gafo.confe..89a/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2011gafo.confe..89a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yt: A Multi-code Analysis Toolkit for Astrophysical Simulation Data</title>
+      <link>https://jsoishi.github.io/publication/2011apjs..192....9t/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2011apjs..192....9t/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Stability of Dust-laden Protoplanetary Vortices</title>
+      <link>https://jsoishi.github.io/publication/2010apj...721.1593c/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2010apj...721.1593c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Methods for Radiative Feedback from the First Stars: Ionization in Adaptive Mesh Refinement Simulations</title>
+      <link>https://jsoishi.github.io/publication/2010aipc.1294..270o/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2010aipc.1294..270o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On Hydrodynamic Motions in Dead Zones</title>
+      <link>https://jsoishi.github.io/publication/2009apj...704.1239o/</link>
+      <pubDate>Thu, 01 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2009apj...704.1239o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SDSS J1536&#43;0441: An Extreme &#34;Double-peaked Emitter,&#34; Not a Binary Black Hole</title>
+      <link>https://jsoishi.github.io/publication/2009atel.1955....1c/</link>
+      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2009atel.1955....1c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Constrained-Transport Magnetohydrodynamics Algorithm with Near-Spectral Resolution</title>
+      <link>https://jsoishi.github.io/publication/2008apj...677..520m/</link>
+      <pubDate>Tue, 01 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2008apj...677..520m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Turbulent Torques on Protoplanets in a Dead Zone</title>
+      <link>https://jsoishi.github.io/publication/2007apj...670..805o/</link>
+      <pubDate>Thu, 01 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2007apj...670..805o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamical Expansion of H II Regions from Ultracompact to Compact Sizes in Turbulent, Self-gravitating Molecular Clouds</title>
+      <link>https://jsoishi.github.io/publication/2007apj...668..980m/</link>
+      <pubDate>Mon, 01 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2007apj...668..980m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rapid planetesimal formation in turbulent circumstellar disks</title>
+      <link>https://jsoishi.github.io/publication/2007natur.448.1022j/</link>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2007natur.448.1022j/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supplementary Information for ``Rapid planetesimal formation in turbulent circumstellar discs&#39;&#39;</title>
+      <link>https://jsoishi.github.io/publication/2007arxiv0708.3893j/</link>
+      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2007arxiv0708.3893j/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-ideal magnetohydrodynamics in star and planet formation</title>
+      <link>https://jsoishi.github.io/publication/2007phdt.........4o/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2007phdt.........4o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Inability of Ambipolar Diffusion to Set a Characteristic Mass Scale in Molecular Clouds</title>
+      <link>https://jsoishi.github.io/publication/2006apj...638..281o/</link>
+      <pubDate>Wed, 01 Feb 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2006apj...638..281o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Protoplanetary Migration in Layered, Magnetized Disks: First Results</title>
+      <link>https://jsoishi.github.io/publication/2005prpl.conf.8439o/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2005prpl.conf.8439o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracing Galactic Metallicity Gradients With the 2MASS Point Source Catalog</title>
+      <link>https://jsoishi.github.io/publication/2004aspc..317..283m/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2004aspc..317..283m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cassiopeia A and Its Clumpy Presupernova Wind</title>
+      <link>https://jsoishi.github.io/publication/2003apj...593l..23c/</link>
+      <pubDate>Fri, 01 Aug 2003 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2003apj...593l..23c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jsoishi.github.io/vacancy/vacancy1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/vacancy/vacancy1/</guid>
+      <description>Joining the group If you&amp;rsquo;re an undergrad at Bates&amp;ndash;any year, physics major, potential physics major, or otherwise&amp;ndash;send email to Jeff. Browse around the site to get a feel for what we&amp;rsquo;re up to. There are no prerequisites to joining the group; interest in some subset of {math, physics, programming} is pretty much it. If you&amp;rsquo;re even a little curious about it, send me an email and let&amp;rsquo;s chat.
+Doing a Senior Thesis Are you a physics major thinking of doing a senior thesis?</description>
     </item>
     
   </channel>

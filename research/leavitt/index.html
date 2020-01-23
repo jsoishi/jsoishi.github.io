@@ -83,11 +83,11 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                               
-                                <li><a href="https://jsoishi.github.io//research/overview">Overview</a></li>
+                                <li><a href="https://jsoishi.github.io/research/overview">Overview</a></li>
                               
-                                <li><a href="https://jsoishi.github.io//research/getting_started">Getting Started</a></li>
+                                <li><a href="https://jsoishi.github.io/research/getting_started">Getting Started</a></li>
                               
-                                <li><a href="https://jsoishi.github.io//research/dedalus_tutorials">Dedalus Tutorials</a></li>
+                                <li><a href="https://jsoishi.github.io/research/dedalus_tutorials">Dedalus Tutorials</a></li>
                               
                                 <li><a href="https://jsoishi.github.io/#publications">Publications</a></li>
                               
@@ -145,16 +145,10 @@
         </div>
 
         <div class="article-style" itemprop="articleBody">
-            
-
-<h1 id="basics">Basics</h1>
-
+            <h1 id="basics">Basics</h1>
 <p>When you log in to leavitt via <code>ssh</code>, you will be on the &ldquo;head node&rdquo;. This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. <strong>DO NOT RUN DEDALUS ON THE HEAD NODE</strong>. Instead, use a job script to submit runs to the compute nodes.</p>
-
 <h1 id="modules-system">Modules System</h1>
-
 <p>Leavitt uses modules to manage various software packages. A quick intro to using modules on Leavitt is on the main <a href="https://www.bates.edu/research-resources/leavitt-hpc-cluster/running-jobs/">Leavitt documentation page</a> You should add</p>
-
 <pre><code>module load slurm intel-mpi hdf5 ffmpeg
 
 export PATH=$PATH:/home/joishi/build/bin
@@ -190,19 +184,11 @@ function png2mp4(){
         -vf &quot;scale=trunc(in_w/2)*2:trunc(in_h/2)*2&quot; \
         $2
 }
-</code></pre>
-
-<p>to your <code>.bashrc</code> file. The <code>export PATH=</code> line you only need if you want to use software I&rsquo;ve installed. You don&rsquo;t need it if we haven&rsquo;t talked about it. The last part gives you a little function called <code>png2mp4</code> which you can use to make movies from the <code>.png</code> frames we make with our visualization scripts. The example usage is right up there in the comments.</p>
-
+</code></pre><p>to your <code>.bashrc</code> file. The <code>export PATH=</code> line you only need if you want to use software I&rsquo;ve installed. You don&rsquo;t need it if we haven&rsquo;t talked about it. The last part gives you a little function called <code>png2mp4</code> which you can use to make movies from the <code>.png</code> frames we make with our visualization scripts. The example usage is right up there in the comments.</p>
 <h1 id="sample-dedalus-run-script">Sample Dedalus Run Script</h1>
-
 <p>Run scripts are lists of commands to run on the nodes with some metadata stored in comments at the top of the file. These scripts are done using In order to run a job, you submit a script to a queue, by doing</p>
-
 <pre><code>$ sbatch run_growth_11.sh
-</code></pre>
-
-<p>where <code>run_growth_11.sh</code> is a bash script that contains this:</p>
-
+</code></pre><p>where <code>run_growth_11.sh</code> is a bash script that contains this:</p>
 <pre><code>#!/usr/bin/bash
 #SBATCH --partition=defq
 #SBATCH --time=5-0
@@ -213,31 +199,21 @@ conda activate dedalus
 date
 mpirun -np 64 python3 bioflow.py runs/growth_11.cfg
 date
-</code></pre>
-
-<p>All of the lines at the top starting with <code>#SBATCH</code> are commands to SLURM. The first, <code>--partition=defq</code>, sets the partition, which is the queue you are submitting your job. Each partition has certain time limits and numbers of nodes you can submit to. You may not be able to use all of the partitions. The default, called <code>defq</code>, allows you to run on up to 15 nodes (at the moment; there are actually 17 nodes but as of today, two are down) for up to 5 days. If this isn&rsquo;t enough time, email me. If this isn&rsquo;t enough nodes, we&rsquo;ll have to move to bigger compute resources.</p>
-
+</code></pre><p>All of the lines at the top starting with <code>#SBATCH</code> are commands to SLURM. The first, <code>--partition=defq</code>, sets the partition, which is the queue you are submitting your job. Each partition has certain time limits and numbers of nodes you can submit to. You may not be able to use all of the partitions. The default, called <code>defq</code>, allows you to run on up to 15 nodes (at the moment; there are actually 17 nodes but as of today, two are down) for up to 5 days. If this isn&rsquo;t enough time, email me. If this isn&rsquo;t enough nodes, we&rsquo;ll have to move to bigger compute resources.</p>
 <p>You can see all the partitions by running <code>sinfo</code>.</p>
-
 <pre><code>$ sinfo
 PARTITION   AVAIL  TIMELIMIT  NODES  STATE NODELIST
 defq*          up 5-00:00:00     15   idle node[001-007,009-016]
 contributor    up   infinite     15   idle node[001-007,009-016]
 faculty        up 15-00:00:0     15   idle node[001-007,009-016]
 phi            up   infinite      1  down* node017
-</code></pre>
-
-<p>The next SLURM command, <code>--time=5-0</code>, says this will run for five days, zero hours. The <a href="https://slurm.schedmd.com/sbatch.html">SLURM manual</a> gives the following date formats you can use:</p>
-
+</code></pre><p>The next SLURM command, <code>--time=5-0</code>, says this will run for five days, zero hours. The <a href="https://slurm.schedmd.com/sbatch.html">SLURM manual</a> gives the following date formats you can use:</p>
 <blockquote>
 <p>Acceptable time formats include &ldquo;minutes&rdquo;, &ldquo;minutes:seconds&rdquo;, &ldquo;hours:minutes:seconds&rdquo;, &ldquo;days-hours&rdquo;, &ldquo;days-hours:minutes&rdquo; and &ldquo;days-hours:minutes:seconds&rdquo;.</p>
 </blockquote>
-
 <p>Finally, there&rsquo;s the number of nodes, <code>--nodes=3</code>. Each node on Leavitt currently has 28 cores. <strong>You are responsible for making sure the number of cores you want is less than 28 times this number</strong></p>
-
 <p>After the comments at the top, the batch script is just a regular bash script with a list of commands. You should always use the <code>source /home/joishi/build/dedalus_intel_mpi/bin/activate</code> as is, unless you have your own install of Dedalus on Leavitt. This activates the Dedalus environment.</p>
-
-<p>The last 3 commands are the <code>mpirun</code> sandwiched in between two calls to date. This just allows us to get a quick feel for how long the code ran. <code>mpirun</code> is the command that launches Dedalus on <code>-np X</code> number of cores. <code>X</code> here is 64, and <sup>64</sup>&frasl;<sub>28</sub> ~ 2.3, which is greater than 2, so we need 3 nodes.</p>
+<p>The last 3 commands are the <code>mpirun</code> sandwiched in between two calls to date. This just allows us to get a quick feel for how long the code ran. <code>mpirun</code> is the command that launches Dedalus on <code>-np X</code> number of cores. <code>X</code> here is 64, and 64/28 ~ 2.3, which is greater than 2, so we need 3 nodes.</p>
 
         </div>
 
@@ -275,7 +251,7 @@ phi            up   infinite      1  down* node017
     <div class="container">
         <p class="powered-by">
 
-            &copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran &middot; 
+            © Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran &middot; 
 
             Partially powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
 
