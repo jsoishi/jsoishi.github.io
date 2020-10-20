@@ -140,8 +140,7 @@ Using Linux  All of the group&amp;rsquo;s software runs on Linux. You need to be
       <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/research/leavitt/</guid>
-      <description>Basics When you log in to leavitt via ssh, you will be on the &amp;ldquo;head node&amp;rdquo;. This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. DO NOT RUN DEDALUS ON THE HEAD NODE. Instead, use a job script to submit runs to the compute nodes.
-Modules System Leavitt uses modules to manage various software packages.</description>
+      <description>Basics In order to log in to leavitt, you will need to use ssh to connect to leavitt.bates.edu. When you log in to leavitt via ssh, you will be on the &amp;ldquo;head node&amp;rdquo;. This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. DO NOT RUN DEDALUS ON THE HEAD NODE. Instead, use a job script to submit runs to the compute nodes.</description>
     </item>
     
     <item>

@@ -146,7 +146,8 @@
 
         <div class="article-style" itemprop="articleBody">
             <h1 id="basics">Basics</h1>
-<p>When you log in to leavitt via <code>ssh</code>, you will be on the &ldquo;head node&rdquo;. This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. <strong>DO NOT RUN DEDALUS ON THE HEAD NODE</strong>. Instead, use a job script to submit runs to the compute nodes.</p>
+<p>In order to log in to leavitt, you will need to use <code>ssh</code> to connect to <code>leavitt.bates.edu</code>.
+When you log in to leavitt via <code>ssh</code>, you will be on the &ldquo;head node&rdquo;. This node is identical to the other nodes. It has 28 cores and 128 GB of memory. This machine is for doing small analysis tasks and submitting jobs. <strong>DO NOT RUN DEDALUS ON THE HEAD NODE</strong>. Instead, use a job script to submit runs to the compute nodes.</p>
 <h1 id="modules-system">Modules System</h1>
 <p>Leavitt uses modules to manage various software packages. A quick intro to using modules on Leavitt is on the main <a href="https://www.bates.edu/research-resources/leavitt-hpc-cluster/running-jobs/">Leavitt documentation page</a> You should add</p>
 <pre><code>module load slurm intel-mpi hdf5 ffmpeg
@@ -184,7 +185,22 @@ function png2mp4(){
         -vf &quot;scale=trunc(in_w/2)*2:trunc(in_h/2)*2&quot; \
         $2
 }
-</code></pre><p>to your <code>.bashrc</code> file. The <code>export PATH=</code> line you only need if you want to use software I&rsquo;ve installed. You don&rsquo;t need it if we haven&rsquo;t talked about it. The last part gives you a little function called <code>png2mp4</code> which you can use to make movies from the <code>.png</code> frames we make with our visualization scripts. The example usage is right up there in the comments.</p>
+
+# &gt;&gt;&gt; conda initialize &gt;&gt;&gt;
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup=&quot;$('/home/joishi/miniconda3/bin/conda' 'shell.bash' 'hook' 2&gt; /dev/null)&quot;
+if [ $? -eq 0 ]; then
+    eval &quot;$__conda_setup&quot;
+else
+    if [ -f &quot;/home/joishi/miniconda3/etc/profile.d/conda.sh&quot; ]; then
+        . &quot;/home/joishi/miniconda3/etc/profile.d/conda.sh&quot;
+    else
+        export PATH=&quot;/home/joishi/miniconda3/bin:$PATH&quot;
+    fi
+fi
+unset __conda_setup
+# &lt;&lt;&lt; conda initialize &lt;&lt;&lt;
+</code></pre><p>to your <code>.bashrc</code> file. The <code>png2mp4</code> part gives you a little function called <code>png2mp4</code> which you can use to make movies from the <code>.png</code> frames we make with our visualization scripts. The example usage is right up there in the comments.</p>
 <h1 id="sample-dedalus-run-script">Sample Dedalus Run Script</h1>
 <p>Run scripts are lists of commands to run on the nodes with some metadata stored in comments at the top of the file. These scripts are done using In order to run a job, you submit a script to a queue, by doing</p>
 <pre><code>$ sbatch run_growth_11.sh
