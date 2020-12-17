@@ -6,10 +6,46 @@
     <description>Recent content on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Thu, 23 Jan 2020 15:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Dec 2020 16:10:22 +0200</lastBuildDate>
     
 	<atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reduced Models: GQL, DSS, and anisotropic flows</title>
+      <link>https://jsoishi.github.io/project/reducedmodels/</link>
+      <pubDate>Tue, 01 Dec 2020 16:10:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/project/reducedmodels/</guid>
+      <description>Turbulence is a crucial part of the climate, the dynamo process by which the Sun and Earth produce magnetic fields, and a major limiting factor for plasma confinement in tokamaks. In each of these systems, the largest scales are factors of 105 to 1014 times larger than the smallest scales. Crucially, energy flows through all of these scales, impacting the dynamics of the flow. A complete numerical simulation would require between 1015 to 1042 data points for every moment in time simulated!</description>
+    </item>
+    
+    <item>
+      <title>Single-hemisphere Dynamos in M-dwarf Stars</title>
+      <link>https://jsoishi.github.io/publication/2020apj...902l...3b/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2020apj...902l...3b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dedalus: A flexible framework for numerical simulations with spectral methods</title>
+      <link>https://jsoishi.github.io/publication/2020phrvr...2b3068b/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2020phrvr...2b3068b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The magnetorotational instability prefers three dimensions</title>
+      <link>https://jsoishi.github.io/publication/2020rspsa.47690622o/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2020rspsa.47690622o/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Welcome new members!</title>
@@ -21,12 +57,30 @@
     </item>
     
     <item>
+      <title>Performance of parallel-in-time integration for Rayleigh Bénard Convection</title>
+      <link>https://jsoishi.github.io/publication/2020arxiv200101609c/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2020arxiv200101609c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A busy semester winds down</title>
       <link>https://jsoishi.github.io/post/three-new-papers/</link>
       <pubDate>Tue, 03 Dec 2019 15:54:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/post/three-new-papers/</guid>
       <description>The snow is falling, the semester is winding down, and everyone&amp;rsquo;s looking forward to a break. It&amp;rsquo;s been a very busy year for the Bates Fluids group, and I&amp;rsquo;m excited to announce that in the past few weeks, we&amp;rsquo;ve had three (!!) papers accepted, including one featuring group member Morgan Baxter (Bates &amp;lsquo;20). The vast range of topics these papers cover, from biofilm growth to the stability of rotating plasmas to the flexible numerical methods we work on, speaks to the extremely broad applicability of fluid dynamics!</description>
+    </item>
+    
+    <item>
+      <title>Flow-Induced Symmetry Breaking in Growing Bacterial Biofilms</title>
+      <link>https://jsoishi.github.io/publication/2019phrvl.123y8101p/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2019phrvl.123y8101p/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -59,15 +113,6 @@ Fahim is going to be focusing on some interesting infrastructure, trying to figu
       <description>Double Diffusive Convection In order to run this, you can find the code at Github.
 First, we have the so-called &amp;ldquo;fingering&amp;rdquo; regime of DDC, which you can run with this script   
 Next, we have &amp;ldquo;overstable&amp;rdquo; DDC, which you can run with this script</description>
-    </item>
-    
-    <item>
-      <title>Dedalus: A Flexible Framework for Numerical Simulations with Spectral Methods</title>
-      <link>https://jsoishi.github.io/publication/2019arxiv190510388b/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2019arxiv190510388b/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -217,24 +262,6 @@ Methods We make extensive use of the phase field method to simulate two fluids o
     </item>
     
     <item>
-      <title>Barotropic Jet Formation on the 2-Sphere using Spin Spherical Harmonics</title>
-      <link>https://jsoishi.github.io/project/barotropicjets/</link>
-      <pubDate>Sun, 29 Oct 2017 16:10:22 +0200</pubDate>
-      
-      <guid>https://jsoishi.github.io/project/barotropicjets/</guid>
-      <description>Motivation The Dedalus Collaboration has developed a sparse discretization of vector fields in spherical geometry. Key to this process is the understanding that vector components, as opposed to scalars, do not have the same regularities as the standard spherical harmonics. However, by using a basis that does have the right regularity, we can construct a sparse matrix solution to differential equations in curvilinear geometries. This basis is the spin-weighted spherical harmonics, constructed from Jacobi polynomials.</description>
-    </item>
-    
-    <item>
-      <title>Convective overshoot at the solar tachocline</title>
-      <link>https://jsoishi.github.io/publication/2017spd....4840305b/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2017spd....4840305b/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Weakly Nonlinear Magnetorotational Instability in a Global, Cylindrical Taylor-Couette Flow</title>
       <link>https://jsoishi.github.io/publication/2017apj...841....2c/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
@@ -262,15 +289,6 @@ Methods We make extensive use of the phase field method to simulate two fluids o
     </item>
     
     <item>
-      <title>Dynamics and Chemistry in Jovian Atmospheres: 2D Hydrodynamical Simulations</title>
-      <link>https://jsoishi.github.io/publication/2016agufm.p31d..04b/</link>
-      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2016agufm.p31d..04b/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Tensor calculus in polar coordinates using Jacobi polynomials</title>
       <link>https://jsoishi.github.io/publication/2016jcoph.325...53v/</link>
       <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
@@ -289,22 +307,12 @@ Methods We make extensive use of the phase field method to simulate two fluids o
     </item>
     
     <item>
-      <title>Magnetohydrodynamics on the Equatorial Beta Plane</title>
-      <link>https://jsoishi.github.io/project/mhdbetaplane/</link>
-      <pubDate>Tue, 12 Jul 2016 16:10:22 +0200</pubDate>
-      
-      <guid>https://jsoishi.github.io/project/mhdbetaplane/</guid>
-      <description>Motivation Motivated by the discovery of active nests of convection in rapidly rotating stellar simulations, we are interested in constructing a local model that can reproduce the phenomena. In order to do this, we&amp;rsquo;re investigating the use of the equatorial beta plane.</description>
-    </item>
-    
-    <item>
       <title>Alex Jiang</title>
       <link>https://jsoishi.github.io/member/xjiang/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/xjiang/</guid>
-      <description>Alex is just getting started in the group. He&amp;rsquo;s going to work with Becca on Active Matter.
-Hobbies </description>
+      <description>Alex is working on his senior thesis on the topological properties of torsional oscillations in the Earth&amp;rsquo;s core. He&amp;rsquo;s also worked on Active Matter simulations.</description>
     </item>
     
     <item>
@@ -378,6 +386,15 @@ Hobbies Loud music, synthesizers, bicycles, cats.</description>
     </item>
     
     <item>
+      <title>Kirstin Koepnic</title>
+      <link>https://jsoishi.github.io/member/kkoepnic/</link>
+      <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/kkoepnic/</guid>
+      <description>Kirstin is writing her senior thesis on topological protection in fluid systems.</description>
+    </item>
+    
+    <item>
       <title>Matt Goldberg</title>
       <link>https://jsoishi.github.io/member/mgoldbe2/</link>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
@@ -403,7 +420,7 @@ Hobbies skiing</description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mbaxter/</guid>
-      <description>Morgan just completed an eigenvalue analysis of the 3D magnetorotational instability, and he&amp;rsquo;s moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows.
+      <description>, and he&amp;rsquo;s moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows. Before that, Morgan completed an eigenvalue analysis of the 3D magnetorotational instability.
 Hobbies </description>
     </item>
     
@@ -413,8 +430,7 @@ Hobbies </description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mabdulla/</guid>
-      <description>Abdullah has just started in the group working on stability analyses for lab experiments.
-Hobbies </description>
+      <description>Abdullah is working on the thermal asymptotic suction boundary layer problem.</description>
     </item>
     
     <item>
@@ -438,38 +454,11 @@ Hobbies </description>
     </item>
     
     <item>
-      <title>Tachocline dynamics: convective overshoot at stiff interfaces</title>
-      <link>https://jsoishi.github.io/publication/2016spd....47.0713b/</link>
-      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2016spd....47.0713b/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dedalus: Flexible framework for spectrally solving differential equations</title>
-      <link>https://jsoishi.github.io/publication/2016ascl.soft03015b/</link>
-      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2016ascl.soft03015b/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A validated non-linear Kelvin-Helmholtz benchmark for numerical hydrodynamics</title>
       <link>https://jsoishi.github.io/publication/2016mnras.455.4274l/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/publication/2016mnras.455.4274l/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Internal Wave Generation by Turbulent Convection</title>
-      <link>https://jsoishi.github.io/publication/2015agufm.p41a2036l/</link>
-      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2015agufm.p41a2036l/</guid>
       <description></description>
     </item>
     
@@ -510,56 +499,11 @@ Hobbies </description>
     </item>
     
     <item>
-      <title>Methods for Simulating the Heavy Core Instability</title>
-      <link>https://jsoishi.github.io/publication/2013epjwc..4606001o/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2013epjwc..4606001o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magnetic fields and angular momentum in population III star formation</title>
-      <link>https://jsoishi.github.io/publication/2012aipc.1480...77t/</link>
-      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012aipc.1480...77t/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>How Common Envelope Interactions Change the Lives of Stars and Planets</title>
-      <link>https://jsoishi.github.io/publication/2012iaus..282..517d/</link>
-      <pubDate>Sun, 01 Apr 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012iaus..282..517d/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Magnetic Fields in Population III Star Formation</title>
       <link>https://jsoishi.github.io/publication/2012apj...745..154t/</link>
       <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/publication/2012apj...745..154t/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chondrule Formation, Complementarity, and Pervasive, Highly Local Heating by Current Sheets</title>
-      <link>https://jsoishi.github.io/publication/2012mpsa..75.5387e/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012mpsa..75.5387e/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Short Circuits in Magnetic Reconnection: A Route to Chondrule Formation</title>
-      <link>https://jsoishi.github.io/publication/2012mpsa..75.5395h/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012mpsa..75.5395h/</guid>
       <description></description>
     </item>
     
@@ -573,47 +517,11 @@ Hobbies </description>
     </item>
     
     <item>
-      <title>Turbulence and small scale dynamo action in population III star formation</title>
-      <link>https://jsoishi.github.io/publication/2012aipc.1480...87o/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2012aipc.1480...87o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Magnetorotational Turbulence Transports Angular Momentum in Stratified Disks with Low Magnetic Prandtl Number but Magnetic Reynolds Number above a Critical Value</title>
       <link>https://jsoishi.github.io/publication/2011apj...740...18o/</link>
       <pubDate>Sat, 01 Oct 2011 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/publication/2011apj...740...18o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Simulations of the Common Envelope Interaction Between a Red Giant Branch Star and Low-Mass Companions</title>
-      <link>https://jsoishi.github.io/publication/2011aspc..447..107p/</link>
-      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011aspc..447..107p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Magnetic Helicity and Astrophysical Disk Dynamos</title>
-      <link>https://jsoishi.github.io/publication/2011aipc.1366..122o/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011aipc.1366..122o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The first stars and black holes</title>
-      <link>https://jsoishi.github.io/publication/2011gafo.confe..89a/</link>
-      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2011gafo.confe..89a/</guid>
       <description></description>
     </item>
     
@@ -636,29 +544,11 @@ Hobbies </description>
     </item>
     
     <item>
-      <title>Numerical Methods for Radiative Feedback from the First Stars: Ionization in Adaptive Mesh Refinement Simulations</title>
-      <link>https://jsoishi.github.io/publication/2010aipc.1294..270o/</link>
-      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2010aipc.1294..270o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>On Hydrodynamic Motions in Dead Zones</title>
       <link>https://jsoishi.github.io/publication/2009apj...704.1239o/</link>
       <pubDate>Thu, 01 Oct 2009 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/publication/2009apj...704.1239o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SDSS J1536&#43;0441: An Extreme &#34;Double-peaked Emitter,&#34; Not a Binary Black Hole</title>
-      <link>https://jsoishi.github.io/publication/2009atel.1955....1c/</link>
-      <pubDate>Sun, 01 Mar 2009 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2009atel.1955....1c/</guid>
       <description></description>
     </item>
     
@@ -699,47 +589,11 @@ Hobbies </description>
     </item>
     
     <item>
-      <title>Supplementary Information for ``Rapid planetesimal formation in turbulent circumstellar discs&#39;&#39;</title>
-      <link>https://jsoishi.github.io/publication/2007arxiv0708.3893j/</link>
-      <pubDate>Wed, 01 Aug 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2007arxiv0708.3893j/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non-ideal magnetohydrodynamics in star and planet formation</title>
-      <link>https://jsoishi.github.io/publication/2007phdt.........4o/</link>
-      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2007phdt.........4o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The Inability of Ambipolar Diffusion to Set a Characteristic Mass Scale in Molecular Clouds</title>
       <link>https://jsoishi.github.io/publication/2006apj...638..281o/</link>
       <pubDate>Wed, 01 Feb 2006 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/publication/2006apj...638..281o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protoplanetary Migration in Layered, Magnetized Disks: First Results</title>
-      <link>https://jsoishi.github.io/publication/2005prpl.conf.8439o/</link>
-      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2005prpl.conf.8439o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tracing Galactic Metallicity Gradients With the 2MASS Point Source Catalog</title>
-      <link>https://jsoishi.github.io/publication/2004aspc..317..283m/</link>
-      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2004aspc..317..283m/</guid>
       <description></description>
     </item>
     
@@ -760,6 +614,15 @@ Hobbies </description>
       <guid>https://jsoishi.github.io/vacancy/vacancy1/</guid>
       <description>Joining the group If you&amp;rsquo;re an undergrad at Bates&amp;ndash;any year, physics major, potential physics major, or otherwise&amp;ndash;send email to Jeff. Browse around the site to get a feel for what we&amp;rsquo;re up to. There are no prerequisites to joining the group; interest in some subset of {math, physics, programming} is pretty much it. If you&amp;rsquo;re even a little curious about it, send me an email and let&amp;rsquo;s chat.
 Doing a Senior Thesis Are you a physics major thinking of doing a senior thesis?</description>
+    </item>
+    
+    <item>
+      <title>ENZO: An Adaptive Mesh Refinement Code for Astrophysics (Version 2.6)</title>
+      <link>https://jsoishi.github.io/publication/2019joss....4.1636b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2019joss....4.1636b/</guid>
+      <description></description>
     </item>
     
   </channel>

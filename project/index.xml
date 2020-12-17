@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Dec 2020 16:10:22 +0200</lastBuildDate>
     
 	<atom:link href="https://jsoishi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reduced Models: GQL, DSS, and anisotropic flows</title>
+      <link>https://jsoishi.github.io/project/reducedmodels/</link>
+      <pubDate>Tue, 01 Dec 2020 16:10:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/project/reducedmodels/</guid>
+      <description>Turbulence is a crucial part of the climate, the dynamo process by which the Sun and Earth produce magnetic fields, and a major limiting factor for plasma confinement in tokamaks. In each of these systems, the largest scales are factors of 105 to 1014 times larger than the smallest scales. Crucially, energy flows through all of these scales, impacting the dynamics of the flow. A complete numerical simulation would require between 1015 to 1042 data points for every moment in time simulated!</description>
+    </item>
     
     <item>
       <title>A Complex Fluids Toolkit for Dedalus</title>
@@ -28,24 +37,6 @@ Methods We make extensive use of the phase field method to simulate two fluids o
       
       <guid>https://jsoishi.github.io/project/busseannulus/</guid>
       <description>Motivation Direct Statistical Simulation is a relatively new and very promising technique for understanding the long-term statistical properties of highly turbulent, anisotropic flow. Anisotropic flow occurs in astrophysical and geophysical contexts in a number of guises: the zonal jets found on Jupiter and Saturn, the mean dynamo-generated magnetic fields on solar-type and fully convective M-dwarfs, and the quasi-biennial oscillation on Earth. DSS has been extensively verified and tested against many problems in atmospheric science \citep{2008JAtS&amp;hellip;65.</description>
-    </item>
-    
-    <item>
-      <title>Barotropic Jet Formation on the 2-Sphere using Spin Spherical Harmonics</title>
-      <link>https://jsoishi.github.io/project/barotropicjets/</link>
-      <pubDate>Sun, 29 Oct 2017 16:10:22 +0200</pubDate>
-      
-      <guid>https://jsoishi.github.io/project/barotropicjets/</guid>
-      <description>Motivation The Dedalus Collaboration has developed a sparse discretization of vector fields in spherical geometry. Key to this process is the understanding that vector components, as opposed to scalars, do not have the same regularities as the standard spherical harmonics. However, by using a basis that does have the right regularity, we can construct a sparse matrix solution to differential equations in curvilinear geometries. This basis is the spin-weighted spherical harmonics, constructed from Jacobi polynomials.</description>
-    </item>
-    
-    <item>
-      <title>Magnetohydrodynamics on the Equatorial Beta Plane</title>
-      <link>https://jsoishi.github.io/project/mhdbetaplane/</link>
-      <pubDate>Tue, 12 Jul 2016 16:10:22 +0200</pubDate>
-      
-      <guid>https://jsoishi.github.io/project/mhdbetaplane/</guid>
-      <description>Motivation Motivated by the discovery of active nests of convection in rapidly rotating stellar simulations, we are interested in constructing a local model that can reproduce the phenomena. In order to do this, we&amp;rsquo;re investigating the use of the equatorial beta plane.</description>
     </item>
     
   </channel>
