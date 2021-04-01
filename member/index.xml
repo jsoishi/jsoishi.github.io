@@ -6,10 +6,19 @@
     <description>Recent content in Members on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Tue, 12 Jul 2016 15:52:22 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2021 15:52:22 +0200</lastBuildDate>
     
 	<atom:link href="https://jsoishi.github.io/member/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tucker Barber</title>
+      <link>https://jsoishi.github.io/member/tbarber/</link>
+      <pubDate>Tue, 12 Jan 2021 15:52:22 +0200</pubDate>
+      
+      <guid>https://jsoishi.github.io/member/tbarber/</guid>
+      <description>Tucker is writing his senior thesis on testing the forthcoming Dedalus-bio software package for biophysics simulations in collaboration with Phil Pearce at Harvard Medical School and the Dedalus team.</description>
+    </item>
     
     <item>
       <title>Alex Jiang</title>
@@ -125,7 +134,7 @@ Hobbies skiing</description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mbaxter/</guid>
-      <description>, and he&amp;rsquo;s moving on to start his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows. Before that, Morgan completed an eigenvalue analysis of the 3D magnetorotational instability.
+      <description>Morgan wrote his senior thesis on applying the Generalized Quasi-linear Approximation to Taylor-Couette flows. Before that, Morgan completed an eigenvalue analysis of the 3D magnetorotational instability. As of 2021, he&amp;rsquo;s pursuing a Master&amp;rsquo;s Degree in Aerospace Engineering at University of Colorado, Boulder.
 Hobbies </description>
     </item>
     
