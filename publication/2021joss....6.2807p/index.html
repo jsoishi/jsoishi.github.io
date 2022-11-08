@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic-group">
+
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://jsoishi.github.io//js/hugo-academic-group.js"></script>
+
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/bootstrap.min.css">
+    <script src="https://jsoishi.github.io//js/bootstrap.min.js"></script>  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+    
+    
+    <script src="https://jsoishi.github.io//js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/academicons.min.css">
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/biaslab-font.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:100,300,400,700|Merriweather:100,400,700|Roboto+Mono">
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/hugo-academic-group.css">
+
+    
+
+
+    <link rel="shortcut icon" href="https://jsoishi.github.io//img/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://jsoishi.github.io/publication/2021joss....6.2807p/">
+
+    <title>The Pencil Code, a modular MPI code for partial differential equations and particles: multipurpose and multiuser-maintained | Bates Fluid Dynamics Group</title>
+
+</head>
+
+<body>
+<div class="home-anchor" id="home"></div>
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="navbar-brand">
+                
+                
+            </div>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#top">Home</a></li>
+                    
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#posts">Blog</a></li>
+                    
+                
+                        
+                        
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              
+                                <li><a href="https://jsoishi.github.io/research/overview">Overview</a></li>
+                              
+                                <li><a href="https://jsoishi.github.io/research/getting_started">Getting Started</a></li>
+                              
+                                <li><a href="https://jsoishi.github.io/research/dedalus_tutorials">Dedalus Tutorials</a></li>
+                              
+                                <li><a href="https://jsoishi.github.io/#publications">Publications</a></li>
+                              
+                                <li><a href="https://jsoishi.github.io/#projects">Projects</a></li>
+                              
+                            </ul>
+                          </li>
+                    
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#members">Members</a></li>
+                    
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#vacancies">Join Us!</a></li>
+                    
+                
+                    
+                        <li class="nav-item"><a data-scroll href="https://jsoishi.github.io/#contact">Contact</a></li>
+                    
+                
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container">
+
+    <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="pub-title">
+            <h1 itemprop="name">The Pencil Code, a modular MPI code for partial differential equations and particles: multipurpose and multiuser-maintained</h1>
+            <span class="pub-authors" itemprop="author">
+                
+<div itemprop="author">
+        
+            
+                
+                    <a href="https://jsoishi.github.io/member">Pencil Code Collaboration</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Brandenburg, Axel</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Johansen, Anders</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Bourdin, Philippe</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Dobler, Wolfgang</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Lyra, Wladimir</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Rheinhardt, Matthias</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Bingert, Sven</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Haugen, Nils</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Mee, Antony</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Gent, Frederick</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Babkovskaia, Natalia</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Yang, Chao-Chin</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Heinemann, Tobias</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Dintrans, Boris</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Mitra, Dhrubaditya</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Candelaresi, Simon</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Warnecke, Jörn</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Käpylä, Petri</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Schreiber, Andreas</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Chatterjee, Piyali</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Käpylä, Maarit</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Li, Xiang-Yu</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Krüger, Jonas</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Aarnes, Jørgen</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Sarson, Graeme</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Oishi, Jeffrey</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Schober, Jennifer</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Plasson, Raphaël</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Sandin, Christer</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Karchniwy, Ewa</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Rodrigues, Luiz</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Hubbard, Alexander</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Guerrero, Gustavo</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Snodin, Andrew</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Losada, Illa</a>,
+                
+            
+                
+                    <a href="https://jsoishi.github.io/member">Pekkilä, Johannes</a>,
+                
+            
+            
+                
+                    <a href="https://jsoishi.github.io/member">Qian, Chengeng</a>
+                
+            
+        
+</div>
+
+            </span>
+            <span class="pull-right">
+                
+
+            </span>
+        </div>
+
+        
+
+        <h3>Abstract</h3>
+        <p class="pub-abstract" itemprop="text">The Pencil Code is a highly modular physics-oriented simulation code that can be adapted to a wide range of applications. It is primarily designed to solve partial differential equations (PDEs) of compressible hydrodynamics and has lots of add-ons ranging from astrophysical magnetohydrodynamics (MHD) to meteorological cloud microphysics and engineering applications in combustion. Nevertheless, the framework is general and can also be applied to situations not related to hydrodynamics or even PDEs, for example when just the message passing interface or input/output strategies of the code are to be used. The code can also evolve Lagrangian (inertial and noninertial) particles, their coagulation and condensation, as well as their interaction with the fluid.</p>
+
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+                    <div class="col-xs-12 col-sm-9">The Journal of Open Source Software</div>
+                </div>
+            </div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        
+
+        <div class="row">
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+                    <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+                        
+                        February, 2021
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="visible-xs space-below"></div>
+
+        <div class="row" style="padding-top: 10px">
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+                    <div class="col-xs-12 col-sm-9">
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="space-below"></div>
+
+        <div class="article-style"></div>
+
+    </div>
+
+
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            © Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran &middot; 
+
+            Partially powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#home" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+
+
+
+
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+</script>
+
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+
+</body>
+</html>
+

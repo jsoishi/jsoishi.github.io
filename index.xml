@@ -6,10 +6,48 @@
     <description>Recent content on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Wed, 30 Jun 2021 15:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Oct 2022 17:23:48 +0000</lastBuildDate>
     
 	<atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sometimes you can&#39;t let the mystery be</title>
+      <link>https://jsoishi.github.io/post/welcome-to-brown/</link>
+      <pubDate>Thu, 06 Oct 2022 17:23:48 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/welcome-to-brown/</guid>
+      <description>&amp;hellip;or how six months in the lab can save you an hour in the library.
+For the 2022-2023 year, I&amp;rsquo;m visiting the Brown Theoretical Physics Center, hosted by Brad Marston. I&amp;rsquo;m excited to chat with all of the great fluid dynamicists here and hopefully start some new lines of research.
+In fact, that&amp;rsquo;s already happened. In my second week at Brown, who comes to visit? None other than Professor Alexander Morozov from the University of Edinburgh, one of the world&amp;rsquo;s foremost experts on elastic turbulence, and a keen user of Dedalus.</description>
+    </item>
+    
+    <item>
+      <title>Direct Statistical Simulation of the Busse Annulus</title>
+      <link>https://jsoishi.github.io/publication/2022arxiv220303699o/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2022arxiv220303699o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experiment Sees Elusive Magnetic-Fluid Instability</title>
+      <link>https://jsoishi.github.io/publication/2022phyoj..15..134o/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2022phyoj..15..134o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Stability of Prendergast Magnetic Fields</title>
+      <link>https://jsoishi.github.io/publication/2022arxiv220914339k/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2022arxiv220914339k/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Theses, Papers, and other things.</title>
@@ -22,12 +60,30 @@ While we&amp;rsquo;re congratulating, a very belated congrats to Morgan Baxter (
     </item>
     
     <item>
+      <title>eigentools: A Python package for studying differential eigenvalue problems with an emphasis on robustness</title>
+      <link>https://jsoishi.github.io/publication/2021joss....6.3079o/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2021joss....6.3079o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Pencil Code, a modular MPI code for partial differential equations and particles: multipurpose and multiuser-maintained</title>
+      <link>https://jsoishi.github.io/publication/2021joss....6.2807p/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2021joss....6.2807p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tucker Barber</title>
       <link>https://jsoishi.github.io/member/tbarber/</link>
       <pubDate>Tue, 12 Jan 2021 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/tbarber/</guid>
-      <description>Tucker is writing his senior thesis on testing the forthcoming Dedalus-bio software package for biophysics simulations in collaboration with Phil Pearce at Harvard Medical School and the Dedalus team.</description>
+      <description>Tucker wrote his senior thesis on testing the forthcoming Dedalus-bio software package for biophysics simulations.</description>
     </item>
     
     <item>
@@ -99,6 +155,15 @@ While we&amp;rsquo;re congratulating, a very belated congrats to Morgan Baxter (
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/publication/2019phrvl.123y8101p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ENZO: An Adaptive Mesh Refinement Code for Astrophysics (Version 2.6)</title>
+      <link>https://jsoishi.github.io/publication/2019joss....4.1636b/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2019joss....4.1636b/</guid>
       <description></description>
     </item>
     
@@ -241,7 +306,8 @@ Methods We make extensive use of the phase field method to simulate two fluids o
       <pubDate>Thu, 19 Jul 2018 08:50:58 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/research/overview/</guid>
-      <description>Mission The Bates Fluid Dynamics Group study fluid dynamics at scales ranging from global models of planets and stars to the swimming and growth of bacteria with theoretical and computational tools. We are particularly interested in what we call &amp;ldquo;complicated&amp;rdquo; fluid dynamics: problems involving turbulence, phase changes, traditional &amp;ldquo;complex&amp;rdquo; non-Newtonian fluids, or some combination of them all. We make extensive use of the Dedalus Project, a flexible framework for solving partial differential equations.</description>
+      <description>Mission The Bates Fluid Dynamics Group studies fluid and plasma dynamics using theoretical and computational tools. We are interested in problems related to Earth&amp;rsquo;s ocean and atmosphere, the confinement of plasmas in future fusion power generators, the Sun&amp;rsquo;s magnetic field, and Jupiter&amp;rsquo;s atmosphere. We take the physicist&amp;rsquo;s approach to these questions: how can we use simplified models of isolated processes to develop a robust, systematic understanding of the dynamics?
+Much of the group&amp;rsquo;s efforts are focused on stability and control of shear flows, particularly as they apply to major environmental and clean energy problems: how can we better model the vertical transport of heat and pollutants in climate models?</description>
     </item>
     
     <item>
@@ -400,7 +466,7 @@ Hobbies </description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/jeff_oishi/</guid>
-      <description>Jeff grew up in Virginia, just outside Washington, D. C.
+      <description>Jeff develops numerical algorithms and software to model partial differential equations (PDEs). He uses them to study complicated non-linear flows and turbulence in fluids and plasmas. This involves great students, a lot of coffee, a fair amount of supercomputer time, and a network of great friends and collaborators around the world to work with.
 Hobbies Loud music, synthesizers, bicycles, cats.</description>
     </item>
     
@@ -410,7 +476,7 @@ Hobbies Loud music, synthesizers, bicycles, cats.</description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/kkoepnic/</guid>
-      <description>Kirstin is writing her senior thesis on topological protection in fluid systems.</description>
+      <description>Kirstin wrote her senior thesis on topological protection in fluid systems. She is now a PhD student in Applied Mathematics at Harvard.</description>
     </item>
     
     <item>
@@ -448,7 +514,8 @@ Hobbies </description>
       <pubDate>Tue, 12 Jul 2016 15:52:22 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/member/mabdulla/</guid>
-      <description>Abdullah is working on the thermal asymptotic suction boundary layer problem.</description>
+      <description>Abdullah completed his senior thesis on machine learning methods for finding exact coherent states in plane Couette flow. He also worked on the thermal asymptotic suction boundary layer problem.
+He is currently a PhD student in Prof. George Park&amp;rsquo;s group at the University of Pennsylvania Mechanical Engineering and Applied Mechanics department.</description>
     </item>
     
     <item>
@@ -632,15 +699,6 @@ Hobbies </description>
       <guid>https://jsoishi.github.io/vacancy/vacancy1/</guid>
       <description>Joining the group If you&amp;rsquo;re an undergrad at Bates&amp;ndash;any year, physics major, potential physics major, or otherwise&amp;ndash;send email to Jeff. Browse around the site to get a feel for what we&amp;rsquo;re up to. There are no prerequisites to joining the group; interest in some subset of {math, physics, programming} is pretty much it. If you&amp;rsquo;re even a little curious about it, send me an email and let&amp;rsquo;s chat.
 Doing a Senior Thesis Are you a physics major thinking of doing a senior thesis?</description>
-    </item>
-    
-    <item>
-      <title>ENZO: An Adaptive Mesh Refinement Code for Astrophysics (Version 2.6)</title>
-      <link>https://jsoishi.github.io/publication/2019joss....4.1636b/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jsoishi.github.io/publication/2019joss....4.1636b/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Wed, 30 Jun 2021 15:41:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Oct 2022 17:23:48 +0000</lastBuildDate>
     
 	<atom:link href="https://jsoishi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sometimes you can&#39;t let the mystery be</title>
+      <link>https://jsoishi.github.io/post/welcome-to-brown/</link>
+      <pubDate>Thu, 06 Oct 2022 17:23:48 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/welcome-to-brown/</guid>
+      <description>&amp;hellip;or how six months in the lab can save you an hour in the library.
+For the 2022-2023 year, I&amp;rsquo;m visiting the Brown Theoretical Physics Center, hosted by Brad Marston. I&amp;rsquo;m excited to chat with all of the great fluid dynamicists here and hopefully start some new lines of research.
+In fact, that&amp;rsquo;s already happened. In my second week at Brown, who comes to visit? None other than Professor Alexander Morozov from the University of Edinburgh, one of the world&amp;rsquo;s foremost experts on elastic turbulence, and a keen user of Dedalus.</description>
+    </item>
     
     <item>
       <title>Theses, Papers, and other things.</title>

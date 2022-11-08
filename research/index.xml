@@ -47,7 +47,8 @@ Using Linux  All of the group&amp;rsquo;s software runs on Linux. You need to be
       <pubDate>Thu, 19 Jul 2018 08:50:58 +0200</pubDate>
       
       <guid>https://jsoishi.github.io/research/overview/</guid>
-      <description>Mission The Bates Fluid Dynamics Group study fluid dynamics at scales ranging from global models of planets and stars to the swimming and growth of bacteria with theoretical and computational tools. We are particularly interested in what we call &amp;ldquo;complicated&amp;rdquo; fluid dynamics: problems involving turbulence, phase changes, traditional &amp;ldquo;complex&amp;rdquo; non-Newtonian fluids, or some combination of them all. We make extensive use of the Dedalus Project, a flexible framework for solving partial differential equations.</description>
+      <description>Mission The Bates Fluid Dynamics Group studies fluid and plasma dynamics using theoretical and computational tools. We are interested in problems related to Earth&amp;rsquo;s ocean and atmosphere, the confinement of plasmas in future fusion power generators, the Sun&amp;rsquo;s magnetic field, and Jupiter&amp;rsquo;s atmosphere. We take the physicist&amp;rsquo;s approach to these questions: how can we use simplified models of isolated processes to develop a robust, systematic understanding of the dynamics?
+Much of the group&amp;rsquo;s efforts are focused on stability and control of shear flows, particularly as they apply to major environmental and clean energy problems: how can we better model the vertical transport of heat and pollutants in climate models?</description>
     </item>
     
   </channel>
