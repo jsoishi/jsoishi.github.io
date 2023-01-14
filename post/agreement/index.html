@@ -35,9 +35,9 @@
 
 
     <link rel="shortcut icon" href="https://jsoishi.github.io//img/favicon.ico" type="image/x-icon">
-    <link rel="canonical" href="https://jsoishi.github.io/post/welcome-to-brown/">
+    <link rel="canonical" href="https://jsoishi.github.io/post/agreement/">
 
-    <title>Sometimes you can&#39;t let the mystery be | Bates Fluid Dynamics Group</title>
+    <title>Well, that&#39;s a relief | Bates Fluid Dynamics Group</title>
 
 </head>
 
@@ -122,11 +122,11 @@
     <article class="article" itemscope itemtype="http://schema.org/Article">
         
 
-        <h1 itemprop="name">Sometimes you can&#39;t let the mystery be</h1>
+        <h1 itemprop="name">Well, that&#39;s a relief</h1>
 
         <div class="row">
             <div class="col-xs-6 article-published-at">
-                <i>Published on:</i> <p>Oct 6, 2022</p>
+                <i>Published on:</i> <p>Jan 13, 2023</p>
             </div>
             <div class="col-xs-6 article-authors">
                 <i>Authors:</i>
@@ -145,21 +145,9 @@
         </div>
 
         <div class="article-style" itemprop="articleBody">
-            <p>&hellip;or how six months in the lab can save you an hour in the library.</p>
-<p>For the 2022-2023 year, I&rsquo;m visiting the <a href="https://btpc.brown.edu/">Brown Theoretical Physics Center</a>, hosted by Brad Marston.
-<img src="https://jsoishi.github.io/img/brown.jpg" alt="Brown University">
-I&rsquo;m excited to chat with all of the great fluid dynamicists here and hopefully start some new lines of research.</p>
-<p>In fact, that&rsquo;s already happened. In my second week at Brown, who comes to visit? None other than Professor Alexander Morozov from the University of Edinburgh, one of the world&rsquo;s foremost experts on elastic turbulence, and a keen user of Dedalus.</p>
-<p>Some time ago, I&rsquo;d been working on some biophysics problems in Dedalus, and I&rsquo;d implemented the Oldroyd-B model for viscoelasticity.</p>
-<!-- A viscoelastic fluid, as you might guess, is one that is both *viscous* and *elastic*. Viscosity tends to dissipate any kinetic energy you put in the fluid: if you stir up coffee, eventually it comes back to rest. Elasticity is familiar from springs, which don't dissipate energy: if you stretch it, when you release it, you'll get the energy back. Viscoelastic fluids combine these two properties. They're found in your kitchen (ketchup), your bathroom (toothpaste), and your body (cells, ligaments, tendons). Clearly kind of important to understand.  -->
-<p>The Oldroyd-B model is one of the simplest models of viscoelasticity, but that&rsquo;s not saying much. It&rsquo;s pretty complicated, and adds a <em>tensor</em> field, called the conformation tensor to the usual Navier-Stokes equations of fluid motions (which are kind of complicated all by themselves). In our new, still-beta version of Dedalus, known to its friends and family as <code>d3</code>, we have added the ability to handle vector and tensor fields, including all of their algebra and calculus. This means the code for solving the Oldroyd-B model becomes just a few lines:
-<img src="https://jsoishi.github.io/img/visco_d3.png" alt="viscoelasticity in dedalus"></p>
-<p>Anyway, I wanted to make sure my implementation was working, so I decided to test it on the viscoelastic Kolomogorov flow, which shows an elastic instability even when the non-viscoelastic flow would be stable. This is described in a great paper by <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.82.036314">Berti and Boffetta (Phys Rev E 2010)</a>, so I set out to reproduce their figure 2, which shows where the instability sets in as a function of Weissenberg number (Wi). If you look closely at the above image, you&rsquo;ll see that there are three dimensionless parameters, Re, Wi, and η. However, the 2010 paper only reports Re and Wi! What is η? I couldn&rsquo;t reproduce the results without it.</p>
-<p>η is an unusual parameter, essentially telling you how much the viscoelastic component contributes to the total viscosity. It&rsquo;s not at all obvious (to me, anyway) what value it should take. 1 is always a good guess, but that didn&rsquo;t seem to work. This is a pretty common situation: you have a great result you want to reproduce, but the paper doesn&rsquo;t always have all the details. While we all strive for reproducability, it can be easy to forget a parameter, particularly one that you don&rsquo;t vary in your study! In fact, right now I have a referee report in my inbox that helpfully points out an important parameter I left out of my latest manuscript. It&rsquo;s easy to do.</p>
-<p>But rather than curse the darkness, there are many options. First, I could email the authors. Now, I had a few hours before Prof. Morozov was to show up in my office, so it was unlikely that they would get back to me in time. Next, I could redo the linear analysis for some value of η, find the instability threshold, and use that to test the simulation. But that also takes time to get right, and given that that requires the linearized form of the very same equations I&rsquo;m trying to test, isn&rsquo;t entirely unbiased. But there&rsquo;s also a paper trail. In particular, <a href="http://personalpages.to.infn.it/~boffetta/">Professor Boffetta</a> had published <a href="https://doi.org/10.1017/S0022112004002423">a paper in 2005</a> on the linear stability of this system. Maybe that reported η&hellip;and indeed it did! Once I used that parameter value (η = 0.3, for the record), we got what we were looking for:</p>
-<p><img src="https://jsoishi.github.io/img/ET_vorticity.png" alt="vorticity in elastic turbulence"></p>
-<p>More soon to come&hellip;</p>
-<!-- I couldn't redo the linear results and make my own test case. -->
+            <p>We released the beta version of Dedalus version 3 just under a year ago, on 15 Feb 2022. In that time, we&rsquo;ve made tremendous progress in performance, usability, and IO. One thing that&rsquo;s always gratifying is when you port a script as closely as you can, by copying and pasting and modifying until it conforms to the new syntax and find this:</p>
+<p><img src="https://jsoishi.github.io/img/gamma_vs_alpha.png" alt="d2 vs d3 agreement"></p>
+<p>And for the one run I checked, Dedalus 3 is 2.4 times faster than Dedalus 2! Not a bad start to a holiday weekend.</p>
 
         </div>
 
@@ -171,21 +159,13 @@ I&rsquo;m excited to chat with all of the great fluid dynamicists here and hopef
     <ul class="pager">
         
         <li class="previous">
-            <a href="https://jsoishi.github.io/post/summer-2021/">
+            <a href="https://jsoishi.github.io/post/welcome-to-brown/">
                 <span aria-hidden="true" class="darknav">&larr;&nbsp;Previous post:</span>
-                Theses, Papers, and other things.
+                Sometimes you can&#39;t let the mystery be
             </a>
         </li>
         
 
-        
-        <li class="next">
-            <a href="https://jsoishi.github.io/post/agreement/">
-                <span class="darknav">&nbsp;Next post:</span>
-                Well, that&#39;s a relief
-                <span aria-hidden="true" class="darknav">&rarr;</span>
-            </a>
-        </li>
         
     </ul>
 </nav>

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Thu, 06 Oct 2022 17:23:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Jan 2023 00:44:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jsoishi.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Well, that&#39;s a relief</title>
+      <link>https://jsoishi.github.io/post/agreement/</link>
+      <pubDate>Fri, 13 Jan 2023 00:44:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/post/agreement/</guid>
+      <description>We released the beta version of Dedalus version 3 just under a year ago, on 15 Feb 2022. In that time, we&amp;rsquo;ve made tremendous progress in performance, usability, and IO. One thing that&amp;rsquo;s always gratifying is when you port a script as closely as you can, by copying and pasting and modifying until it conforms to the new syntax and find this:
+And for the one run I checked, Dedalus 3 is 2.</description>
+    </item>
     
     <item>
       <title>Sometimes you can&#39;t let the mystery be</title>
