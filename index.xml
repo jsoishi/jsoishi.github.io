@@ -6,10 +6,46 @@
     <description>Recent content on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Fri, 13 Jan 2023 00:44:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jsoishi.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ordering of timescales predicts applicability of quasi-linear theory in unstable flows</title>
+      <link>https://jsoishi.github.io/publication/2023arxiv230703781s/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2023arxiv230703781s/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The photometric variability of massive stars due to gravity waves excited by core convection</title>
+      <link>https://jsoishi.github.io/publication/2023arxiv230608023a/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2023arxiv230608023a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Puzzling Structure of Solar Convection: Window into the Dynamo</title>
+      <link>https://jsoishi.github.io/publication/2023arxiv230508823f/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2023arxiv230508823f/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized quasi-linear approximation and non-normality in Taylor-Couette spiral turbulence</title>
+      <link>https://jsoishi.github.io/publication/2023rspta.38120122o/</link>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2023rspta.38120122o/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Well, that&#39;s a relief</title>
@@ -19,6 +55,15 @@
       <guid>https://jsoishi.github.io/post/agreement/</guid>
       <description>We released the beta version of Dedalus version 3 just under a year ago, on 15 Feb 2022. In that time, we&amp;rsquo;ve made tremendous progress in performance, usability, and IO. One thing that&amp;rsquo;s always gratifying is when you port a script as closely as you can, by copying and pasting and modifying until it conforms to the new syntax and find this:
 And for the one run I checked, Dedalus 3 is 2.</description>
+    </item>
+    
+    <item>
+      <title>The stability of Prendergast magnetic fields</title>
+      <link>https://jsoishi.github.io/publication/2022mnras.517.3332k/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2022mnras.517.3332k/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -56,6 +101,15 @@ In fact, that&amp;rsquo;s already happened. In my second week at Brown, who come
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://jsoishi.github.io/publication/2022arxiv220914339k/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convective Boundary Mixing Processes</title>
+      <link>https://jsoishi.github.io/publication/2022rnaas...6...41a/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/publication/2022rnaas...6...41a/</guid>
       <description></description>
     </item>
     
