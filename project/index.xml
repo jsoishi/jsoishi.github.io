@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Bates Fluid Dynamics Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jeffrey S. Oishi, 2018-present; banner image NASA/SWRI/MSSS/Gerald Eichstädt/Seán Doran</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 16:10:22 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jsoishi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Minimal Models of Moist Convection</title>
+      <link>https://jsoishi.github.io/project/moistconvection/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jsoishi.github.io/project/moistconvection/</guid>
+      <description>Motivation When water vapor condenses in the atmosphere, it releases latent heat and changes the buoyancy of the surrounding air. This phase transition is a fundamentally non-linear process that dramatically shapes the evolution of convection, making it fundamentally different than ``dry&amp;rsquo;&amp;rsquo; convection without moisture. Convective activity plays a key role in the climate system, including the radiation inhibition driven by clouds and the formation of severe weather. Today&amp;rsquo;s most advanced global climate models do not reliably resolve the formation of clouds, and thus they include significant model-dependent details that drive disagreements in the results.</description>
+    </item>
     
     <item>
       <title>Reduced Models: GQL, DSS, and anisotropic flows</title>

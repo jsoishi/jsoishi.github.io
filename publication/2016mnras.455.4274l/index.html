@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="https://jsoishi.github.io//css/hugo-academic-group.css">
 
     
+    <link rel="stylesheet" href="https://jsoishi.github.io//css/biaslab.css">
+    
 
 
     <link rel="shortcut icon" href="https://jsoishi.github.io//img/favicon.ico" type="image/x-icon">
@@ -122,79 +124,122 @@
 <div class="container">
 
     <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
-        <div class="pub-title">
-            <h1 itemprop="name">A validated non-linear Kelvin-Helmholtz benchmark for numerical hydrodynamics</h1>
-            <span class="pub-authors" itemprop="author">
-                
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pub-title">
+                    <h1 itemprop="name">A validated non-linear Kelvin-Helmholtz benchmark for numerical hydrodynamics</h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="pub-authors" itemprop="author">
+                    
 <div itemprop="author">
         
             
                 
-                    <a href="https://jsoishi.github.io/member">Lecoanet, D.</a>,
-                
+<span class="author-name">
+    
+        Lecoanet, D.
+    
+</span>,
             
                 
-                    <a href="https://jsoishi.github.io/member">McCourt, M.</a>,
-                
+<span class="author-name">
+    
+        McCourt, M.
+    
+</span>,
             
                 
-                    <a href="https://jsoishi.github.io/member">Quataert, E.</a>,
-                
+<span class="author-name">
+    
+        Quataert, E.
+    
+</span>,
             
                 
-                    <a href="https://jsoishi.github.io/member">Burns, K. J.</a>,
-                
+<span class="author-name">
+    
+        Burns, K. J.
+    
+</span>,
             
                 
-                    <a href="https://jsoishi.github.io/member">Vasil, G. M.</a>,
-                
+<span class="author-name">
+    
+        Vasil, G. M.
+    
+</span>,
             
                 
-                    <a href="https://jsoishi.github.io/member">Oishi, J. S.</a>,
-                
+<span class="author-name">
+    
+        Oishi, J. S.
+    
+</span>,
             
                 
-                    <a href="https://jsoishi.github.io/member">Brown, B. P.</a>,
-                
+<span class="author-name">
+    
+        Brown, B. P.
+    
+</span>,
             
                 
-                    <a href="https://jsoishi.github.io/member">Stone, J. M.</a>,
-                
+<span class="author-name">
+    
+        Stone, J. M.
+    
+</span>,
             
             
-                
-                    <a href="https://jsoishi.github.io/member">O&#39;Leary, R. M.</a>
-                
+                 
+<span class="author-name">
+    
+        O&#39;Leary, R. M.
+    
+</span>
             
         
 </div>
 
-            </span>
-            <span class="pull-right">
-                
-
-            </span>
+                </div>
+            </div>
         </div>
 
         
-
-        <h3>Abstract</h3>
-        <p class="pub-abstract" itemprop="text">The non-linear evolution of the Kelvin-Helmholtz instability is a popular test for code verification. To date, most Kelvin-Helmholtz problems discussed in the literature are ill-posed: they do not converge to any single solution with increasing resolution. This precludes comparisons among different codes and severely limits the utility of the Kelvin-Helmholtz instability as a test problem. The lack of a reference solution has led various authors to assert the accuracy of their simulations based on ad hoc proxies, e.g. the existence of small-scale structures. This paper proposes well-posed two-dimensional Kelvin-Helmholtz problems with smooth initial conditions and explicit diffusion. We show that in many cases numerical errors/noise can seed spurious small-scale structure in Kelvin-Helmholtz problems. We demonstrate convergence to a reference solution using both ATHENA, a Godunov code, and DEDALUS, a pseudo-spectral code. Problems with constant initial density throughout the domain are relatively straightforward for both codes. However, problems with an initial density jump (which are the norm in astrophysical systems) exhibit rich behaviour and are more computationally challenging. In the latter case, ATHENA simulations are prone to an instability of the inner rolled-up vortex; this instability is seeded by grid-scale errors introduced by the algorithm, and disappears as resolution increases. Both ATHENA and DEDALUS exhibit late-time chaos. Inviscid simulations are riddled with extremely vigorous secondary instabilities which induce more mixing than simulations with explicit diffusion. Our results highlight the importance of running well-posed test problems with demonstrated convergence to a reference solution. To facilitate future comparisons, we include as supplementary material the resolved, converged solutions to the Kelvin-Helmholtz problems in this paper in machine-readable form.</p>
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Abstract</h3>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="pub-abstract" itemprop="text">The non-linear evolution of the Kelvin-Helmholtz instability is a popular test for code verification. To date, most Kelvin-Helmholtz problems discussed in the literature are ill-posed: they do not converge to any single solution with increasing resolution. This precludes comparisons among different codes and severely limits the utility of the Kelvin-Helmholtz instability as a test problem. The lack of a reference solution has led various authors to assert the accuracy of their simulations based on ad hoc proxies, e.g. the existence of small-scale structures. This paper proposes well-posed two-dimensional Kelvin-Helmholtz problems with smooth initial conditions and explicit diffusion. We show that in many cases numerical errors/noise can seed spurious small-scale structure in Kelvin-Helmholtz problems. We demonstrate convergence to a reference solution using both ATHENA, a Godunov code, and DEDALUS, a pseudo-spectral code. Problems with constant initial density throughout the domain are relatively straightforward for both codes. However, problems with an initial density jump (which are the norm in astrophysical systems) exhibit rich behaviour and are more computationally challenging. In the latter case, ATHENA simulations are prone to an instability of the inner rolled-up vortex; this instability is seeded by grid-scale errors introduced by the algorithm, and disappears as resolution increases. Both ATHENA and DEDALUS exhibit late-time chaos. Inviscid simulations are riddled with extremely vigorous secondary instabilities which induce more mixing than simulations with explicit diffusion. Our results highlight the importance of running well-posed test problems with demonstrated convergence to a reference solution. To facilitate future comparisons, we include as supplementary material the resolved, converged solutions to the Kelvin-Helmholtz problems in this paper in machine-readable form.</p>
+            </div>
+        </div>
 
         <div class="row">
-            <div class="col-sm-10">
+            <div class="col-sm-12">
                 <div class="row">
                     <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
                     <div class="col-xs-12 col-sm-9">Monthly Notices of the Royal Astronomical Society</div>
                 </div>
             </div>
         </div>
+        
         <div class="visible-xs space-below"></div>
 
         
 
         <div class="row">
-            <div class="col-sm-10">
+            <div class="col-sm-12">
                 <div class="row">
                     <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
                     <div class="col-xs-12 col-sm-9" itemprop="datePublished">
@@ -208,7 +253,7 @@
         <div class="visible-xs space-below"></div>
 
         <div class="row" style="padding-top: 10px">
-            <div class="col-sm-10">
+            <div class="col-sm-12">
                 <div class="row">
                     <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
                     <div class="col-xs-12 col-sm-9">

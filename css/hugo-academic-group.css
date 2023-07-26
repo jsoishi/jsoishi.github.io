@@ -69,8 +69,8 @@ header{
 html,
 body,
 p {
-    font-family: 'Merriweather', serif;
-    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
     line-height: 1.65;
     min-height: 100%;
     height: 100%;
@@ -82,7 +82,7 @@ body {
     padding-top: 0;
     counter-reset: captions;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     body {
         /* Offset body content by navbar height. */
         margin-top: 51px;
@@ -133,7 +133,7 @@ h4 {
 
 a, a:visited,
 h3.article-title a:hover {
-    color: #0095eb;
+    color: #006199;
     text-decoration:none;
     transition:color 0.6s ease;
 }
@@ -279,7 +279,7 @@ span.darknav {
 }
 
 .portrait-title h3 {
-    font-size: 1.13em;
+    font-size: 1.0em;
     font-weight: 400;
     text-align: center;
     color: #AAAAAA;
@@ -313,14 +313,7 @@ span.darknav {
 
 ul.ul-edu {
     list-style: none;
-}
-
-ul.ul-edu li {
-    position: relative;
-    padding: 0px 15px 4px 3px;
-    color: #333333;
-}
-
+}h3
 ul.ul-edu li .description p {
     margin: 0;
 }
@@ -391,7 +384,7 @@ ul.share li:hover .fa {
  **************************************************/
 
 .article-title {
-    font-size: 1.75rem;
+    font-size: 1.2rem;
 }
 
 /*h3.article-title a {
@@ -532,6 +525,10 @@ img.in-text {
     padding: 15px;
 }
 
+.author-name {
+    white-space: nowrap;
+}
+
 .article-published-at {
     padding: 15px;
 }
@@ -566,6 +563,7 @@ img.in-text {
 .pub .pub-authors {
     font-style: italic;
     line-height: 30px; /* Match share bar line height. */
+    float:left;
 }
 
 .pub .pub-row-heading {
@@ -692,7 +690,7 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-    border-color: #0095eb;
+    border-color: #006199;
 }
 
 .btn-primary:hover,
@@ -700,7 +698,7 @@ footer a#back_to_top i {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    background: #0095eb;
+    background: #006199;
 }
 
 /*************************************************
@@ -714,8 +712,8 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-    color: #0095eb;
-    border-color: #0095eb;
+    color: #006199;
+    border-color: #006199;
 }
 
 .btn-success.btn-outline {
@@ -740,6 +738,11 @@ footer a#back_to_top i {
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
     color: #fff;
+}
+
+.btn-pitch.btn-outline {
+    color: #ffffff;
+    border-color: #ffffff;
 }
 
 /*************************************************
@@ -769,7 +772,7 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-nav li a:hover {
-    color: #0095eb;
+    color: #006199;
 }
 
 .navbar-brand,
@@ -801,7 +804,7 @@ nav#navbar-main li {
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .navbar {
         min-height: 50px !important;
     }
@@ -924,4 +927,8 @@ table > thead:first-child > tr:first-child > td {
 .header-table tr td:last-child,
 .header-table tr th:last-child {
     border-right: 0;
+}
+
+.content-center {
+    text-align: center;
 }
